@@ -1,0 +1,6 @@
+Instrument note samples: FluidR3 GM by Frank Wen and contributors, rendered by gleitz/MIDI.js Soundfonts.
+Source: https://github.com/gleitz/midi-js-soundfonts/tree/gh-pages/FluidR3_GM
+License: Creative Commons Attribution 3.0 US — https://creativecommons.org/licenses/by/3.0/us/
+Adaptations: short melody arrangements; envelopes, levels and room reflections adjusted for this portfolio.
+Melodies: Amazing Grace/New Britain (traditional); Greensleeves (traditional); Minuet in G (Christian Petzold); Ode to Joy (Ludwig van Beethoven).
+Flute part uses a sampled flute patch. These are sampled arrangements, not live field recordings.

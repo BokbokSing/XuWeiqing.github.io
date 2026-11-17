@@ -1,0 +1,3 @@
+:HL["/XuWeiqing.github.io/demos/jerseys/_next/static/css/6213acebe41b1ad0.css","style"]
+:HL["/XuWeiqing.github.io/demos/jerseys/_next/static/css/c2659690aad35bb4.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"cart","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"jTIt9nXiOjGrm0XueEZg5"}

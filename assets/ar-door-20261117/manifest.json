@@ -1,0 +1,114 @@
+[
+  {
+    "source": "decorations.png",
+    "file": "ribbon.webp",
+    "original": [
+      5634,
+      5513
+    ],
+    "size": [
+      1400,
+      1399
+    ],
+    "bytes": 193522,
+    "originalBytes": 12670897
+  },
+  {
+    "source": "Group 463768.png",
+    "file": "standing.webp",
+    "original": [
+      621,
+      984
+    ],
+    "size": [
+      379,
+      600
+    ],
+    "bytes": 30288,
+    "originalBytes": 153350
+  },
+  {
+    "source": "Group 463801.png",
+    "file": "sax-player.webp",
+    "original": [
+      1064,
+      1235
+    ],
+    "size": [
+      589,
+      700
+    ],
+    "bytes": 59942,
+    "originalBytes": 430038
+  },
+  {
+    "source": "sticker1.png",
+    "file": "drawing.webp",
+    "original": [
+      3135,
+      3197
+    ],
+    "size": [
+      1079,
+      1100
+    ],
+    "bytes": 180444,
+    "originalBytes": 7585208
+  },
+  {
+    "source": "sticker2.png",
+    "file": "city-music.webp",
+    "original": [
+      1590,
+      1593
+    ],
+    "size": [
+      998,
+      1000
+    ],
+    "bytes": 159960,
+    "originalBytes": 5065492
+  },
+  {
+    "source": "sticker3.png",
+    "file": "ar-glasses.webp",
+    "original": [
+      664,
+      435
+    ],
+    "size": [
+      664,
+      435
+    ],
+    "bytes": 38884,
+    "originalBytes": 344912
+  },
+  {
+    "source": "sticker4.png",
+    "file": "street.webp",
+    "original": [
+      337,
+      685
+    ],
+    "size": [
+      337,
+      685
+    ],
+    "bytes": 30706,
+    "originalBytes": 239922
+  },
+  {
+    "source": "意向图 1.png",
+    "file": "concept.webp",
+    "original": [
+      3247,
+      2163
+    ],
+    "size": [
+      1100,
+      733
+    ],
+    "bytes": 160680,
+    "originalBytes": 7127815
+  }
+]

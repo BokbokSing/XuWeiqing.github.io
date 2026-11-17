@@ -1,0 +1,42 @@
+{
+  "sampleSource": "https://github.com/gleitz/midi-js-soundfonts/tree/gh-pages/FluidR3_GM",
+  "sampleLicense": "CC BY 3.0 US",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/",
+  "soundfont": "FluidR3 GM (Frank Wen and contributors), rendered by gleitz/MIDI.js Soundfonts",
+  "adaptation": "Short melody arrangements rendered for this portfolio from pre-rendered note samples; adjusted envelopes, levels and light room reflections. These are sampled arrangements, not live field recordings.",
+  "melodies": "Traditional Amazing Grace/New Britain and Greensleeves; Christian Petzold Minuet in G; Ludwig van Beethoven Ode to Joy. Public-domain compositions.",
+  "tracks": [
+    {
+      "id": "sax",
+      "title": "Amazing Grace",
+      "duration": 20.8,
+      "patch": "alto_sax",
+      "samplePatchSha256": "18ec57c02f27c7e8dc4620f57fa9b94e32babf4ebae7d1f2205e053d3287abce",
+      "sizeBytes": 292364
+    },
+    {
+      "id": "flute",
+      "title": "Greensleeves",
+      "duration": 19.14,
+      "patch": "flute",
+      "samplePatchSha256": "e2e35283876eec60b919beeb8bfa49f46f12dddf5b8c6025e7a45c5d2a24bda5",
+      "sizeBytes": 269180
+    },
+    {
+      "id": "accordion",
+      "title": "Minuet in G",
+      "duration": 19.92,
+      "patch": "accordion",
+      "samplePatchSha256": "a7fe9c0532f7d8a3fec066d3059fed27c82d942bf70c3079c58d25ad91ae69de",
+      "sizeBytes": 280268
+    },
+    {
+      "id": "trumpet",
+      "title": "Ode to Joy",
+      "duration": 27.44,
+      "patch": "trumpet",
+      "samplePatchSha256": "7f37e0b8fbbfbf67a1183c746d83c85c11790283e2ea9994bdcdb9055bb0e67c",
+      "sizeBytes": 385604
+    }
+  ]
+}

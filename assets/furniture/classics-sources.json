@@ -1,0 +1,19 @@
+{
+  "note": "Original procedural display meshes reconstructed from official reference photographs and nominal product dimensions; not manufacturer CAD models.",
+  "unitsPerMetre": 1.95,
+  "table": {
+    "name": "Noguchi Table",
+    "designer": "Isamu Noguchi",
+    "manufacturer": "Herman Miller",
+    "nominalMetres": {"length":1.27,"depth":0.914,"height":0.40,"glassThickness":0.019},
+    "source": "https://www.hermanmiller.com/en_us/products/tables/occasional-tables/noguchi-table/product-details/"
+  },
+  "teaService": {
+    "name": "TAC / white porcelain",
+    "designer": "Walter Gropius",
+    "manufacturer": "Rosenthal",
+    "teapot": {"capacityLitres":0.60,"lengthMetres":0.20,"heightMetres":0.101,"source":"https://www.rosenthal.de/en-gb/teapot-small/11280-800001-14200.html"},
+    "cup": {"capacityLitres":0.24,"diameterMetres":0.097,"heightMetres":0.048,"source":"https://www.rosenthal.de/en-de/tea-cup/11280-800001-14642.html"},
+    "saucer": {"diameterMetres":0.157,"heightMetres":0.012,"source":"https://www.rosenthal.de/en-de/tea-saucer/11280-800001-14641.html"}
+  }
+}

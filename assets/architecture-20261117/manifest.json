@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "id": "graduation",
+      "title": "建筑毕业设计",
+      "titleEn": "Graduation project",
+      "team": false,
+      "cover": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-thumb.webp",
+      "pages": [
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-01.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-02.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-03.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-04.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-05.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-06.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-07.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-08.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-09.webp",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/graduation-10.webp",
+          "width": 2048,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "title": "绿色建筑设计",
+      "titleEn": "Green building design",
+      "team": true,
+      "cover": "/XuWeiqing.github.io/assets/architecture-20261117/green-thumb.webp",
+      "pages": [
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/green-01.jpg",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/green-02.jpg",
+          "width": 1280,
+          "height": 1812
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/green-03.jpg",
+          "width": 1280,
+          "height": 1812
+        }
+      ]
+    },
+    {
+      "id": "hostel",
+      "title": "青年旅馆设计",
+      "titleEn": "Youth hostel design",
+      "team": false,
+      "cover": "/XuWeiqing.github.io/assets/architecture-20261117/hostel-thumb.webp",
+      "pages": [
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/hostel-01.webp",
+          "width": 7016,
+          "height": 3569
+        },
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/hostel-02.webp",
+          "width": 7016,
+          "height": 4370
+        }
+      ]
+    },
+    {
+      "id": "museum",
+      "title": "博物馆设计",
+      "titleEn": "Museum design",
+      "team": false,
+      "cover": "/XuWeiqing.github.io/assets/architecture-20261117/museum-thumb.webp",
+      "pages": [
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/museum-01.webp",
+          "width": 6126,
+          "height": 3444
+        }
+      ]
+    },
+    {
+      "id": "urban",
+      "title": "城市设计",
+      "titleEn": "Urban design",
+      "team": false,
+      "cover": "/XuWeiqing.github.io/assets/architecture-20261117/urban-thumb.webp",
+      "pages": [
+        {
+          "url": "/XuWeiqing.github.io/assets/architecture-20261117/urban-01.webp",
+          "width": 6468,
+          "height": 5360
+        }
+      ]
+    }
+  ]
+}

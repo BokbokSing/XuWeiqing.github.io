@@ -1,0 +1,140 @@
+{
+  "created": "2026-11-16",
+  "drawings": [
+    {
+      "name": "watercolour",
+      "source": "../personal content/drawings/wall/watercolour.jpeg",
+      "source_sha256": "2808cc4375a80d827794961c2c320e42c035dc54c4a6696a7d446e941126002f",
+      "native_size": [
+        3149,
+        2260
+      ],
+      "crop_box_native_ltrb_exclusive": [
+        45,
+        80,
+        3104,
+        2160
+      ],
+      "crop_size": [
+        3059,
+        2080
+      ],
+      "output_sizes": {
+        "full": [
+          2000,
+          1360
+        ],
+        "thumbnail": [
+          700,
+          476
+        ]
+      },
+      "urls": {
+        "full": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/watercolour.webp",
+        "thumbnail": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/watercolour-thumb.webp"
+      },
+      "operations": [
+        "EXIF orientation normalization",
+        "rectangular crop",
+        "aspect-preserving downsample only; never upscale",
+        "WebP encode"
+      ],
+      "note": "Outer irregular grey paper edges removed; painting objects retained."
+    },
+    {
+      "name": "sketch2",
+      "source": "../personal content/drawings/wall/sketch2.jpg",
+      "source_sha256": "cad35e1219a2901d285232ad1376a3d691a7b49afedcdf2b08fadddb94b3f0bf",
+      "native_size": [
+        4032,
+        1364
+      ],
+      "crop_box_native_ltrb_exclusive": [
+        18,
+        45,
+        4010,
+        1330
+      ],
+      "crop_size": [
+        3992,
+        1285
+      ],
+      "output_sizes": {
+        "full": [
+          2000,
+          644
+        ],
+        "thumbnail": [
+          700,
+          225
+        ]
+      },
+      "urls": {
+        "full": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/sketch2.webp",
+        "thumbnail": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/sketch2-thumb.webp"
+      },
+      "operations": [
+        "EXIF orientation normalization",
+        "rectangular crop",
+        "aspect-preserving downsample only; never upscale",
+        "WebP encode"
+      ],
+      "note": "Thin uneven outer paper strip removed; no perspective transformation."
+    },
+    {
+      "name": "sketch3",
+      "source": "../personal content/drawings/wall/sketch3.jpeg",
+      "source_sha256": "bd9974e0f18160123cd7a4d18ecce9cd4ddcc402a03f94afc09aa1e2d05c3c28",
+      "native_size": [
+        1420,
+        1002
+      ],
+      "crop_box_native_ltrb_exclusive": [
+        0,
+        0,
+        1420,
+        1002
+      ],
+      "crop_size": [
+        1420,
+        1002
+      ],
+      "output_sizes": {
+        "full": [
+          1420,
+          1002
+        ],
+        "thumbnail": [
+          700,
+          494
+        ]
+      },
+      "urls": {
+        "full": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/sketch3.webp",
+        "thumbnail": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/sketch3-thumb.webp"
+      },
+      "operations": [
+        "EXIF orientation normalization",
+        "rectangular crop",
+        "aspect-preserving downsample only; never upscale",
+        "WebP encode"
+      ],
+      "note": "Full image retained: broad white paper is part of composition and contains no distinct dirty outer border."
+    }
+  ],
+  "aquarium_background": {
+    "archive_source": "../personal content/2. Pixel art/pixel-bubble-sea-xhs-20261109-r4.zip",
+    "archive_entry": "artwork/sea.webp",
+    "existing_public_file": "public/apps/sea/assets/sea.webp",
+    "url": "/XuWeiqing.github.io/apps/sea/assets/sea.webp",
+    "native_size": [
+      1920,
+      1679
+    ],
+    "bytes": 79166,
+    "sha256": "8aeb7fe7cbc2316b4de8d5f4b3e0c9ef30809328246b42fda83cb928d8bcc7d5",
+    "byte_match_verified": true,
+    "duplicated": false,
+    "usage": "Decorative aquarium panel only. Use background-size:cover with center bottom to retain seabed, or contain to show entire artwork. Broad horizontal panels crop most upper water; never stretch to fit. Artwork includes blue water, flower motifs, sand bed and a dark lower pavement strip. Can mask the lowest 10-12% for a sand-floor aquarium if desired; source remains unchanged."
+  }
+}

@@ -1,0 +1,1001 @@
+{
+  "version": 2,
+  "glyphs": {
+    "A": {
+      "file": "A.png",
+      "width": 23,
+      "height": 24
+    },
+    "B": {
+      "file": "B.png",
+      "width": 21,
+      "height": 24
+    },
+    "C": {
+      "file": "C.png",
+      "width": 22,
+      "height": 24
+    },
+    "D": {
+      "file": "D.png",
+      "width": 23,
+      "height": 25
+    },
+    "E": {
+      "file": "E.png",
+      "width": 22,
+      "height": 25
+    },
+    "F": {
+      "file": "F.png",
+      "width": 20,
+      "height": 25
+    },
+    "G": {
+      "file": "G.png",
+      "width": 23,
+      "height": 24
+    },
+    "H": {
+      "file": "H.png",
+      "width": 25,
+      "height": 22
+    },
+    "I": {
+      "file": "I.png",
+      "width": 14,
+      "height": 22
+    },
+    "J": {
+      "file": "J.png",
+      "width": 22,
+      "height": 25
+    },
+    "K": {
+      "file": "K.png",
+      "width": 23,
+      "height": 23
+    },
+    "L": {
+      "file": "L.png",
+      "width": 20,
+      "height": 23
+    },
+    "M": {
+      "file": "M.png",
+      "width": 28,
+      "height": 22
+    },
+    "N": {
+      "file": "N.png",
+      "width": 21,
+      "height": 20
+    },
+    "O": {
+      "file": "O.png",
+      "width": 23,
+      "height": 22
+    },
+    "P": {
+      "file": "P.png",
+      "width": 19,
+      "height": 22
+    },
+    "Q": {
+      "file": "Q.png",
+      "width": 24,
+      "height": 22
+    },
+    "R": {
+      "file": "R.png",
+      "width": 22,
+      "height": 22
+    },
+    "S": {
+      "file": "S.png",
+      "width": 20,
+      "height": 22
+    },
+    "T": {
+      "file": "T.png",
+      "width": 24,
+      "height": 22
+    },
+    "U": {
+      "file": "U.png",
+      "width": 23,
+      "height": 21
+    },
+    "V": {
+      "file": "V.png",
+      "width": 22,
+      "height": 19
+    },
+    "W": {
+      "file": "W.png",
+      "width": 28,
+      "height": 22
+    },
+    "X": {
+      "file": "X.png",
+      "width": 22,
+      "height": 20
+    },
+    "Y": {
+      "file": "Y.png",
+      "width": 24,
+      "height": 20
+    },
+    "Z": {
+      "file": "Z.png",
+      "width": 20,
+      "height": 20
+    },
+    "1": {
+      "file": "1.png",
+      "width": 17,
+      "height": 24
+    },
+    "2": {
+      "file": "2.png",
+      "width": 20,
+      "height": 24
+    },
+    "3": {
+      "file": "3.png",
+      "width": 20,
+      "height": 24
+    },
+    "4": {
+      "file": "4.png",
+      "width": 22,
+      "height": 24
+    },
+    "5": {
+      "file": "5.png",
+      "width": 20,
+      "height": 24
+    },
+    "6": {
+      "file": "6.png",
+      "width": 21,
+      "height": 24
+    },
+    "7": {
+      "file": "7.png",
+      "width": 22,
+      "height": 23
+    },
+    "8": {
+      "file": "8.png",
+      "width": 20,
+      "height": 23
+    },
+    "9": {
+      "file": "9.png",
+      "width": 20,
+      "height": 23
+    },
+    "0": {
+      "file": "0.png",
+      "width": 23,
+      "height": 24
+    },
+    "%": {
+      "file": "percent.png",
+      "width": 24,
+      "height": 22
+    },
+    "&": {
+      "file": "ampersand.png",
+      "width": 23,
+      "height": 25
+    },
+    "*": {
+      "file": "star.png",
+      "width": 23,
+      "height": 24
+    },
+    "@": {
+      "file": "at.png",
+      "width": 23,
+      "height": 24
+    },
+    "#": {
+      "file": "hash.png",
+      "width": 26,
+      "height": 24
+    },
+    "!": {
+      "file": "punctuation/U0021-exclamation-d2de2a11ec98.png",
+      "width": 16,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 16
+    },
+    "！": {
+      "file": "punctuation/U0021-exclamation-d2de2a11ec98.png",
+      "width": 16,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "\"": {
+      "file": "punctuation/U0022-double-quote-d2de2a11ec98.png",
+      "width": 22,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 22
+    },
+    "＂": {
+      "file": "punctuation/U0022-double-quote-d2de2a11ec98.png",
+      "width": 22,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "$": {
+      "file": "punctuation/U0024-dollar-d2de2a11ec98.png",
+      "width": 34,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 34
+    },
+    "＄": {
+      "file": "punctuation/U0024-dollar-d2de2a11ec98.png",
+      "width": 34,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 34
+    },
+    "'": {
+      "file": "punctuation/U0027-apostrophe-d2de2a11ec98.png",
+      "width": 16,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 16
+    },
+    "＇": {
+      "file": "punctuation/U0027-apostrophe-d2de2a11ec98.png",
+      "width": 16,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "(": {
+      "file": "punctuation/U0028-paren-left-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 20
+    },
+    "（": {
+      "file": "punctuation/U0028-paren-left-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    ")": {
+      "file": "punctuation/U0029-paren-right-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 20
+    },
+    "）": {
+      "file": "punctuation/U0029-paren-right-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "+": {
+      "file": "punctuation/U002B-plus-d2de2a11ec98.png",
+      "width": 31,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 31
+    },
+    "＋": {
+      "file": "punctuation/U002B-plus-d2de2a11ec98.png",
+      "width": 31,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    ",": {
+      "file": "punctuation/U002C-comma-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "，": {
+      "file": "punctuation/U002C-comma-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "-": {
+      "file": "punctuation/U002D-hyphen-d2de2a11ec98.png",
+      "width": 26,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 26
+    },
+    "－": {
+      "file": "punctuation/U002D-hyphen-d2de2a11ec98.png",
+      "width": 26,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    ".": {
+      "file": "punctuation/U002E-period-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "．": {
+      "file": "punctuation/U002E-period-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "/": {
+      "file": "punctuation/U002F-slash-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 30
+    },
+    "／": {
+      "file": "punctuation/U002F-slash-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    ":": {
+      "file": "punctuation/U003A-colon-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "：": {
+      "file": "punctuation/U003A-colon-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    ";": {
+      "file": "punctuation/U003B-semicolon-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "；": {
+      "file": "punctuation/U003B-semicolon-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "<": {
+      "file": "punctuation/U003C-less-than-d2de2a11ec98.png",
+      "width": 26,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 26
+    },
+    "＜": {
+      "file": "punctuation/U003C-less-than-d2de2a11ec98.png",
+      "width": 26,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "=": {
+      "file": "punctuation/U003D-equals-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 30
+    },
+    "＝": {
+      "file": "punctuation/U003D-equals-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    ">": {
+      "file": "punctuation/U003E-greater-than-d2de2a11ec98.png",
+      "width": 26,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 26
+    },
+    "＞": {
+      "file": "punctuation/U003E-greater-than-d2de2a11ec98.png",
+      "width": 26,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "?": {
+      "file": "punctuation/U003F-question-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 30
+    },
+    "？": {
+      "file": "punctuation/U003F-question-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "[": {
+      "file": "punctuation/U005B-bracket-left-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 20
+    },
+    "［": {
+      "file": "punctuation/U005B-bracket-left-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "\\": {
+      "file": "punctuation/U005C-backslash-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 30
+    },
+    "＼": {
+      "file": "punctuation/U005C-backslash-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "]": {
+      "file": "punctuation/U005D-bracket-right-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 20
+    },
+    "］": {
+      "file": "punctuation/U005D-bracket-right-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "^": {
+      "file": "punctuation/U005E-caret-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 30
+    },
+    "＾": {
+      "file": "punctuation/U005E-caret-d2de2a11ec98.png",
+      "width": 30,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "_": {
+      "file": "punctuation/U005F-underscore-d2de2a11ec98.png",
+      "width": 32,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "＿": {
+      "file": "punctuation/U005F-underscore-d2de2a11ec98.png",
+      "width": 32,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "`": {
+      "file": "punctuation/U0060-grave-accent-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "｀": {
+      "file": "punctuation/U0060-grave-accent-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "{": {
+      "file": "punctuation/U007B-brace-left-d2de2a11ec98.png",
+      "width": 23,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 23
+    },
+    "｛": {
+      "file": "punctuation/U007B-brace-left-d2de2a11ec98.png",
+      "width": 23,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "|": {
+      "file": "punctuation/U007C-vertical-bar-d2de2a11ec98.png",
+      "width": 15,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 15
+    },
+    "｜": {
+      "file": "punctuation/U007C-vertical-bar-d2de2a11ec98.png",
+      "width": 15,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "}": {
+      "file": "punctuation/U007D-brace-right-d2de2a11ec98.png",
+      "width": 23,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 23
+    },
+    "｝": {
+      "file": "punctuation/U007D-brace-right-d2de2a11ec98.png",
+      "width": 23,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "~": {
+      "file": "punctuation/U007E-tilde-d2de2a11ec98.png",
+      "width": 37,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 37
+    },
+    "～": {
+      "file": "punctuation/U007E-tilde-d2de2a11ec98.png",
+      "width": 37,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 37
+    },
+    "、": {
+      "file": "punctuation/U3001-ideographic-comma-d2de2a11ec98.png",
+      "width": 20,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "。": {
+      "file": "punctuation/U3002-ideographic-stop-d2de2a11ec98.png",
+      "width": 21,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "…": {
+      "file": "punctuation/U2026-ellipsis-d2de2a11ec98.png",
+      "width": 40,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 40
+    },
+    "—": {
+      "file": "punctuation/U2014-em-dash-d2de2a11ec98.png",
+      "width": 40,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 40
+    },
+    "·": {
+      "file": "punctuation/U00B7-middle-dot-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "・": {
+      "file": "punctuation/U00B7-middle-dot-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 17
+    },
+    "‘": {
+      "file": "punctuation/U2018-single-open-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "’": {
+      "file": "punctuation/U2019-single-close-d2de2a11ec98.png",
+      "width": 17,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "“": {
+      "file": "punctuation/U201C-double-open-d2de2a11ec98.png",
+      "width": 32,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "”": {
+      "file": "punctuation/U201D-double-close-d2de2a11ec98.png",
+      "width": 32,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "「": {
+      "file": "punctuation/U300C-corner-left-d2de2a11ec98.png",
+      "width": 28,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "」": {
+      "file": "punctuation/U300D-corner-right-d2de2a11ec98.png",
+      "width": 28,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "『": {
+      "file": "punctuation/U300E-double-corner-left-d2de2a11ec98.png",
+      "width": 36,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 36
+    },
+    "』": {
+      "file": "punctuation/U300F-double-corner-right-d2de2a11ec98.png",
+      "width": 36,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 36
+    },
+    "【": {
+      "file": "punctuation/U3010-lenticular-left-d2de2a11ec98.png",
+      "width": 23,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "】": {
+      "file": "punctuation/U3011-lenticular-right-d2de2a11ec98.png",
+      "width": 23,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "《": {
+      "file": "punctuation/U300A-title-left-d2de2a11ec98.png",
+      "width": 36,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 36
+    },
+    "》": {
+      "file": "punctuation/U300B-title-right-d2de2a11ec98.png",
+      "width": 36,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 36
+    },
+    "〈": {
+      "file": "punctuation/U3008-angle-left-d2de2a11ec98.png",
+      "width": 24,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "〉": {
+      "file": "punctuation/U3009-angle-right-d2de2a11ec98.png",
+      "width": 24,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "¥": {
+      "file": "punctuation/U00A5-yuan-d2de2a11ec98.png",
+      "width": 35,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 35
+    },
+    "￥": {
+      "file": "punctuation/U00A5-yuan-d2de2a11ec98.png",
+      "width": 35,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 35
+    },
+    "€": {
+      "file": "punctuation/U20AC-euro-d2de2a11ec98.png",
+      "width": 35,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 35
+    },
+    "£": {
+      "file": "punctuation/U00A3-pound-d2de2a11ec98.png",
+      "width": 33,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 33
+    },
+    "×": {
+      "file": "punctuation/U00D7-multiply-d2de2a11ec98.png",
+      "width": 31,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 31
+    },
+    "÷": {
+      "file": "punctuation/U00F7-divide-d2de2a11ec98.png",
+      "width": 32,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "±": {
+      "file": "punctuation/U00B1-plus-minus-d2de2a11ec98.png",
+      "width": 32,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 32
+    },
+    "°": {
+      "file": "punctuation/U00B0-degree-d2de2a11ec98.png",
+      "width": 21,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 21
+    },
+    "♥": {
+      "file": "punctuation/U2665-heart-d2de2a11ec98.png",
+      "width": 35,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 35
+    },
+    "❤": {
+      "file": "punctuation/U2665-heart-d2de2a11ec98.png",
+      "width": 35,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 35
+    },
+    "★": {
+      "file": "punctuation/U2605-star-d2de2a11ec98.png",
+      "width": 35,
+      "height": 32,
+      "baseline": 28,
+      "capHeight": 26,
+      "advance": 35
+    },
+    "％": {
+      "file": "percent.png",
+      "width": 24,
+      "height": 22,
+      "fullwidth": true
+    },
+    "＆": {
+      "file": "ampersand.png",
+      "width": 23,
+      "height": 25,
+      "fullwidth": true
+    },
+    "＊": {
+      "file": "star.png",
+      "width": 23,
+      "height": 24,
+      "fullwidth": true
+    },
+    "＠": {
+      "file": "at.png",
+      "width": 23,
+      "height": 24,
+      "fullwidth": true
+    },
+    "＃": {
+      "file": "hash.png",
+      "width": 26,
+      "height": 24,
+      "fullwidth": true
+    }
+  },
+  "combo": {
+    "file": "combo.png",
+    "width": 98,
+    "height": 56,
+    "label": "BIKINI BOTTOM"
+  },
+  "palette": [
+    "#FEFEFE",
+    "#6FBBF2",
+    "#E0BEE8",
+    "#95D3C2",
+    "#6282C4",
+    "#50AAF0"
+  ],
+  "sources": {
+    "letters": {
+      "path": "source/bubble figures/94a4689e6a555a41dde5278a260cc912.jpg",
+      "sha256": "801d5321581a8bcdd3fe48d8c5c0d4e1b754bb6f155214c738dc6f7fddce4ada"
+    },
+    "digitsAndSymbols": {
+      "path": "source/bubble figures/8b0188184492c4552cd90847ddf14271.png",
+      "sha256": "0cbc0e4b1f7eca206d87ed902dda44b8ea157093bb5fe5ead85e516a2adf464e"
+    },
+    "combination": {
+      "path": "source/bubble figures/3e9e71679389514d28475360bd911a31.png",
+      "sha256": "bf3b3d7529018720f8905cf7000bb01b3ee068d4d0a1bb2a030a64a20bfd1ff6"
+    },
+    "letterAlphaReference": {
+      "path": "bubble_pixel_folder/bubble_pixel_template/03_assets_master/PX0007_font_sheet/00_source/original/PX0007_font_sheet_original.jpg",
+      "sha256": "6838e70430a84510279e857602eb9ff1388f6d976570cf2dd914b4f5fd484282"
+    },
+    "punctuation": {
+      "path": "source/bubble figures/punctuation-v02/bubble-punctuation-v02.aseprite",
+      "sha256": "d2de2a11ec98293225bd25c2e64e8365777ea512c4b6ffd2ec5d641fe8220cfe",
+      "canonicalGlyphs": 55,
+      "palette": [
+        "#FEFFFF",
+        "#DFC2F8",
+        "#7CC4FF",
+        "#858EDD",
+        "#67B4BE",
+        "#95D3C2",
+        "#C4D4F6",
+        "#50AAF0"
+      ]
+    }
+  },
+  "extraction": {
+    "dimensions": "Recovered logical pixel-grid dimensions; PNG files are saved at those dimensions.",
+    "letters": "Cell-centre median samples from the current JPEG, mapped to the six authored PNG colours; alpha comes from the matching archived blue-background sheet. These are recovered display assets, not original native masters.",
+    "digitsAndCombination": "Transparent PNGs sampled at authored pixel-cell centres, preserving all six source colours and alpha topology.",
+    "letterColourDisagreementsBetweenJpegs": {
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0,
+      "E": 0,
+      "F": 1,
+      "G": 2,
+      "H": 2,
+      "I": 0,
+      "J": 4,
+      "K": 1,
+      "L": 1,
+      "M": 0,
+      "N": 1,
+      "O": 0,
+      "P": 0,
+      "Q": 1,
+      "R": 1,
+      "S": 1,
+      "T": 0,
+      "U": 0,
+      "V": 0,
+      "W": 1,
+      "X": 2,
+      "Y": 0,
+      "Z": 1
+    },
+    "originalsModified": false
+  }
+}

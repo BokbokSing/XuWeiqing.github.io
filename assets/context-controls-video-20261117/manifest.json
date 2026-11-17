@@ -1,0 +1,41 @@
+{
+  "source": "personal content/1. Paperverse/visual src/video/Paperverse Video.mp4",
+  "originalBytes": 109157764,
+  "sourceSha256": "1c2047df2764610c9dbe1a386cff812425910157871e4701cbb36839a6b7fc48",
+  "url": "/XuWeiqing.github.io/assets/context-controls-video-20261117/paperverse-demo.mp4",
+  "webBytes": 27160069,
+  "webSha256": "c10eefbab81b1727980ef61570ca31b7cd659828c97042792b0dd572001e1ba9",
+  "durationSeconds": 116.71,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "format": "H.264 High / yuv420p / AAC",
+  "audioTreatment": "Original AAC packets copied unchanged",
+  "audioAdtsSha256": "33548882b06522199c101e2c122f00d23101f5d41fa923d42413887b03ba1709",
+  "audioIdentical": true,
+  "faststart": true,
+  "topLevelAtoms": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "size": 90535
+    },
+    {
+      "type": "free",
+      "offset": 90567,
+      "size": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 90575,
+      "size": 27069494
+    }
+  ],
+  "poster": "/XuWeiqing.github.io/assets/context-controls-video-20261117/paperverse-poster.jpg",
+  "playback": "Native video controls projected into the stationary 3D MacBook screen. No autoplay; preload none. Pause and release the source on close."
+}

@@ -1,0 +1,521 @@
+{
+  "assets": [
+    {
+      "file": "back.png",
+      "frames": 1,
+      "height": 16,
+      "id": "back",
+      "width": 16,
+      "colors": {
+        "#173B50": 40
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M6 3h2v1H6zM6 4h2v1H6zM4 5h2v1H4zM4 6h2v1H4zM2 7h12v1H2zM2 8h12v1H2zM4 9h2v1H4zM4 10h2v1H4zM6 11h2v1H6zM6 12h2v1H6z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "5db0e63a8b94f0460db375de4ab1ea66bd72d67344206111c983a67dad38a434",
+      "revision": "7dabb7e0b137",
+      "bounds": [
+        2,
+        3,
+        14,
+        13
+      ]
+    },
+    {
+      "file": "camera.png",
+      "frames": 1,
+      "height": 16,
+      "id": "camera",
+      "width": 16,
+      "colors": {
+        "#173B50": 47
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M6 4h3v1H6zM3 5h3v1H3zM9 5h4v1H9zM2 6h1v1H2zM13 6h1v1H13zM2 7h1v1H2zM6 7h3v1H6zM11 7h1v1H11zM13 7h1v1H13zM2 8h1v1H2zM5 8h1v1H5zM9 8h1v1H9zM13 8h1v1H13zM2 9h1v1H2zM5 9h1v1H5zM9 9h1v1H9zM13 9h1v1H13zM2 10h1v1H2zM5 10h1v1H5zM9 10h1v1H9zM13 10h1v1H13zM2 11h1v1H2zM6 11h3v1H6zM13 11h1v1H13zM2 12h1v1H2zM13 12h1v1H13zM3 13h10v1H3z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "8c0c12d9f4d6dcb49b781457d7926b5bb2bdcd0d781dcecb3a5300a5462292f0",
+      "revision": "2bf60ecc3576",
+      "bounds": [
+        2,
+        4,
+        14,
+        14
+      ]
+    },
+    {
+      "file": "check.png",
+      "frames": 1,
+      "height": 16,
+      "id": "check",
+      "width": 16,
+      "colors": {
+        "#173B50": 28
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M13 3h2v1H13zM13 4h2v1H13zM11 5h2v1H11zM11 6h2v1H11zM1 7h2v1H1zM9 7h2v1H9zM1 8h2v1H1zM9 8h2v1H9zM3 9h2v1H3zM7 9h2v1H7zM3 10h2v1H3zM7 10h2v1H7zM5 11h2v1H5zM5 12h2v1H5z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "7657843920b058033ceae9509e07d19d0125655e8f1fed7791b812c2999522b7",
+      "revision": "ba76718ae988",
+      "bounds": [
+        1,
+        3,
+        15,
+        13
+      ]
+    },
+    {
+      "file": "clear.png",
+      "frames": 1,
+      "height": 16,
+      "id": "clear",
+      "width": 16,
+      "colors": {
+        "#173B50": 57
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M7 2h1v1H7zM3 3h9v1H3zM2 4h1v1H2zM12 4h1v1H12zM3 5h9v1H3zM3 6h1v1H3zM11 6h1v1H11zM3 7h1v1H3zM5 7h1v1H5zM7 7h1v1H7zM9 7h1v1H9zM11 7h1v1H11zM3 8h1v1H3zM5 8h1v1H5zM7 8h1v1H7zM9 8h1v1H9zM11 8h1v1H11zM3 9h1v1H3zM5 9h1v1H5zM7 9h1v1H7zM9 9h1v1H9zM11 9h1v1H11zM3 10h1v1H3zM5 10h1v1H5zM7 10h1v1H7zM9 10h1v1H9zM11 10h1v1H11zM3 11h1v1H3zM5 11h1v1H5zM7 11h1v1H7zM9 11h1v1H9zM11 11h1v1H11zM3 12h1v1H3zM11 12h1v1H11zM4 13h7v1H4z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "826dd2937621bf410e59b20662775c9e3ef21090bb90a3aa1caaa671c72d5cbd",
+      "revision": "6f5c14734dba",
+      "bounds": [
+        2,
+        2,
+        13,
+        14
+      ]
+    },
+    {
+      "file": "close.png",
+      "frames": 1,
+      "height": 16,
+      "id": "close",
+      "width": 16,
+      "colors": {
+        "#173B50": 36
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M3 3h2v1H3zM11 3h2v1H11zM3 4h2v1H3zM11 4h2v1H11zM5 5h2v1H5zM9 5h2v1H9zM5 6h2v1H5zM9 6h2v1H9zM7 7h2v1H7zM7 8h2v1H7zM5 9h2v1H5zM9 9h2v1H9zM5 10h2v1H5zM9 10h2v1H9zM3 11h2v1H3zM11 11h2v1H11zM3 12h2v1H3zM11 12h2v1H11z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "97223e877ce609cdd233b02f5578464e25c28234884592f5801cec85dc8f8f61",
+      "revision": "f341428b0bdd",
+      "bounds": [
+        3,
+        3,
+        13,
+        13
+      ]
+    },
+    {
+      "file": "download.png",
+      "frames": 1,
+      "height": 16,
+      "id": "download",
+      "width": 16,
+      "colors": {
+        "#173B50": 23
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M7 4h1v1H7zM7 5h1v1H7zM7 6h1v1H7zM5 7h5v1H5zM6 8h3v1H6zM3 9h1v1H3zM7 9h1v1H7zM11 9h1v1H11zM3 10h1v1H3zM11 10h1v1H11zM4 11h7v1H4z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "3bcaf4f5f376a4ae3cc40f04eb84f9a7ec28352c5be90a0a580810098749ecad",
+      "revision": "35faa4e4945d",
+      "bounds": [
+        3,
+        4,
+        12,
+        12
+      ]
+    },
+    {
+      "file": "edit.png",
+      "frames": 1,
+      "height": 16,
+      "id": "edit",
+      "width": 16,
+      "colors": {
+        "#173B50": 73
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M11 1h2v1H11zM11 2h3v1H11zM9 3h2v1H9zM12 3h2v1H12zM8 4h3v1H8zM7 5h6v1H7zM6 6h6v1H6zM5 7h6v1H5zM4 8h6v1H4zM3 9h6v1H3zM3 10h5v1H3zM3 11h4v1H3zM2 13h11v1H2zM2 14h11v1H2z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "96a29eef2d54ef2d4bcf62a1c46505805df448cd11765d841896c8975553ad01",
+      "revision": "96359a62f136",
+      "bounds": [
+        2,
+        1,
+        14,
+        15
+      ]
+    },
+    {
+      "file": "forward.png",
+      "frames": 1,
+      "height": 16,
+      "id": "forward",
+      "width": 16,
+      "colors": {
+        "#173B50": 40
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M8 3h2v1H8zM8 4h2v1H8zM10 5h2v1H10zM10 6h2v1H10zM2 7h12v1H2zM2 8h12v1H2zM10 9h2v1H10zM10 10h2v1H10zM8 11h2v1H8zM8 12h2v1H8z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "d1352b6ca661bf5f0949e135c563a1b938ecf61bc64be9c89701a9a36682028d",
+      "revision": "08a3d4739f0d",
+      "bounds": [
+        2,
+        3,
+        14,
+        13
+      ]
+    },
+    {
+      "file": "hand.png",
+      "frames": 1,
+      "height": 16,
+      "id": "hand",
+      "width": 16,
+      "colors": {
+        "#173B50": 37
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M5 2h1v1H5zM4 3h1v1H4zM6 3h1v1H6zM4 4h1v1H4zM6 4h1v1H6zM4 5h1v1H4zM6 5h4v1H6zM4 6h1v1H4zM6 6h1v1H6zM8 6h1v1H8zM10 6h2v1H10zM3 7h2v1H3zM6 7h1v1H6zM8 7h1v1H8zM10 7h1v1H10zM12 7h1v1H12zM2 8h1v1H2zM4 8h1v1H4zM12 8h1v1H12zM2 9h1v1H2zM5 9h1v1H5zM12 9h1v1H12zM3 10h1v1H3zM12 10h1v1H12zM4 11h1v1H4zM11 11h1v1H11zM5 12h6v1H5z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "f88d066d9ae6cb65a37f7422a41511294649f65b1efdf34de104994d4a0c46c9",
+      "revision": "b5d98ef738d5",
+      "bounds": [
+        2,
+        2,
+        13,
+        13
+      ]
+    },
+    {
+      "file": "help.png",
+      "frames": 1,
+      "height": 16,
+      "id": "help",
+      "width": 16,
+      "colors": {
+        "#173B50": 46
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M4 1h8v1H4zM4 2h8v1H4zM2 3h2v1H2zM12 3h2v1H12zM2 4h2v1H2zM12 4h2v1H12zM2 5h2v1H2zM12 5h2v1H12zM2 6h2v1H2zM12 6h2v1H12zM9 7h3v1H9zM9 8h3v1H9zM7 9h2v1H7zM7 10h2v1H7zM7 13h2v1H7zM7 14h2v1H7z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "1538d9b59bc12f3ba2d6e80bb7eaeb17e9632b34bc37982e632b1910bf47378e",
+      "revision": "48f88b940280",
+      "bounds": [
+        2,
+        1,
+        14,
+        15
+      ]
+    },
+    {
+      "file": "jar.png",
+      "frames": 1,
+      "height": 16,
+      "id": "jar",
+      "width": 16,
+      "colors": {
+        "#173B50": 130
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M4 1h8v1H4zM2 2h12v1H2zM2 3h12v1H2zM1 4h1v1H1zM4 4h8v1H4zM14 4h1v1H14zM2 5h2v1H2zM12 5h2v1H12zM1 6h14v1H1zM1 7h9v1H1zM13 7h2v1H13zM1 8h2v1H1zM4 8h1v1H4zM6 8h3v1H6zM11 8h1v1H11zM14 8h1v1H14zM1 9h1v1H1zM5 9h1v1H5zM7 9h2v1H7zM12 9h1v1H12zM14 9h1v1H14zM1 10h2v1H1zM6 10h3v1H6zM14 10h1v1H14zM1 11h3v1H1zM5 11h2v1H5zM8 11h2v1H8zM13 11h2v1H13zM1 12h5v1H1zM9 12h6v1H9zM2 13h5v1H2zM8 13h6v1H8zM4 14h8v1H4z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "e3235dd89be6ccd7b8c7404c620578da0fa42f994b586378f475efbe7749d8b3",
+      "revision": "0f9aeaaac5cc",
+      "bounds": [
+        1,
+        1,
+        15,
+        15
+      ]
+    },
+    {
+      "file": "mic.png",
+      "frames": 1,
+      "height": 16,
+      "id": "mic",
+      "width": 16,
+      "colors": {
+        "#173B50": 46
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M6 2h3v1H6zM5 3h2v1H5zM8 3h2v1H8zM5 4h1v1H5zM7 4h1v1H7zM9 4h1v1H9zM5 5h2v1H5zM8 5h2v1H8zM5 6h1v1H5zM7 6h1v1H7zM9 6h1v1H9zM5 7h2v1H5zM8 7h2v1H8zM3 8h1v1H3zM5 8h1v1H5zM7 8h1v1H7zM9 8h1v1H9zM11 8h1v1H11zM3 9h1v1H3zM5 9h2v1H5zM8 9h2v1H8zM11 9h1v1H11zM3 10h1v1H3zM6 10h3v1H6zM11 10h1v1H11zM4 11h1v1H4zM10 11h1v1H10zM5 12h5v1H5zM7 13h1v1H7zM7 14h1v1H7z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "7d3b5d28c3a07209ec5111d86f4e32539f01577dcdf2c5872238f65b6664f286",
+      "revision": "89ae6330a0c0",
+      "bounds": [
+        3,
+        2,
+        12,
+        15
+      ]
+    },
+    {
+      "file": "random.png",
+      "frames": 1,
+      "height": 24,
+      "id": "random",
+      "width": 24,
+      "colors": {
+        "#244D70": 52,
+        "#858EDD": 167,
+        "#FEFFFF": 25
+      },
+      "paths": [
+        {
+          "color": "#244D70",
+          "d": "M6 4h12v1H6zM5 5h1v1H5zM18 5h1v1H18zM4 6h1v1H4zM19 6h1v1H19zM4 7h1v1H4zM19 7h1v1H19zM4 8h1v1H4zM19 8h1v1H19zM4 9h1v1H4zM19 9h1v1H19zM4 10h1v1H4zM19 10h1v1H19zM4 11h1v1H4zM19 11h1v1H19zM4 12h1v1H4zM19 12h1v1H19zM4 13h1v1H4zM19 13h1v1H19zM4 14h1v1H4zM19 14h1v1H19zM4 15h1v1H4zM19 15h1v1H19zM4 16h1v1H4zM19 16h1v1H19zM4 17h1v1H4zM19 17h1v1H19zM5 18h1v1H5zM18 18h1v1H18zM6 19h12v1H6z"
+        },
+        {
+          "color": "#858EDD",
+          "d": "M6 5h12v1H6zM5 6h14v1H5zM5 7h14v1H5zM5 8h9v1H5zM15 8h4v1H15zM5 9h9v1H5zM16 9h3v1H16zM5 10h2v1H5zM10 10h2v1H10zM17 10h2v1H17zM5 11h6v1H5zM12 11h2v1H12zM16 11h3v1H16zM5 12h6v1H5zM12 12h2v1H12zM15 12h4v1H15zM5 13h6v1H5zM12 13h7v1H12zM5 14h2v1H5zM11 14h2v1H11zM17 14h2v1H17zM5 15h14v1H5zM5 16h14v1H5zM5 17h14v1H5zM6 18h12v1H6z"
+        },
+        {
+          "color": "#FEFFFF",
+          "d": "M14 8h1v1H14zM14 9h2v1H14zM7 10h3v1H7zM12 10h5v1H12zM11 11h1v1H11zM14 11h2v1H14zM11 12h1v1H11zM14 12h1v1H14zM11 13h1v1H11zM7 14h4v1H7zM13 14h4v1H13z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "663712bcc0209a32ff2fedcd41857cafc61af5bd9f8a18c92ebddd2ceaf212b5",
+      "revision": "73aa72935498",
+      "bounds": [
+        4,
+        4,
+        20,
+        20
+      ]
+    },
+    {
+      "file": "share.png",
+      "frames": 1,
+      "height": 16,
+      "id": "share",
+      "width": 16,
+      "colors": {
+        "#173B50": 58
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M4 2h8v1H4zM3 3h1v1H3zM12 3h1v1H12zM2 4h1v1H2zM9 4h2v1H9zM13 4h1v1H13zM2 5h1v1H2zM7 5h2v1H7zM10 5h1v1H10zM13 5h1v1H13zM2 6h1v1H2zM6 6h1v1H6zM10 6h1v1H10zM13 6h1v1H13zM2 7h1v1H2zM5 7h1v1H5zM8 7h1v1H8zM10 7h1v1H10zM13 7h1v1H13zM2 8h1v1H2zM4 8h2v1H4zM7 8h1v1H7zM10 8h1v1H10zM13 8h1v1H13zM2 9h1v1H2zM6 9h2v1H6zM10 9h1v1H10zM13 9h1v1H13zM2 10h1v1H2zM6 10h1v1H6zM8 10h3v1H8zM13 10h1v1H13zM2 11h1v1H2zM10 11h1v1H10zM13 11h1v1H13zM3 12h1v1H3zM12 12h1v1H12zM4 13h8v1H4z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "bef73eb07f588c5ab07449c47001b7485f77bf53e82737b5038dd0d58f7fa32a",
+      "revision": "22944ed657ab",
+      "bounds": [
+        2,
+        2,
+        14,
+        14
+      ]
+    },
+    {
+      "file": "shelf.png",
+      "frames": 1,
+      "height": 16,
+      "id": "shelf",
+      "width": 16,
+      "colors": {
+        "#173B50": 92
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M3 2h3v1H3zM10 2h3v1H10zM2 3h5v1H2zM9 3h5v1H9zM2 4h5v1H2zM9 4h5v1H9zM3 5h3v1H3zM10 5h3v1H10zM1 6h14v1H1zM3 9h3v1H3zM10 9h3v1H10zM2 10h5v1H2zM9 10h5v1H9zM2 11h5v1H2zM9 11h5v1H9zM3 12h3v1H3zM10 12h3v1H10zM1 13h14v1H1z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "82eb5b160ff014840090296135f2c7b26623c4f5a6c23ea750e367a79abbc142",
+      "revision": "6a568fe6721d",
+      "bounds": [
+        1,
+        2,
+        15,
+        14
+      ]
+    },
+    {
+      "file": "sparkle.png",
+      "frames": 1,
+      "height": 16,
+      "id": "sparkle",
+      "width": 16,
+      "colors": {
+        "#173B50": 33
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M7 3h1v1H7zM11 3h1v1H11zM7 4h1v1H7zM10 4h3v1H10zM6 5h1v1H6zM8 5h1v1H8zM11 5h1v1H11zM6 6h1v1H6zM8 6h1v1H8zM4 7h2v1H4zM9 7h2v1H9zM2 8h2v1H2zM11 8h2v1H11zM4 9h2v1H4zM9 9h2v1H9zM6 10h1v1H6zM8 10h1v1H8zM3 11h1v1H3zM6 11h1v1H6zM8 11h1v1H8zM2 12h1v1H2zM4 12h1v1H4zM7 12h1v1H7zM3 13h1v1H3zM7 13h1v1H7z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "18c06c5de83bcd54cfd3ffe129adeb42a19ee32e4b46ddf442d4e07966279eaa",
+      "revision": "d86722649297",
+      "bounds": [
+        2,
+        3,
+        13,
+        14
+      ]
+    },
+    {
+      "file": "upload.png",
+      "frames": 1,
+      "height": 16,
+      "id": "upload",
+      "width": 16,
+      "colors": {
+        "#173B50": 23
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M7 4h1v1H7zM6 5h3v1H6zM5 6h5v1H5zM7 7h1v1H7zM7 8h1v1H7zM3 9h1v1H3zM7 9h1v1H7zM11 9h1v1H11zM3 10h1v1H3zM11 10h1v1H11zM4 11h7v1H4z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "aef0fc23b36af7ec16a92a1447433a366ab6fe8c8279f6440cef8e386c91385c",
+      "revision": "6440b529d3b9",
+      "bounds": [
+        3,
+        4,
+        12,
+        12
+      ]
+    },
+    {
+      "file": "user.png",
+      "frames": 1,
+      "height": 16,
+      "id": "user",
+      "width": 16,
+      "colors": {
+        "#173B50": 53
+      },
+      "paths": [
+        {
+          "color": "#173B50",
+          "d": "M4 2h7v1H4zM3 3h1v1H3zM11 3h1v1H11zM2 4h1v1H2zM6 4h3v1H6zM12 4h1v1H12zM2 5h1v1H2zM5 5h1v1H5zM9 5h1v1H9zM12 5h1v1H12zM2 6h1v1H2zM5 6h1v1H5zM9 6h1v1H9zM12 6h1v1H12zM2 7h1v1H2zM5 7h1v1H5zM9 7h1v1H9zM12 7h1v1H12zM2 8h1v1H2zM6 8h3v1H6zM12 8h1v1H12zM2 9h1v1H2zM12 9h1v1H12zM2 10h1v1H2zM5 10h5v1H5zM12 10h1v1H12zM2 11h1v1H2zM4 11h1v1H4zM10 11h1v1H10zM12 11h1v1H12zM3 12h1v1H3zM11 12h1v1H11zM4 13h7v1H4z"
+        }
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "sourceSha256": "1e1c19d65720dde1edf62a29083d1546555529c16615f023b998996894d6cbce",
+      "revision": "080282d42478",
+      "bounds": [
+        2,
+        2,
+        13,
+        14
+      ]
+    }
+  ],
+  "frame": 1,
+  "scale": 10,
+  "sourceDirectory": "art-drafts/ui-redraw-20261028/01-icons"
+}

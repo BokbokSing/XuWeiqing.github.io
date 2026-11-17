@@ -1,0 +1,372 @@
+{
+  "frame": 1,
+  "recipes": [
+    {
+      "id": "bubble-buddy",
+      "name": "泡泡伙伴",
+      "variants": [
+        {
+          "file": "presets/buddy-s.png",
+          "height": 30,
+          "key": "S",
+          "sourceBounds": [
+            61,
+            63,
+            82,
+            93
+          ],
+          "width": 21
+        },
+        {
+          "file": "presets/buddy-m.png",
+          "height": 44,
+          "key": "M",
+          "sourceBounds": [
+            55,
+            8,
+            83,
+            52
+          ],
+          "width": 28
+        },
+        {
+          "file": "presets/buddy-l.png",
+          "height": 65,
+          "key": "L",
+          "sourceBounds": [
+            3,
+            28,
+            45,
+            93
+          ],
+          "width": 42
+        }
+      ],
+      "palette": [
+        "#DFC2F8",
+        "#FEFFFF",
+        "#7CC4FF",
+        "#858EDD",
+        "#50AAF0",
+        "#67B4BE",
+        "#95D3C2",
+        "#3DA3F0"
+      ]
+    },
+    {
+      "id": "bubble-elephant",
+      "name": "泡泡大象",
+      "variants": [
+        {
+          "file": "presets/elephant-s.png",
+          "height": 22,
+          "key": "S",
+          "sourceBounds": [
+            66,
+            12,
+            92,
+            34
+          ],
+          "width": 26
+        },
+        {
+          "file": "presets/elephant-m.png",
+          "height": 37,
+          "key": "M",
+          "sourceBounds": [
+            8,
+            5,
+            51,
+            42
+          ],
+          "width": 43
+        },
+        {
+          "file": "presets/elephant-l.png",
+          "height": 55,
+          "key": "L",
+          "sourceBounds": [
+            3,
+            44,
+            67,
+            99
+          ],
+          "width": 64
+        }
+      ],
+      "palette": [
+        "#FEFFFF",
+        "#858EDD",
+        "#7CC4FF",
+        "#50AAF0",
+        "#DFC2F8",
+        "#95D3C2"
+      ]
+    },
+    {
+      "id": "bubble-ship",
+      "name": "泡泡船",
+      "variants": [
+        {
+          "file": "presets/ship-s.png",
+          "height": 21,
+          "key": "S",
+          "sourceBounds": [
+            61,
+            34,
+            90,
+            55
+          ],
+          "width": 29
+        },
+        {
+          "file": "presets/ship-m.png",
+          "height": 27,
+          "key": "M",
+          "sourceBounds": [
+            11,
+            11,
+            50,
+            38
+          ],
+          "width": 39
+        },
+        {
+          "file": "presets/ship-l.png",
+          "height": 40,
+          "key": "L",
+          "sourceBounds": [
+            3,
+            48,
+            58,
+            88
+          ],
+          "width": 55
+        }
+      ],
+      "palette": [
+        "#FEFFFF",
+        "#DFC2F8",
+        "#858EDD",
+        "#95D3C2",
+        "#67B4BE",
+        "#7CC4FF",
+        "#C4D4F6",
+        "#50AAF0"
+      ]
+    },
+    {
+      "id": "bubble-son",
+      "name": "泡泡小子",
+      "variants": [
+        {
+          "file": "presets/son-s.png",
+          "height": 23,
+          "key": "S",
+          "sourceBounds": [
+            63,
+            12,
+            79,
+            35
+          ],
+          "width": 16
+        },
+        {
+          "file": "presets/son-m.png",
+          "height": 30,
+          "key": "M",
+          "sourceBounds": [
+            25,
+            8,
+            45,
+            38
+          ],
+          "width": 20
+        },
+        {
+          "file": "presets/son-l.png",
+          "height": 45,
+          "key": "L",
+          "sourceBounds": [
+            12,
+            50,
+            43,
+            95
+          ],
+          "width": 31
+        }
+      ],
+      "palette": [
+        "#FEFFFF",
+        "#DFC2F8",
+        "#858EDD",
+        "#50AAF0",
+        "#95D3C2",
+        "#7CC4FF"
+      ]
+    },
+    {
+      "id": "bubble-crown",
+      "name": "泡泡皇冠",
+      "variants": [
+        {
+          "file": "presets/crown-s.png",
+          "height": 16,
+          "key": "S",
+          "sourceBounds": [
+            65,
+            21,
+            86,
+            37
+          ],
+          "width": 21
+        },
+        {
+          "file": "presets/crown-m.png",
+          "height": 24,
+          "key": "M",
+          "sourceBounds": [
+            15,
+            17,
+            47,
+            41
+          ],
+          "width": 32
+        },
+        {
+          "file": "presets/crown-l.png",
+          "height": 34,
+          "key": "L",
+          "sourceBounds": [
+            8,
+            57,
+            53,
+            91
+          ],
+          "width": 45
+        }
+      ],
+      "palette": [
+        "#FEFFFF",
+        "#50AAF0",
+        "#95D3C2",
+        "#7CC4FF",
+        "#DFC2F8",
+        "#67B4BE",
+        "#858EDD"
+      ]
+    },
+    {
+      "id": "bubble-cock",
+      "name": "泡泡公鸡",
+      "variants": [
+        {
+          "file": "presets/cock-s.png",
+          "height": 27,
+          "key": "S",
+          "sourceBounds": [
+            64,
+            10,
+            85,
+            37
+          ],
+          "width": 21
+        },
+        {
+          "file": "presets/cock-m.png",
+          "height": 35,
+          "key": "M",
+          "sourceBounds": [
+            13,
+            3,
+            46,
+            38
+          ],
+          "width": 33
+        },
+        {
+          "file": "presets/cock-l.png",
+          "height": 53,
+          "key": "L",
+          "sourceBounds": [
+            5,
+            41,
+            55,
+            94
+          ],
+          "width": 50
+        }
+      ],
+      "palette": [
+        "#FEFFFF",
+        "#DFC2F8",
+        "#7CC4FF",
+        "#50AAF0",
+        "#858EDD",
+        "#95D3C2"
+      ]
+    },
+    {
+      "id": "bubble-hot-dog",
+      "name": "泡泡热狗",
+      "variants": [
+        {
+          "file": "presets/hot-dog-s.png",
+          "height": 13,
+          "key": "S",
+          "sourceBounds": [
+            64,
+            24,
+            84,
+            37
+          ],
+          "width": 20
+        },
+        {
+          "file": "presets/hot-dog-m.png",
+          "height": 20,
+          "key": "M",
+          "sourceBounds": [
+            13,
+            19,
+            48,
+            39
+          ],
+          "width": 35
+        },
+        {
+          "file": "presets/hot-dog-l.png",
+          "height": 28,
+          "key": "L",
+          "sourceBounds": [
+            7,
+            59,
+            57,
+            87
+          ],
+          "width": 50
+        }
+      ],
+      "palette": [
+        "#FEFFFF",
+        "#50AAF0",
+        "#95D3C2",
+        "#DFC2F8",
+        "#7CC4FF",
+        "#858EDD",
+        "#67B4BE",
+        "#C4D4F6"
+      ]
+    }
+  ],
+  "scale": 10,
+  "sourceSha256": {
+    "source/bubblethings-polished/bubble buddy/bubble buddy.aseprite": "9b5f26586eba619d9f92c306e2a209253465f1764ed74cebc2472d3e7014debe",
+    "source/bubblethings-polished/bubble elephant/Bubble-elephant.aseprite": "21e1c1d8a917febf46263bd7c0060c2bd6a1b45715c7bcf4d073cdb77e69406b",
+    "source/bubblethings-polished/bubble ship/bubble ship.aseprite": "4afbf985596d27f1150d893c7ad5c08fdba856eb27d5c3fd723974ae1208a7ff",
+    "source/bubblethings-polished/bubble son/bubble son.aseprite": "7fc404bcc44dab0fcfba6bc6148e968c235ddfe5af09d7b55012337347ba3016",
+    "source/bubblethings-polished/bubble crown/bubble crown.aseprite": "30b7339265762ece5c91cabdad36a2cf1ef65e823f76b91c8a25531591adc4b7",
+    "source/bubblethings-polished/bubble cock/bubble cock.aseprite": "b86b43317a560c4369e75bac8310719f9cdd70d9b345fb4456b64863c34b2c44",
+    "source/bubblethings-polished/bubble hot dog/bubble hot dog.aseprite": "0075278ecc44a537d4bb61859027576fe0db758aea689c5fbd830edea1dac5cb"
+  }
+}

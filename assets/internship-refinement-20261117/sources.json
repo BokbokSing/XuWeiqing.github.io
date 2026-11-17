@@ -1,0 +1,85 @@
+{
+  "fileKey": "dDI6MBlvFoE7XEfwNRV8My",
+  "frames": [
+    {
+      "name": "home",
+      "nodeId": "2265:3513",
+      "format": "png",
+      "sizeBytes": 163780,
+      "local": "public/assets/internship-refinement-20261117/home.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=2265-3513",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "name": "product",
+      "nodeId": "2517:2631",
+      "format": "png",
+      "sizeBytes": 199927,
+      "local": "public/assets/internship-refinement-20261117/product.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=2517-2631",
+      "width": 402,
+      "height": 875
+    },
+    {
+      "name": "customize-list",
+      "nodeId": "2329:3560",
+      "format": "png",
+      "sizeBytes": 81167,
+      "local": "public/assets/internship-refinement-20261117/customize-list.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=2329-3560",
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "name": "customize-3d",
+      "nodeId": "2329:3314",
+      "format": "png",
+      "sizeBytes": 179561,
+      "local": "public/assets/internship-refinement-20261117/customize-3d.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=2329-3314",
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "name": "save",
+      "nodeId": "2395:1435",
+      "format": "png",
+      "sizeBytes": 78611,
+      "local": "public/assets/internship-refinement-20261117/save.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=2395-1435",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "name": "bms-models",
+      "nodeId": "3056:4525",
+      "format": "png",
+      "sizeBytes": 161083,
+      "local": "public/assets/internship-refinement-20261117/bms-models.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=3056-4525",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "name": "bms-templates",
+      "nodeId": "3056:4790",
+      "format": "png",
+      "sizeBytes": 111597,
+      "local": "public/assets/internship-refinement-20261117/bms-templates.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=3056-4790",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "name": "bms-studio",
+      "nodeId": "3572:5863",
+      "format": "png",
+      "sizeBytes": 134083,
+      "local": "public/assets/internship-refinement-20261117/bms-studio.png",
+      "figmaUrl": "https://www.figma.com/design/dDI6MBlvFoE7XEfwNRV8My?node-id=3572-5863",
+      "width": 1440,
+      "height": 964
+    }
+  ]
+}

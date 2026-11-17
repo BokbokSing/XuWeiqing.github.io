@@ -1,0 +1,80 @@
+[
+  {
+    "id": "chi",
+    "source": "public/documents/chi/page-01.jpg",
+    "sourceSize": [
+      1010,
+      1307
+    ],
+    "previewSize": [
+      495,
+      640
+    ],
+    "sourceUnchanged": true
+  },
+  {
+    "id": "jmir",
+    "source": "public/documents/four-cabinets-20261117/jmir/page-001.jpg",
+    "sourceSize": [
+      1415,
+      2000
+    ],
+    "previewSize": [
+      453,
+      640
+    ],
+    "sourceUnchanged": true
+  },
+  {
+    "id": "cv",
+    "source": "public/documents/cv/page-01.jpg",
+    "sourceSize": [
+      1010,
+      1307
+    ],
+    "previewSize": [
+      495,
+      640
+    ],
+    "sourceUnchanged": true
+  },
+  {
+    "id": "iot",
+    "source": "public/documents/iot/page-01.jpg",
+    "sourceSize": [
+      1450,
+      816
+    ],
+    "previewSize": [
+      512,
+      288
+    ],
+    "sourceUnchanged": true
+  },
+  {
+    "id": "voice-design",
+    "source": "public/documents/slides-current-20261117/voice-design/page-001.jpg",
+    "sourceSize": [
+      2400,
+      1350
+    ],
+    "previewSize": [
+      512,
+      288
+    ],
+    "sourceUnchanged": true
+  },
+  {
+    "id": "internship-slides",
+    "source": "public/documents/slides-current-20261117/internship-slides/page-001.jpg",
+    "sourceSize": [
+      2400,
+      1350
+    ],
+    "previewSize": [
+      512,
+      288
+    ],
+    "sourceUnchanged": true
+  }
+]

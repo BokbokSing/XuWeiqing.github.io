@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-11-16",
+  "originalHashesMatch": true,
+  "allImageFilesExistAndMatchDimensions": true,
+  "allPagesPresent": true,
+  "portfolioPdfByteIdenticalToSource": true,
+  "thesisStoredDocxPageCount": 62,
+  "thesisExportedPdfPageCount": 62,
+  "thesisSourceTokenCoverage": 0.9991095776058768,
+  "thesisTokenComparisonMethod": "Case-insensitive ASCII alphanumeric token multiplicity from DOCX paragraph text (including tabs and line breaks) vs PDF extracted text; diagnostic, not proof of layout equivalence.",
+  "visualInspection": [
+    "Portfolio original cover, all 27 pages via contact sheet, and page 18 at render resolution: artwork and complete page bounds present.",
+    "Thesis original academic title page, all 62 pages via contact sheet, and page 23 Figure 8 at render resolution: readable text, tables, graphics, and page bounds present.",
+    "Thesis final reference [57] is present in both original DOCX and exported PDF."
+  ],
+  "browserOrGpuTesting": "Not performed by asset preparation task."
+}

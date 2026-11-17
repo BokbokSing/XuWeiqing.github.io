@@ -1,0 +1,8 @@
+Resource Han Rounded CN Medium 0.990
+https://github.com/CyanoHao/Resource-Han-Rounded/releases/tag/v0.990
+Source archive SHA256: e7005f7b4a7a0b8352d32c4a1358ff47564eb73be7fdb2db00d9f792755e9dc7
+Source font SHA256: b2ec1727fbc04b70255db6cb71be0eca3b7a7167ef11655059c5576cc920143f
+Bundled WOFF2 SHA256: ae9e62806a88f316b74f01242ec30d3ca3aa987f12d8884e5863ea4cfe25532a
+Converted to WOFF2; keeps all Han characters from the CN Medium font. No glyph outlines altered.
+Original font copyright: Copyright © 2018—2019 Cyano Hao. Portions © 2014, 2015, 2018 Adobe (http://www.adobe.com/).
+OFL text: https://raw.githubusercontent.com/CyanoHao/Resource-Han-Rounded/master/OFL-License.txt

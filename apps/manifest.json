@@ -1,0 +1,26 @@
+{
+  "source": "/home/xu/code/pixel_art/bubble-play",
+  "buildSource": "isolated copy /tmp/locker-minitools; original source unchanged",
+  "builtAt": "2026-11-09T03:08:43",
+  "apps": [
+    {
+      "id": "typewriter",
+      "name": "泡泡打字机",
+      "nameEn": "Bubble Typewriter",
+      "url": "/XuWeiqing.github.io/apps/typewriter/index.html",
+      "requiresBackend": false,
+      "sourceCommand": "npm run build:typewriter",
+      "description": "手绘像素文字、图案与照片编辑，吹泡泡效果，PNG 导出。"
+    },
+    {
+      "id": "sea",
+      "name": "泡泡海",
+      "nameEn": "Bubble Sea",
+      "url": "/XuWeiqing.github.io/apps/sea/index.html",
+      "requiresBackend": false,
+      "sourceCommand": "npm run build:web",
+      "description": "像素吹泡泡、捕捉、收藏与图纸下载。",
+      "demoBoundary": "登录、积分和自定义生成仍为本机演示；自定义生成返回预设示例，不连接在线模型或支付。"
+    }
+  ]
+}

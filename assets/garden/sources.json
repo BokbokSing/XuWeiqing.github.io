@@ -1,0 +1,19 @@
+{
+  "panorama": {
+    "source": "https://polyhaven.com/a/studio_garden",
+    "license": "CC0",
+    "processing": "4K HDR to neutral-tone-mapped sRGB WebP; offline exposure 1.5; unlit scene material, then the shared scene OutputPass"
+  },
+  "leaves": {
+    "source": "https://polyhaven.com/a/potted_plant_02",
+    "author": "Rico Cilliers",
+    "license": "CC0",
+    "processing": "Leaf mesh only: 10692 triangles; source pot and dirt removed. Original leaf atlas/alpha/normal/roughness retained as compressed WebP."
+  },
+  "licenseUrl": "https://polyhaven.com/license",
+  "ground": {
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "license": "CC0",
+    "processing": "1K color map compressed to WebP; no baked lighting added"
+  }
+}

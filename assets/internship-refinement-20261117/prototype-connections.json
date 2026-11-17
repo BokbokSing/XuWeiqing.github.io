@@ -1,0 +1,1505 @@
+[
+  {
+    "id": "2265:3513",
+    "name": "Homepage",
+    "connections": [
+      {
+        "id": "2265:3535",
+        "name": "Quick Custom card",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3582",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3582",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2265:3543",
+        "name": "Buttons",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3034",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3034",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_HOVER"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2265:3553",
+        "name": "Smart Picks card",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3228",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3228",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2265:3568",
+        "name": "Buttons",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3034",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3034",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_HOVER"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2562:3470",
+        "name": "Buttons",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3034",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3034",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_HOVER"
+            }
+          },
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2355:3472",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2355:3472",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2562:3471",
+        "name": "Buttons",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3034",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3034",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_HOVER"
+            }
+          },
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2664:3497",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2664:3497",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2265:3580;202:1096",
+        "name": "Explore",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3582",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3582",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2265:3580;202:1119",
+        "name": "Button-Create",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": null,
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2265:3580;202:1106",
+        "name": "Designs",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:3755",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:3755",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2265:3580;202:1110",
+        "name": "Profile",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2265:4204",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2265:4204",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2265:3581;2329:2976",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3245",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3245",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2517:2631",
+    "name": "Product Detail Screen",
+    "connections": [
+      {
+        "id": "I2517:3053;2265:2641",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2517:3053;2265:2650",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3245",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3245",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2517:2670",
+        "name": "Size Chart",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2527:3464",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2527:3464",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2528:3132",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2528:3101",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2528:3101",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2528:3133",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3560",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3560",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2329:3560",
+    "name": "Quick Customize 表单模式",
+    "connections": [
+      {
+        "id": "2329:3620",
+        "name": "Frame 4509",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2374:1836",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2374:1836",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3621",
+        "name": "Frame 4510",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2374:1836",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2374:1836",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3622",
+        "name": "Frame 4511",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2374:1836",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2374:1836",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3623",
+        "name": "Frame",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2374:1836",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2374:1836",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3627",
+        "name": "Color swatches",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "4698:1503",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "4698:1503",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2496:1344;2496:1332",
+        "name": "3D Mode",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3314",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3314",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3634",
+        "name": "Bottom Bar",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3314",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_DRAG"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3636",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3314",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2329:3637",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2395:1435",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2395:1435",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2374:1731;2294:3704",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2362:1872",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2362:1872",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          },
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_DRAG"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2329:3314",
+    "name": "Quick Customize 微调编辑器模式",
+    "connections": [
+      {
+        "id": "2329:3315",
+        "name": "image 182",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "3105:3579",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "3105:3579",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2496:1349;2496:1335",
+        "name": "List Mode",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3560",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3560",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2496:2299",
+        "name": "Bottom Bar",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3314",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_DRAG"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3111:1497",
+        "name": "tab-color",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "4698:1503",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "4698:1503",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3111:1499",
+        "name": "tab-text",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "3104:5717",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false,
+              "resetScrollPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "3104:5717",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3111:1501",
+        "name": "tab-library",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "3138:5599",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "3138:5599",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3111:1503",
+        "name": "tab-my-assets",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "3138:5626",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "MOVE_IN",
+                "direction": "TOP",
+                "matchLayers": false,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "3138:5626",
+                "navigation": "OVERLAY",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "TOP",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2528:3179",
+        "name": "Bottom Bar",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3314",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_DRAG"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2528:3181",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3314",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2528:3182",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2395:1435",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2395:1435",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2395:1276;2294:3704",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2362:1872",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2362:1872",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          },
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_DRAG"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2395:1435",
+    "name": "Save customization page-personal",
+    "connections": [
+      {
+        "id": "I2395:1476;2374:1456",
+        "name": "Team_Inactive",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2395:1983",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "LINEAR"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2395:1983",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2395:1436;2265:2641",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "BACK"
+            },
+            "actions": [
+              {
+                "type": "BACK"
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I2395:1436;2265:2650",
+        "name": "icon set",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2362:1872",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2362:1872",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2395:1562",
+        "name": "Button",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "2329:3828",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "2329:3828",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

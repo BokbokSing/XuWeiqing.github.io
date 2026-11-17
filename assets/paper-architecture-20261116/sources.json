@@ -1,0 +1,71 @@
+{
+  "created": "2026-11-16",
+  "asset_kind": "Original procedural R3F architectural card models",
+  "source_file": "src/PaperArchitecture.tsx",
+  "rights": "No third-party mesh, texture, photograph, logo or downloadable model is included. Official photographs were consulted only as visual references. All runtime geometry is authored locally from primitives and thin polygon plates.",
+  "material_direction": "Neutral white uncoated card, slightly grey cut edges and score lines, visible physical thickness and butt joints, blank black mounting card. No glass, metallic facade, phototexture or title label.",
+  "models": [
+    {
+      "component": "VillaSavoyeModel",
+      "building": "Villa Savoye, Poissy",
+      "architect": "Le Corbusier and Pierre Jeanneret",
+      "building_period": "1928–1931",
+      "display_bbox": {"width": 1.8, "height": 0.72, "depth": 1.05, "bottom_y": 0},
+      "mounting_card_thickness": 0.032,
+      "geometry": ["set-back round pilotis", "recessed curved ground-floor service wall", "four upper facade strips with genuinely open horizontal window bands", "recessed internal partitions", "open roof-garden court and scored paving", "sloping promenade ramp with separate upright balustrade sheets", "faceted curved solarium screen and open rectangular viewing frame", "empty white-card planter boxes"],
+      "interpretation": "Recognisable display-scale reconstruction, not a survey model. The upper building is 1.412 by 0.828 studio units; the broad blank mounting board determines the final footprint. Card sheets have deliberate joints and approximately 0.006–0.018 unit thickness.",
+      "references": [
+        {
+          "publisher": "Fondation Le Corbusier",
+          "title": "Villa Savoye et loge du jardinier — Poissy, France, 1928–1931",
+          "url": "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-villa-savoye-et-loge-du-jardinier-poissy-france-1928-1931/",
+          "used_for": "Construction dates; column-and-slab structure; pilotis; curved ground floor; horizontal window bands; elevated white box; central ramp; official exterior photographs."
+        },
+        {
+          "publisher": "Centre des monuments nationaux — Villa Savoye",
+          "title": "A hanging garden",
+          "url": "https://www.villa-savoye.fr/en/discover/a-hanging-garden",
+          "used_for": "Open hanging garden, paving, planters, ramp, curved solarium screen, rectangular landscape aperture, and official roof-terrace photographs."
+        },
+        {
+          "publisher": "Fondation Le Corbusier / Centre des monuments nationaux",
+          "title": "Official exterior reference photograph — Marc Tulane",
+          "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2022/04/villa-savoye-flc-adagp-marc-tulane-dist-centre-des-monuments-nationaux-base-regards.jpg",
+          "used_for": "Overall silhouette and proportions; reference only, not distributed."
+        }
+      ]
+    },
+    {
+      "component": "BankOfChinaModel",
+      "building": "Bank of China Tower, Hong Kong",
+      "architect": "I. M. Pei",
+      "opened": "1990-05",
+      "official_height_metres": {"tower_structure": 315, "including_two_masts": 367.4},
+      "display_bbox": {"width": 0.85, "height": 2.05, "depth": 0.85, "bottom_y": 0},
+      "mounting_card_thickness": 0.035,
+      "geometry": ["four connected triangular-plan prism shafts", "successively lower shaft endings with sloping roof facets", "separately cut triangular white-card facade panels", "raised white-card diagonal space-frame strips", "fine vertical fold scores", "paired square-section white-card masts", "two-layer folded-card entrance podium"],
+      "interpretation": "Display-scale paper maquette. The four-prism and diagonal-frame architectural vocabulary is preserved while the real glass envelope is translated into opaque cut-card plates. Shaft roofs and width are adjusted for a legible miniature; dimensions are not asserted as a measured reproduction.",
+      "references": [
+        {
+          "publisher": "Bank of China (Hong Kong) Limited",
+          "title": "About BOC Tower",
+          "url": "https://www.bochk.com/en/aboutus/corpprofile/boctower.html",
+          "used_for": "Architect attribution; May 1990 opening; 70 floors above ground; 315 m structure and 367.4 m total height with two masts; four prism-shaped shafts; bamboo-growth concept; official mast/triangular-frame photograph."
+        },
+        {
+          "publisher": "Bank of China (Hong Kong) Limited",
+          "title": "Official BOC Tower profile banner",
+          "url": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/banner_aboutus_corpprofile_boctower.jpg",
+          "used_for": "Sloping crown, paired masts and large diagonal-frame rhythm; reference only, not distributed."
+        },
+        {
+          "publisher": "Hong Kong Home Affairs Department",
+          "title": "Hong Kong Fun in 18 Districts — Bank of China Tower",
+          "url": "https://www.gohk.gov.hk/en/spots/spot_detail.php?spot=Bank+of+China+Tower",
+          "used_for": "Independent government confirmation of I. M. Pei, four prism shafts and bamboo-derived form."
+        }
+      ],
+      "reference_access_note": "Pei Cobb Freed & Partners project URL timed out during reference research; the successfully accessed building-owner official source supplies the architectural facts used here."
+    }
+  ]
+}

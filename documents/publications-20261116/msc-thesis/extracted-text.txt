@@ -1,0 +1,3150 @@
+===== SOURCE PAGE 1 =====
+             The Hong Kong Polytechnic University
+
+                    School of Fashion and Textile
+
+
+
+
+
+                             Project Title
+
+Machine Learning-enhanced Wearable Rehabilitation System for Throat
+
+                         Recovery
+
+
+
+
+                                      for
+
+                       Research Project of
+
+               Taught Postgraduate Programmes in
+
+        MSc in Intelligent Wearable Technology (14110)
+
+
+
+
+                          By
+
+
+
+
+                           Student: XU Weiqing
+
+                        Student No.: 24116508G
+
+                 Chief Supervisor: Dr. ZHOU Yanghong
+
+
+
+
+
+                    Date of Submission: 2025/12/8
+
+===== SOURCE PAGE 2 =====
+                  ACKNOWLEDGEMENTS
+
+      I sincerely want to thank my supervisor, Dr. Zhou. It was she who encouraged me to
+
+explore the research direction that truly interests me, enabling me to determine this challenging
+
+yet significant research topic. She not only assisted me in forming the team but also provided
+
+patient, meticulous and professional guidance throughout the entire research process. Her
+
+rigorous attitude towards research and her support for students have deeply influenced me,
+
+making me more determined to pursue research in the future.
+
+    At the same time, I would like to express our gratitude to the Second Affiliated Hospital
+
+of Xi'an Jiaotong University for providing valuable data, experimental conditions and financial
+
+support in this research. Our team also thanks  all the participants who were willing to
+
+participate in the study and authorized the use of their data, as this provided an indispensable
+
+foundation for the research.
+
+      I also wish to express my gratitude to all the team members for their collaboration. I would
+
+like to thank Kou Wanyi, Xu Shenghao and Liao Yang for their assistance in medical
+
+knowledge, experimental implementation, integrated circuit development and data analysis.
+
+Their selfless sharing of experience has enabled me to access multiple new fields.
+
+     Furthermore, I would like to express my special gratitude to Prof. Shou and Prof. Chen
+
+for their efforts in conducting research training. Last year, they provided highly instructive
+
+methodological courses and guided us on how to conduct research projects. This had a
+
+significant impact on my idea formation and research design.
+
+     Finally, I would like to thank this research project itself. It gave me the opportunity to
+
+truly think, design, and implement a topic of my own, and enabled me to have a deeper
+
+understanding of the overall picture, challenges, and significance of scientific research work.
+
+
+
+
+
+                                               1
+
+===== SOURCE PAGE 3 =====
+              CERTIFICATE OF ORIGINALITY
+
+
+
+
+
+I hereby declare that this thesis is my own work and that, to the best of my
+
+knowledge and belief,  it reproduces no material previously published or
+
+written, nor material that has been accepted for the award of any other degree
+
+or diploma, except where due acknowledgment had been made in the text.
+
+
+
+
+
+                                                              (Signed)
+
+
+
+
+
+                  XU Weiqing           (Name of student)
+
+
+
+
+
+                                          2
+
+===== SOURCE PAGE 4 =====
+Abstract
+
+    Voice  disorders  are  abnormal  vocalizations  caused by  structural,  functional  or
+
+neurological factors. They can lead to marked vocal impairment like temporary aphonia and
+
+often require long-term rehabilitation and corrective therapy. However, conventional clinical
+
+voice rehabilitation training mostly relies on the patient's active follow-up visits and auditory
+
+perception scoring from voice therapists, which leads to problems such as low patient
+
+compliance and insufficient personalized intervention by doctors. In addition, many patients
+
+tend to overlook the subtle intensity of their voice, which easily leads to overuse of the vocal
+
+cords and affects the recovery process. To address these challenges, a convenient, wearable,
+
+and daily-use voice rehabilitation monitoring and feedback system was designed and developed.
+
+Specifically, a flexible patch-type wearable device was developed, integrating a MEMS
+
+microphone and a triaxial accelerometer to collect the vibration signals and voice signals from
+
+the patient's larynx, enabling continuous monitoring of vocal-related physiological activities.
+
+On this basis, an accompanying mobile software is designed to complete the guidance of user's
+
+rehabilitation behavior. An intelligent voice health status classification model based on
+
+HuBERT  is also built to distinguish between normal and pathological voices. A voice
+
+segmentation and analysis recognition module based on the Whisper model can provide
+
+corresponding acoustic parameters, trend charts, and rehabilitation recommendations. With its
+
+mechanical flexibility, electrical stability, and comfortable design, the wearable system enables
+
+continuous and reliable data collection. The mobile software performs well in terms of usability
+
+and interaction design, providing monitoring visualizations, rehabilitation plan reminders, and
+
+model-driven intelligent feedback. The model performs stably in voice feature recognition
+
+tasks and achieves ideal results in key indicators such as accuracy, recall rate, and confusion
+
+matrix. The system has good  wearability, system  usability, and  intelligent recognition
+
+capabilities, showing potential application value in improving rehabilitation compliance and
+
+supporting personalized care. Moving forward, clinical controlled trials will be carried out, and
+
+the model and software interaction will be further refined to validate the system in real-world
+
+clinical settings and support more precise clinical management.
+
+
+
+
+
+                                               3
+
+===== SOURCE PAGE 5 =====
+List of Figures and Tables
+
+    Figure 1. Representative user scenario of voice disorder. ................................................................................ 8
+    Figure 2. Clinical rehabilitation relies on infrequent hospital visits. ............................................................. 9
+    Figure 3. Overall framework diagram of the intelligent wearable system. ................................................ 15
+    Figure 4. Schematic diagram of the key circuits for acceleration signal and voice acquisition. ........... 18
+    Figure 5. The typical frequency characteristics of human body’s motion signals. ................................... 18
+    Figure 6. Design of schematic circuit diagram. a, Two iterative versions of the PCBs. b, Layout
+         diagram of electronic components in flexible device. c, Schematic circuit diagram. ..................... 19
+    Figure 7. The design draft for converting equivalent hardboard electronics into flexible circuits. ...... 21
+    Figure 8. Overview and design of the intelligent, wireless, and skin-interfaced wearable voice
+          rehabilitation system. a, Exploded diagram of the wearable device system, including electronic
+         components, IC, materials and so on. b, Top view of the device. c, Exploded perspective view. d,
+        Images of the device attached to the laryngeal skin. ............................................................................... 22
+    Figure 9. Fabrication process of the flexible device. ....................................................................................... 24
+    Figure 10. Illustration of sensor placement and accelerometer axis definition. a, Three potential
+         placement regions on the anterior neck corresponding to the laryngeal area (lower, middle, upper).
+          b, Orientation of the triaxial accelerometer. .............................................................................................. 27
+    Figure 11. Voice Rehabilitation APP Design Sketch. a, Prototype rendering images. b, Rendering
+        images of APP usage scenarios. c, The main page and function introduction analysis diagram of
+          the APP. d, Logo design and IP design. e, Introduction to the Quick Expression Feature. ............ 29
+    Figure 12. Overall Study and Experiment Framework. .................................................................................. 30
+    Figure 13. Preference survey and questionnaire. .............................................................................................. 31
+    Figure 14. Clinically patient data collection ...................................................................................................... 32
+    Figure 15. Multimodal Speech and Motion Data Collection. ........................................................................ 32
+    Figure 16. Block diagram of the system architecture. ..................................................................................... 33
+    Figure 17. Speech processing module: recognition, segmentation and keyword-based extraction
+         workflow. ........................................................................................................................................................... 34
+    Figure 18. The overview of the voice recognition model using HuBERT as the main feature extraction
+         network. ............................................................................................................................................................. 35
+    Figure 19. End-to-end fine-tuning pipeline for self-supervised speech models (HuBERT). ................. 35
+    Figure  20.  User  acceptance,  expectations,  and  perceived  barriers  toward  AI-assisted  voice
+           rehabilitation systems. .................................................................................................................................... 40
+    Figure 21. Analysis of perspectives based on the results of the questionnaire survey............................. 41
+    Figure 22. Characterization, testing and analysis of circuit performance. a, Schematic diagram of
+         designed circuit structure and electronic components. b, Key components and materials of the
+           circuit photos. c, Photos of cyclic tensile fatigue test. d, Monitoring electrical discontinuity during
+       30% strain cyclic fatigue test. ....................................................................................................................... 42
+    Figure 23. Mechanical characterization, testing and analysis. a, Photos of flexible devices under
+          different stretching conditions. b, The stress-strain curves of the equipment were obtained when it
+        was subjected to single-axis stretching at 5%, 10%, 20% and 30% stress levels. c, The fitting curve
+          of the equivalent Young's modulus of flexible electronic devices under uniaxial tensile test and the
+          locally magnified stress-strain curve. d, The stress-strain curve of the flexible electronic device
+         under a 20% stretch, with a total of 200 cycles, and the comparison between the 1st cycle and the
+         200th cycle. ....................................................................................................................................................... 43
+
+                                               4
+
+===== SOURCE PAGE 6 =====
+    Figure 24. Representative data in the form of accelerations measured along triaxial from the
+         device mounted on the laryngeal skin of a healthy subject. a, Amplitude spectral density (ASD)
+          of Z-axis acceleration data collected from the device. b, Triaxial time series data simultaneously
+         recorded over a 60 s interval as a subject engages in various activities that include holding breath,
+          breathing, talking, swallowing, walking and jumping. c, Representative sample time-series data
+          related to various activities. d, The corresponding spectrogram via the short-time Fourier transform
+         (STFT). e, The corresponding spectral information. The frequency analysis uses a Hanning
+       window with a width of 0.1 s moving in time steps of 0.02 s. .............................................................. 45
+    Figure 25. Analyze HR, RR and swallowing (SW) event using acceleration data analysis. a,
+        Comparison of raw triaxial acceleration with 2Hz low-pass filtering. b, The comparison chart of
+         Z-axis acceleration analysis with original data, detrended data and 0.2–5 Hz band-pass filtering,
+         using Chebyshev Type I filter. c, PSD of Z-axis acceleration. d, Schematic block diagram of the
+          algorithm. e, Band-pass filtering is performed within the range of 0.1 to 0.8 Hz to highlight the
+          respiratory rhythm. f, Signal Detrending & Band-pass (0.1–5 Hz) & Peak detection. g, A band-
+         pass filter is applied at 80-90 Hz to highlight the features related to SW. h, Smoothed Envelope &
+         Detected Peaks for SW Events. .................................................................................................................... 47
+    Figure 26. Comparative analysis of vocal parameters between healthy subjects and individuals
+        with voice disorders (taking male individuals as an example). These charts only display male
+         samples from cases of the four main causes of voice disorders in patients, with all patient
+         information anonymized. Comparative analysis related to jitter(a), shimmer(b) , HNR (c), CPP(d),
+       F0max & F0min(e), F0 SD(f) and SPR(g). ............................................................................................... 49
+    Figure 27. Confusion matrix. ................................................................................................................................ 51
+    Figure 28. Voice analysis results (partial). a, Taking healthy individuals as an example. b, The results
+          of voice analysis for some representative cases. ...................................................................................... 52
+    Figure 29. Block functional diagram showing the processing steps of the system' s algorithm. .......... 54
+
+
+    Table 1. Bill of material (BOM). .......................................................................................................................... 19
+    Table 2. The properties of several typical flexible materials. ........................................................................ 23
+    Table 3. Speaker-independent dataset split. ....................................................................................................... 36
+    Table 4. Final dataset sample statistics. .............................................................................................................. 36
+    Table 5. Model evaluation metrics table ............................................................................................................. 50
+
+
+
+Table of Content
+
+ACKNOWLEDGEMENTS ................................................................................................................................................... 1
+CERTIFICATE OF ORIGINALITY ....................................................................................................................................... 2
+Abstract .................................................................................................................................................................................. 3
+Chapter 1 Introduction ..................................................................................................................................................... 8
+     1.1 Background .......................................................................................................................................................... 8
+     1.2 Challenges ............................................................................................................................................................ 9
+     1.3 Research gap ..................................................................................................................................................... 10
+     1.4 Significance ........................................................................................................................................................ 11
+     1.5 Research goals and contributions .............................................................................................................. 12
+
+                                               5
+
+===== SOURCE PAGE 7 =====
+Chapter 2 Literature Review ......................................................................................................................................... 12
+     2.1 Conventional clinical voice rehabilitation ................................................................................................ 12
+     2.2 Software-based voice rehabilitation and voice assistants ................................................................. 13
+     2.3 Wearable health monitoring for rehabilitation ...................................................................................... 13
+     2.4 Flexible integrated circuit .............................................................................................................................. 14
+Chapter 3 Methodology................................................................................................................................................. 15
+     3.1 Overall system architecture .......................................................................................................................... 15
+     3.2 Hardware design and fabrication ............................................................................................................... 16
+          3.2.1 Wearable hardware design .............................................................................................................. 16
+          3.2.2 Rigid hardware design and fabrication ........................................................................................ 18
+          3.2.3 Flexible circuit design ......................................................................................................................... 20
+          3.2.4 Selection of materials for flexible circuits .................................................................................... 23
+          3.2.5 The fabrication process flow ............................................................................................................ 24
+          3.2.6 The selection of the wearing position .......................................................................................... 26
+     3.3 Smartphone APP design ................................................................................................................................ 27
+     3.4 Signal acquisition method and experimental design ........................................................................... 30
+          3.4.1 Overall design of the experiment .................................................................................................. 30
+          3.4.2 Preference survey ................................................................................................................................ 30
+          3.4.3 Clinically patient data collection ..................................................................................................... 31
+          3.4.4 Multimodal Speech and Motion Data Collection (Intended) ............................................... 32
+          3.4.5 Ethics declaration ................................................................................................................................ 32
+     3.5 Signal Processing Workflow ......................................................................................................................... 33
+     3.6 Automated speech analysis module.......................................................................................................... 33
+     3.7 Machine learning algorithms for classification and prediction ......................................................... 34
+          3.7.1 Model Overview ................................................................................................................................... 34
+          3.7.2 Model Architecture ............................................................................................................................. 35
+          3.7.3 Dataset and Preprocessing .............................................................................................................. 36
+          3.7.4 Training strategy and Hyperparameters ...................................................................................... 37
+          3.7.5 Evaluation Metrics ............................................................................................................................... 38
+Chapter 4 Results ............................................................................................................................................................. 39
+     4.1 User acceptance and preference analysis ................................................................................................ 39
+     4.2 Device performance ........................................................................................................................................ 41
+          4.2.1 Characterization, testing and analysis of the circuit performance ...................................... 41
+          4.2.2 Mechanical characterization, testing and analysis ................................................................... 42
+     4.3 Representative signals analysis approaches ........................................................................................... 44
+          4.3.1 Analysis of acceleration signals ...................................................................................................... 44
+          4.3.2 Analysis of audio signals ................................................................................................................... 48
+     4.4 Machine learning model performance ..................................................................................................... 50
+     4.5 Speech sample analysis.................................................................................................................................. 51
+Chapter 5 Discussion ....................................................................................................................................................... 52
+     5.1 Limitations .......................................................................................................................................................... 52
+     5.2 Future works ...................................................................................................................................................... 53
+          5.2.1 Multimodal data acquisition ............................................................................................................ 53
+          5.2.2 Algorithm improvement ................................................................................................................... 54
+
+                                               6
+
+===== SOURCE PAGE 8 =====
+          5.2.3 Clinical verifications ............................................................................................................................ 55
+          5.2.4 Optimization of wearable systems ................................................................................................ 55
+Chapter 6 Conclusion...................................................................................................................................................... 55
+References .......................................................................................................................................................................... 58
+
+
+
+
+
+                                               7
+
+===== SOURCE PAGE 9 =====
+Chapter 1 Introduction
+
+1.1 Background
+
+    Voice disorders are abnormalities in phonation caused by  structural, functional or
+
+neurological factors. Epidemiological studies have shown that almost 30% of the adult
+
+population experience voice problems at some point in their lives [1]. Professionals such as
+
+teachers, singers, customer service staff, and broadcasters, which require a high degree of
+
+reliance on the voice, are particularly prone to this problem [2]. Just as shown in the scenario
+
+of Figure 1, voice disorders not only directly affect communication efficiency, but also may
+
+cause persistent psychological stress and occupational problems, and even lead to social
+
+isolation, significantly impacting patients’ quality of life [3-6]. Therefore, how to carry out
+
+effective and individualized voice rehabilitation management  is an important issue that
+
+urgently needs to be addressed in the field of health.
+
+
+
+
+
+Figure 1. Representative user scenario of voice disorder.
+     In recent years, wearable technology and artificial intelligence(AI) have been rapidly
+
+developed and applied in the medical field, creating conditions for the implementation of long-
+
+term, precise, personalized and remotely accessible voice rehabilitation management [7-11].
+
+Modern wearable devices can continuously collect voice and motion data with minimal burden
+
+in daily environments [12]. Audio signal processing and machine learning technologies are
+
+capable of automatically extracting quantitative acoustic features reflecting voice states from
+
+time series data and identifying patterns related to voice function or disorders [13-16].
+
+Combining wearable technology and data-driven algorithms can achieve real-time monitoring
+
+of patients’ voice usage, quantitative assessment based on data, personalized training methods
+
+and telemedicine support.
+                                               8
+
+===== SOURCE PAGE 10 =====
+1.2 Challenges
+
+    However, to truly transform the system based on wearable technology and AI into a voice
+
+rehabilitation solution that can be used in clinical practice, multiple challenges need to be
+
+addressed, including sensor, data acquisition, algorithms, system integration and interaction
+
+design.
+
+    At present, most rehabilitation plans are more based on doctor’s clinical experience.
+
+Although they can make certain personal adjustments according to the differences in voice
+
+characteristics of different patients, this process mainly relies on qualitative judgment and
+
+intermittent follow-up visits, lacking a long-term tracking and precise feedback mechanism
+
+based on dynamic objective data. Figure 2 illustrates the traditional rehabilitation process from
+
+voice impairment to laryngeal recovery training. Clinical rehabilitation mainly relies on a small
+
+amount of inpatient treatment and nearly fixed rehabilitation training prescriptions.
+
+
+
+
+
+Figure 2. Clinical rehabilitation relies on infrequent hospital visits.
+     Current voice assessment often relies on specialized facilities such as speech laboratories,
+
+laryngoscopes, and acoustic acquisition rooms. These facilities are costly and not easily
+
+accessible, and assessments must be conducted in hospitals. Therefore, assessment frequency
+
+is low, patient compliance is limited, and the results may not capture real changes across time
+
+and different daily situations. It limits the refined adjustment of rehabilitation strategies and
+
+the long-term effect evaluation.
+
+    Although commercial microphones and  portable  recorders  are widely  accessible,
+
+dedicated equipment for clinical voice rehabilitation remains immature [17, 18]. To collect
+
+valuable voice data for diagnosis and treatment in a daily environment, several engineering
+
+challenges must be addressed, including environmental noise [9], wearing comfort, battery
+
+capacity and data bandwidth requirements [19]. At the same time, the device design must
+                                               9
+
+===== SOURCE PAGE 11 =====
+balance sensitivity, privacy protection, and usability requirements [20, 21].
+
+    Although current wearable devices can generate a large amount of health data, most
+
+applications only provide raw data or simple trend visualizations, and are unable to transform
+
+into proactive, personalized and reliable health guidance [22].
+
+    About algorithm, there have been extensive research results in speech recognition,
+
+acoustic feature engineering, and disease identification based on machine learning, which can
+
+classify or score vocal disorders under controlled conditions [23, 24]. However, when exposed
+
+to noisy data from different devices and environments, the model often suffers from domain
+
+shift and poor generalization, leading to unstable performance across patients and scenarios
+
+and hindering reliable use in real rehabilitation settings [9]. Furthermore, the quantity of
+
+clinical annotations  is  limited, and the evaluation  results are susceptible to individual
+
+experience  differences,  resulting  in low consistency  in  annotations. Consequently,  the
+
+effectiveness  and  generalization  of  supervised  learning  approaches  are  significantly
+
+constrained [25-27]. More importantly, the output of the algorithm often lacks a direct mapping
+
+with clinical diagnosis and patient behavior changes, resulting in a lack of a data-based
+
+feedback loop in the rehabilitation process. This makes it difficult to continuously promote the
+
+optimization of patients' vocalization behavior in real-life situations [28, 29].
+
+1.3 Research gap
+
+     In recent years, studies have attempted to apply wearable technology, acoustic signal
+
+analysis, and machine learning methods to the context of voice rehabilitation and have verified
+
+their potential in behavior tracking and disease identification through short-term experiments
+
+[30]. However, there is still a significant lack of research on how to systematically apply these
+
+technologies in real-world, long-term rehabilitation settings. Specifically, there are three key
+
+research gaps in literature.
+
+     (1) There is still a scarcity of research on integrating wearable hardware, real-time signal
+
+         processing, and machine learning models at the system level.
+
+     (2)  Patient-centered personalized rehabilitation interventions have not been fully realized.
+
+     (3) There is a lack of data-driven evaluation mechanisms that cover long time series and
+
+          natural contexts for data collection and closed-loop operations.
+
+                                              10
+
+===== SOURCE PAGE 12 =====
+     Overall, the existing technical routes still lack systematicity in the process of transitioning
+
+from experimental validation to long-term rehabilitation and clinical applications.
+
+1.4 Significance
+
+    Given that the current research still has limitations in the long-term application and
+
+personalized intervention of wearable voice rehabilitation systems, promoting the research and
+
+practice of such intelligent systems holds significant clinical value and social significance.
+
+    For patients, they often have difficulty accurately assessing their own vocal usage. In daily
+
+life, they may unconsciously overuse their voices or make improper vocalizations [31], thereby
+
+prolonging the recovery period or even causing secondary damage. Through real-time
+
+monitoring and personalized feedback mechanisms, patients can gain awareness of their vocal
+
+behavior and make timely adjustments, avoiding unnecessary vocal strain and completing
+
+rehabilitation training more safely.
+
+    Voice rehabilitation usually relies on patients' subjective feedback and regular follow-ups.
+
+However, this approach has certain limitations. For instance, patients' subjective feedback may
+
+not be precise enough, making it difficult for doctors to accurately assess the recovery progress.
+
+Doctors' reliance on manual judgment may introduce certain experience biases, potentially
+
+affecting the optimization of treatment plans. The long follow-up period may prevent issues
+
+from being adjusted in a timely manner, thereby impacting the final rehabilitation outcome.
+
+    The traditional voice rehabilitation methods also increase the burden on patients' visits
+
+and the workload of medical institutions. For regions with strained medical resources, patients
+
+may have difficulty obtaining professional rehabilitation guidance in a timely manner, resulting
+
+in restricted rehabilitation processes. For the medical system, remote monitoring and self-
+
+rehabilitation mechanisms can help alleviate the pressure of follow-up visits, improve resource
+
+utilization efficiency, and enhance the accessibility of rehabilitation services in terms of time
+
+and location.
+
+    From a broader perspective, such intelligent rehabilitation systems are expected to
+
+facilitate the transition of voice medicine from an experience-driven model to a data-driven
+
+one, providing a model for the future individualized medical approach.
+
+
+
+
+
+                                              11
+
+===== SOURCE PAGE 13 =====
+1.5 Research goals and contributions
+
+    The overall objective of this study is to develop a modular and clinically applicable
+
+wearable intelligent voice rehabilitation system, enabling continuous real-time monitoring of a
+
+wide range of voice disorders, personalized feedback based on data, and assistance in clinical
+
+decision-making. To achieve this, this study intends to focus on the following goals.
+
+     (1) Design and deploy a smart voice-wearing system that can be worn for a long time,
+
+         has low interference, ensuring the data quality in natural environments.
+
+     (2) Develop modeling and machine learning algorithms for voice data, thereby enabling
+
+         recognition and individualized characterization of improper vocal behaviors.
+
+     (3) Design a closed-loop interaction framework for patients, algorithms, and doctors,
+
+         converting the model outputs into interpretable and executable training suggestions.
+
+    To achieve these goals, this study proposes and implements an intelligent wearable voice
+
+rehabilitation system that integrates hardware acquisition, analysis, and personalized feedback.
+
+The system can stably collect multimodal voice-related signals in natural situations and process
+
+and model them through machine learning algorithms, thereby providing patients with
+
+monitoring and personalized rehabilitation guidance based on data-driven methods.
+
+
+
+Chapter 2 Literature Review
+
+2.1 Conventional clinical voice rehabilitation
+
+     Traditional clinical voice therapy is the mainstream approach for treating voice disorders
+
+such as dysphonia. Multiple reviews and systematic studies have shown that behavioral voice
+
+therapy-based programs, including direct vocal exercises, vocal cord relaxation, and semi-
+
+occluded vocal tract (SOVT) exercises, have significant improvements in subjective voice
+
+quality perception, vocal cord vibration stability, acoustic parameters, and patients' quality of
+
+life [32, 33]. Especially for exercises such as voicing based on SOVT, water-resistance therapy
+
+(WRT), and vocal pipe voicing, significant improvements in acoustic parameters such as
+
+fundamental frequency (F0), noise-to-harmonics ratio (NHR), and cepstral peak prominence
+
+(CPP) can be observed in a short period of time, indicating an increase in vocal efficiency, a
+
+reduction in noise components, and more stable vocal cord vibration [33].
+
+
+                                              12
+
+===== SOURCE PAGE 14 =====
+    Recent studies have further demonstrated that there may be significant differences
+
+between the acoustic measurements of patients in a clinical setting and their self-perceived
+
+vocal state in natural usage scenarios, suggesting that the existing assessment systems have
+
+limitations in terms of ecological validity [34]. Meanwhile, Lam et al. pointed out that voice
+
+rehabilitation should  gradually  shift from a  standardized,  therapist-driven model  to a
+
+personalized approach based on continuous data monitoring, tracking of individual change
+
+trajectories, and adaptive feedback, to better meet the actual rehabilitation needs of patients
+
+[35]. Therefore, developing intelligent rehabilitation systems that are capable of real-time
+
+operation, continuity, and individual adaptability has become an important direction for
+
+breaking through the constraints of traditional speech therapy models.
+
+2.2 Software-based voice rehabilitation and voice assistants
+
+    With the advancements in speech recognition, acoustic feature analysis, and machine
+
+learning technologies, a series of studies have verified the feasibility of identifying and grading
+
+voice  disorders  through  automated  acoustic  analysis.  Researchers  use  basic  acoustic
+
+parameters, such as F0,  jitter, shimmer, HNR, CPP,  etc., to classify healthy voices and
+
+pathological voices, thereby providing quantitative evidence for the diagnosis and monitoring
+
+of voice disorders [36, 37]. For instance, the research conducted by Lee, J. B. et al. combined
+
+traditional  features  with machine  learning  classifiers and  reported  a  relatively  high
+
+classification accuracy rate [38]. The application of voice assistant (VA) technology in the field
+
+of health management has also developed rapidly. The current intelligent VA based on large
+
+language models can not only provide health information interpretation and medication
+
+reminders for the elderly or patients with chronic diseases, but also reduce the usage threshold
+
+for patients through conversational interaction, thereby enhancing their compliance and self-
+
+management ability [39, 40].
+
+2.3 Wearable health monitoring for rehabilitation
+
+    Although research  at the software  level has made  significant progress  in speech
+
+recognition and speech interaction, its applications are still mainly focused on algorithm and
+
+interface development, lacking integration with wearable hardware and physiological signal
+
+collection. Due to the inability to obtain continuous data of patients' daily vocal behaviors, such
+
+
+                                              13
+
+===== SOURCE PAGE 15 =====
+systems are difficult to achieve dynamic monitoring and personalized rehabilitation feedback.
+
+     In recent years, research has begun to explore voice-related wearable systems, integrating
+
+sensors such as accelerometers and microphones into smart collars, ear-worn devices, or wrist-
+
+worn devices to record vocal activities in natural settings. These prototype systems have
+
+demonstrated feasibility in aspects such as voice pattern recognition, extraction of vocal cord
+
+vibration characteristics, and detection of excessive vocal usage behaviors, verifying the
+
+research potential of wearable voice monitoring solutions. However, these efforts are still
+
+mostly at the stage of experimental verification. They have not yet met the long-term
+
+rehabilitation requirements in terms of device form, comfort, and signal stability, and lack
+
+systematic clinical validation for real patient populations.
+
+2.4 Flexible integrated circuit
+
+    The traditional hard or flexible printed circuits (FPC) prepared based on Printed Circuit
+
+Board (PCB) technology can ensure reliable electrical pathways, but they can only be bent or
+
+folded, and cannot be stretched or deformed, thus failing to meet the softness required by
+
+human skin. In 2008, Kim et al. first proposed the concept of stretchable and foldable silicon
+
+integrated circuits (IC), providing a prototype framework for stretchable electronics with
+
+extensible interconnection structures and soft-hard integration strategies [41]. In 2016, the
+
+Rogers team proposed epidermal electronics and published it in Science. This system achieves
+
+compatibility with the mechanical properties of the skin through ultra-thin flexible substrates,
+
+serpentine interconnects, and island structures. At the same time, it integrates functions such
+
+as wireless communication, inductive coils, electrocardiogram (ECG), electromyogram (EMG),
+
+strain and temperature sensing, enabling non-invasive monitoring of cardiac activities, muscle
+
+movements and neural signals [42].
+
+    Based on  this, recent research has further expanded the application boundaries of
+
+stretchable  electronics. Several  studies have integrated machine learning methods  into
+
+wearable platforms, demonstrating the feasibility of real-time signal processing based on data-
+
+driven approaches and closed-loop feedback for  rehabilitation purposes  [8, 30]. These
+
+advancements indicate that integrating skin-adhesive devices, machine learning computations,
+
+and personalized feedback is a reasonable approach for constructing an intelligent wearable
+
+
+                                              14
+
+===== SOURCE PAGE 16 =====
+system with clinical value for postoperative voice rehabilitation.
+
+    The development of materials science has also accelerated the manufacturing process of
+
+stretchable integrated circuits. For instance, Ai et al. proposed stretchable solder for stretchable
+
+electronic interconnections [43], effectively enhancing the electrical connection reliability of
+
+electronic devices under multi-axis strain.
+
+
+
+Chapter 3 Methodology
+
+3.1 Overall system architecture
+
+    This study has designed an intelligent voice rehabilitation system consisting of a flexible
+
+wearable signal collection device that can be directly attached to human skin, a mobile
+
+application (APP), a cloud analysis model, and a PC Host (Figure 3). This architecture aims to
+
+achieve the collection of daily physiological data from users in the recovery period, the analysis
+
+of voice function and status, and the provision of individualized rehabilitation training
+
+assistance.  It provides a complete technical chain for continuous monitoring and remote
+
+rehabilitation management. The complete system is still under continuous development. This
+
+section mainly describes its design principles, mode selection, main sensor selection, and data
+
+flow.
+
+
+
+
+
+Figure 3. Overall framework diagram of the intelligent wearable system.
+    This study will employ Bi-modal signals of speech and acceleration as input features. The
+
+acoustic signal serves as the most crucial analytical basis in the existing clinical diagnostic
+
+system, enabling the system's output to be consistent with the existing acoustic evaluation
+                                              15
+
+===== SOURCE PAGE 17 =====
+indicators. The acceleration signal can first capture physiological and movement information
+
+related to vocalization behavior, such as respiratory rate (RR), laryngeal muscle vibration
+
+amplitude, and body posture changes, which are closely related to vocal quality and help the
+
+model calibrate and understand the collected speech. The acceleration signal can also play a
+
+supplementary role when the acoustic signal  is interfered with by environmental noise,
+
+achieving continuous and stable data analysis.
+
+     Therefore, to collect the acoustic signals of users and the acceleration signals on the
+
+surface  of  their  necks,  a  flexible  wearable  acquisition  device  integrating  a  triaxial
+
+accelerometer and a microphone was designed and fabricated. This device is composed of a
+
+flexible substrate and electronic components with signal processing functions, connected
+
+through an S-shaped copper wire network, and its packaging process enables lightweight,
+
+continuous and non-invasive monitoring. The raw data collected are initially processed by the
+
+MCU and then transmitted to the smartphone using the MQTT communication protocol.
+
+     Further signal processing is carried out in the mobile APP, including multi-modal feature
+
+extraction, acoustic analysis, real-time voice status monitoring, training record management,
+
+and generation of personalized rehabilitation suggestions. The APP is also responsible for
+
+uploading structured data and voice features to the cloud for long-term trend modeling and
+
+prediction of the patient's rehabilitation status.
+
+    The cloud analysis model is trained based on clinically collected patient data and time-
+
+series data from wearable devices, and can generate automated assessment, risk warnings, and
+
+rehabilitation suggestions tailored to individual recovery.
+
+    The future system also includes a PC Host end for doctors and patients to view long-term
+
+rehabilitation data, historical reports, trend curves, and model prediction results, supporting
+
+remote medical care and clinical decision-making.
+
+3.2 Hardware design and fabrication
+
+3.2.1 Wearable hardware design
+
+    The device designed in this study is a wearable voice data acquisition device based on
+
+acoustic  sensing  and  skin  surface  acceleration  perception.   It   integrates  micro-
+
+electromechanical  system (MEMS)  microphones,  triaxial  accelerometer  (ADXL345),
+
+
+                                              16
+
+===== SOURCE PAGE 18 =====
+microcontrollers (ESP32), wireless communication modules, power management circuits and
+
+flexible interconnection structures, and is used for long-term, continuous and low-burden
+
+collection of multimodal voice data of users.
+
+   MEMS microphones, as the primary acoustic sensor, are used to collect audio signals.
+
+They have a high sampling frequency, capable of covering frequencies far beyond the human
+
+speech range (80–4000 Hz). Their signal-to-noise ratio (SNR) is high (typically > 60 dB),
+
+enabling them to effectively resist noise interference in daily environments. Moreover, MEMS
+
+microphones are small, have low power consumption, and are easy to integrate into wearable
+
+devices. Additionally, the audio data can be directly aligned with the clinically collected patient
+
+data, supporting the construction of cloud-based machine learning models and achieving
+
+connection with acoustic parameter analysis. Although the acceleration signal can reflect the
+
+vocal behavior to some extent, due to the influence of soft tissue thickness, fitting degree, and
+
+posture changes, spectral distortion and energy loss are inevitable. Therefore, the audio signal
+
+still serves as the main mode of the system, undertaking the main functions of model training,
+
+acoustic feature extraction, and clinical consistency analysis.
+
+   A triaxial MEMS accelerometer (ADXL345, ±2 g range) was used to supplement the
+
+acoustic recordings. It is a capacitive MEMS accelerometer that detects acceleration by
+
+measuring the capacitance change between fixed electrodes and the suspended structure due to
+
+inertia. The sampling range of ADXL345 is up to 800 Hz, covering the main physiological
+
+vibration frequency bands on the surface of the neck skin. As Figure 5 shows, it captures low-
+
+frequency components, including breathing (0.1–0.8 Hz), heartbeat (0–5 Hz), subtle body
+
+movements (0.5–10 Hz), and vocal-induced vibrations (90–2000 Hz). The acceleration signal
+
+is mainly used for two purposes: one is to help separate some non-speech components closely
+
+related to speech rehabilitation; the other is to assist in identifying speech events and health
+
+status in the presence of external noise pollution, thereby improving the robustness of the
+
+system. The schematic diagram of the acceleration signal acquisition module is shown in
+
+Figure 4. At the SDA and SCL ports, each was equipped with a 10k resistor to improve the
+
+stability of communication.
+
+
+
+
+
+                                              17
+
+===== SOURCE PAGE 19 =====
+Figure 4. Schematic diagram of the key circuits for acceleration signal and voice acquisition.
+
+
+
+
+
+Figure 5. The typical frequency characteristics of human body’s motion signals.
+    The main control unit (MCU) of this system adopts ESP32, which integrates BLE and Wi-
+
+Fi, enabling real-time communication between the device and the mobile phone as well as
+
+future cloud data synchronization. The ESP32 has sufficient computing power, and its low
+
+power consumption makes it suitable for long-term wearing requirements. In addition, the
+
+system also includes a power management module, lithium battery, LED status indicator light,
+
+and switch, etc.
+
+    To enable the sensing devices to adapt to the bending and twisting of the neck and stability
+
+of data collection, this study employed Ecoflex silicone as the flexible substrate, and the
+
+flexible circuit was composed of S-shaped copper traces that connected the rigid electronic
+
+components islands located at different positions. The flexible structure can enhance the
+
+adhesion between the device and the skin surface, and the lightweight design makes the device
+
+suitable for users to wear continuously in their daily lives. The external lithium battery is
+
+connected to the main circuit through the flexible structure, enabling the system to have stable
+
+power supply capability without sacrificing comfort and lightness.
+
+3.2.2 Rigid hardware design and fabrication
+
+    The traditional PCB mainly consists of IC chips, passive components, electronic circuits,
+
+and hardboard, etc.
+
+
+                                              18
+
+===== SOURCE PAGE 20 =====
+     In this study, the traditional PCB technology was first used to fabricate rigid hardware
+
+equivalent circuits. The design and implementation were carried out using the online design
+
+platform EasyEDA (Shenzhen JLC Technology Group Co., Ltd.).  Firstly, based on the
+
+requirements of the system functional modules, the circuit schematic diagram (Figure 6) was
+
+drawn and the network connection check (ERC) was performed. After adjusting the PCB layout,
+
+the program debugging was carried out, and finally the files were sent to the professional
+
+manufacturer for printing and production. After receiving the hardwired finished circuit board,
+
+necessary electronic component soldering and functional debugging were carried out using a
+
+glue gun and a soldering gun to ensure normal functional use. The rigid hardware equivalent
+
+circuit of this study iterated three versions, gradually upgrading and optimizing, preparing for
+
+the flexibility of the circuit.
+
+
+
+
+
+Figure 6. Design of schematic circuit diagram. a, Two iterative versions of the PCBs. b,
+Layout diagram of electronic components in flexible device. c, Schematic circuit diagram.
+    As shown in the Table 1, the components used in this PCB are listed.
+Table 1. Bill of material (BOM).
+
+ No.   Pcs   Comment     Designator    Model number       Primary Category      Secondary Category
+
+ 1      2  100nF         C1,C2       C0603                Capacitor                  Capacitor
+
+                                CONN-SMD_4P-
+
+                                    P0.80_HCTL_HC-                               Wire-to-board     pin
+
+ 2      2  HC-0.8-4PWT  CN1,CN2    0.8-4PWT           Connector                  socket
+
+ 3      1  LED_0603-R   on1         LED_0603            Photoelectric device      LED
+
+
+
+                                              19
+
+===== SOURCE PAGE 21 =====
+                            R1,R2,
+
+                            R4,R5,
+
+                            R7,R8,
+
+ 4      7  10K         R9          R0603                 resistance           SMD resistor
+
+ 5      1  100K        R3          R0603                 resistance           SMD resistor
+
+                                SW-
+
+           MSS22C02-              SMD_MSS22C02-
+
+ 6      1  H3.0 125     SW1         H3.0-125            Switch                      Slide switch
+
+                                        SOT-23-5_L3.0-
+
+           SP6205EM5-                 W1.7-P0.95-LS2.8-                               Linear        voltage
+
+ 7      1   L-3-3/TR     U1        TL                Power management          regulator (LDO)
+
+                                  MIC-SMD_8P-
+
+          MSM261S403                L4.0-W3.0-P1.00-
+
+ 8      1  0H0R        U2        BR                Audio device         MEMS microphone
+
+            ESP32-S3-              WIRELM-
+
+         WROOM-1-               SMD_ESP32-S3-                     MCU，WiFi module，
+
+ 9      1  N16R8       U3       WROOM-1         Communication module   BLE
+
+                                      LGA-14_L5.0-
+
+ 10     1  ADXL345     U4          W3.0-P0.80-TL        Triaxial accelerometer     ADXL345
+
+3.2.3 Flexible circuit design
+
+    This section implements the functions of the traditional rigid circuit board in Section 3.2.1
+
+through flexible circuits. The realization of flexible circuits requires arranging the stretchable
+
+electronic circuit structures on a flexible substrate with low elastic modulus, using S-shaped
+
+conductive lines to connect the core rigid chip and passive components, and locally encapsulate
+
+high modulus elastic materials to prevent failure due to breakage at the connection points.
+
+Finally, an integrated and modular packaging is carried out.
+
+     Stretchable electronic devices can be bent and fit onto complex curved surfaces, such as
+
+the surface of the human body [44]. Here, the first step is to make the rigid electronic circuits
+
+stretchable. Inspired by the serpentine interconnect strategy proposed by Kim et al. [41, 44],
+
+all conductive traces were designed in a S-shape and arranged in CAD according to the
+
+alignment and dimensional constraints of the IC and passive components (Figure 7).
+
+
+
+
+
+                                              20
+
+===== SOURCE PAGE 22 =====
+Figure 7. The design draft for converting equivalent hardboard electronics into flexible circuits.
+    The schematic diagram of the flexible wearable architecture is shown in Figure 8a. From
+
+bottom to top, there are the bottom silicone substrate, the S-shaped copper conductive lines,
+
+the intermediate IC chip layer and passive device layer, the local stress isolation patch, and the
+
+top encapsulation silicone. For the integrated packaging of the device, the lithium battery
+
+supplies power to the circuit through an external connection. Finally, it is encapsulated with
+
+low modulus silicone to achieve the integration of the device.
+
+
+
+
+
+                                              21
+
+===== SOURCE PAGE 23 =====
+Figure 8. Overview and design of the intelligent, wireless, and skin-interfaced wearable
+voice rehabilitation system. a, Exploded diagram of the wearable device system, including
+electronic components, IC, materials and so on. b, Top view of the device. c, Exploded
+perspective view. d, Images of the device attached to the laryngeal skin.
+    Since these electronic components are inherently rigid and planar, while the intended
+
+device must remain soft and conformable to the skin, a tailored integration strategy is required
+
+to reconcile this mechanical mismatch. This strategy enables the entire device to maintain a
+
+soft mechanical performance while ensuring a reliable mechanical connection between the
+
+rigid modules such as accelerometers and the main structure.
+
+    As shown in Figure 8b, and inspired by research from Rogers et al. [45], we employed a
+
+rigid-island-and-flexible-interconnect  structure.  In  this  structure,  individual  electronic
+
+components reside on isolated rigid “component islands,” which are connected by S-shaped
+
+copper traces that serve as stretchable interconnects. The S-shaped copper traces enable
+
+controlled deformation under stretching or bending, effectively redistributing mechanical strain
+
+away from the rigid components and ensuring both  electrical  stability and mechanical
+
+
+
+                                              22
+
+===== SOURCE PAGE 24 =====
+durability during motion.
+
+3.2.4 Selection of materials for flexible circuits
+
+    The performance of flexible circuits is closely related to the flexible materials and metal
+
+materials used. To ensure the reliability and performance of the circuits, we thoroughly
+
+analyzed  the  advantages  and  disadvantages  of  different  materials,  comprehensively
+
+considering the elastic modulus, heat resistance, tensile properties and other characteristics of
+
+the materials. Finally, we selected the most suitable materials for the fabrication of flexible
+
+circuits.
+
+    Copper  is a low-cost and high-modulus conductive material with  stable material
+
+properties, low susceptibility to oxidation, and ease of laser etching. Therefore, copper is
+
+chosen as the material for the S-shaped wires.
+
+    The substrate of the copper wire was selected as a film-like polyimide (PI) with excellent
+
+bending and stretching resistance. The PI material has excellent thermal stability and can
+
+usually withstand temperatures above 250℃, making it suitable for use in electronic devices
+
+that may generate heat. PI is also an electrical insulator, which can effectively prevent current
+
+leakage or short circuits. The most important aspect is that PI has good adhesion to the copper
+
+material. During the manufacturing process, the PI film can maintain a stable bond with the
+
+copper wire, ensuring that the copper substrate can easily return to its initial state during the
+
+stretching process. Moreover, through appropriate surface treatment, the adhesion strength
+
+between the PI film and the copper wire can be further enhanced [46].
+
+    Table 2 lists the properties of several commonly used flexible packaging materials.
+
+Through comparative analysis, Eco-flex elastomer has an extremely low elastic modulus. It is
+
+very  soft, has high conformability, can perfectly  fit the skin, and  is  resistant to high
+
+temperatures. These three properties indicate that it can be used as a packaging material for
+
+circuits. Secondly, various connection points of flexible circuits are prone to breakage. To
+
+prevent this from happening, the packaging material needs to meet certain high elastic modulus
+
+requirements. And high-modulus PDMS can precisely achieve the protection of the connection
+
+positions of the chips.
+Table 2. The properties of several typical flexible materials.
+
+    Flexible material       Young modulus          Adhesiveness       Thermal deformation temperature
+
+                                              23
+
+===== SOURCE PAGE 25 =====
+           PI                   2.5 - 3.5 GPa             Good                     250 - 350°C
+
+      PDMS                 0.5 - 2 MPa               Average                    200 - 250°C
+
+    Eco-flex elastomer         10 - 100 kPa             Good                     ~ 200°C
+
+    TPU thin film           300 - 600 kPa                  Fair                      100 - 150°C
+
+  High modulus silicone           1.0 MPa                     Fair                      250 - 300°C
+
+     In terms of the selection of mask plate materials, this research chose PET film which has
+
+excellent electrical insulation properties and corrosion resistance. Moreover, the PET film can
+
+also withstand certain degrees of bending and stretching, making it suitable for the preparation
+
+of flexible circuits. Therefore, in the design of chips and circuit boards, PET film was used as
+
+the mask plate. At the locations prone to short circuits in the conductive network, such as circuit
+
+gaps and electrode contact points, a portion of the PET film was removed to prevent short
+
+circuits between these locations.
+
+3.2.5 The fabrication process flow
+
+    As shown in the Figure 9, the typical manufacturing process[30] of wireless flexible
+
+electronics usually includes the following  steps: (1)  laser cutting to form a S-shaped
+
+interconnection [47], (2) water-soluble transfer to move the rigid electronic components to the
+
+flexible substrate [48], (3) low-temperature reflow soldering to complete the component
+
+mounting and interconnection, and (4) integrated packaging with soft elastic polymers to
+
+provide flexible packaging and skin compatibility [49].
+
+
+
+
+
+Figure 9. Fabrication process of the flexible device.
+                                              24
+
+===== SOURCE PAGE 26 =====
+      First, a 6×6 cm² rigid glass substrate needs to be prepared. Apply the prepared PDMS at
+
+a speed of 600 r/min on the glass plate for 10 seconds and then cure it at 65 ℃ for 2 hours to
+
+obtain a glass sheet covered with PDMS film. Next, a 100 μm-thick copper-coated PI film was
+
+hot-pressed onto the PDMS film, followed by heating to 120 °C to improve adhesion between
+
+the two layers.
+
+     Place the fixed copper foil under a 355nm nanosecond laser. Input the contour drawing of
+
+the stretchable S-shaped structure network designed in Auto CAD. Adjust the power of the blue
+
+light to 10W and the cutting speed to 200 mm/min for 10 cycles of cutting. After all the contours
+
+have been cut, use forceps to remove the remaining copper foil. Then, use a dust-free cotton
+
+swab dipped in alcohol to clean the oxide residues left by the laser etching at the edges of the
+
+conductive network, thereby obtaining the pre-designed conductive copper-based circuit.
+
+     Next, use the adhesive surface of a water-soluble tape to adhere the prepared complete S-
+
+shaped copper conductive circuit, so that it sticks to the water-soluble tape. An ultralow
+
+elastic silicone film, Ecoflex, with a thickness of 1mm and a size of 6×6 cm² was prepared by
+
+spin-coating. PDMS and the curing agent were mixed at a 1:1 mass ratio to form the Ecoflex.
+
+Before it isn’t fully cured, the S-shaped copper conductive wires and the adhesive tape are
+
+adhered to one side of the Ecoflex film, and then hot pressing was carried out to promote the
+
+adhesion between the PI and the Ecoflex film.
+
+    Then, the Ecoflex with the water-soluble adhesive tape was placed in deionized water for
+
+about 8 hours to completely dissolve the water-soluble adhesive tape. After that, the residual
+
+water-soluble adhesive tape fibers on the surface were washed with deionized water, and the
+
+residual moisture around the entire conductive structure was dried using a hot air blower. Thus,
+
+a transplanted conductive network was obtained.
+
+   A 6×6 cm², 30 μm-thick PET film was laser-etched using a 355 nm laser. Rectangular
+
+openings matching the chip footprint and the conductive areas susceptible to short-circuiting
+
+were created, resulting in a PET masking layer. The PET mask was subsequently aligned and
+
+bonded to the conductive network via van der Waals adhesion to the silicone. Apply a layer of
+
+soldering agent on the surface of the PET mask and apply an appropriate amount of low
+
+temperature reflow solder paste. Then use a scraper to level it out so that the solder paste is
+
+
+
+                                              25
+
+===== SOURCE PAGE 27 =====
+placed at each welding position. Next, peel off the PET mask and place the electronic
+
+components at the corresponding pins. Place the entire glass plate with circuits and components
+
+into the reflow soldering box. Set the heating temperature at 150 ℃ and the heating time at 10
+
+min. After all the soldering positions have solidified, remove the plate.
+
+     Place the soldered circuit in a plasma treatment furnace and treat it at a power of 100W
+
+for 3 min to remove the hydrophobic groups on the surface. Then, place it in an already printed
+
+rectangular metal mold and quickly apply a layer of insulating oil to prevent the encapsulated
+
+silicone rubber from affecting the circuit performance. Use the Ecoflex to pour over the flexible
+
+circuit placed inside the metal mold. Let it cure at room temperature for 2 h. Finally, obtain the
+
+encapsulated flexible circuit.
+
+3.2.6 The selection of the wearing position
+
+    The larynx is the core structure for vocalization. The vibration of the vocal cords and
+
+related physiological activities will generate measurable mechanical vibration signals on the
+
+skin surface [42]. In order to determine the most optimal area for wearing the sensor, and to
+
+achieve the most reasonable and accurate monitoring of the patient's vocal state, this study
+
+referred to the previous research results on skin-adhesive and throat-wearable sensing systems
+
+[8, 30, 45, 50], and chose to attach the sensor to the front of the neck, on the skin surface
+
+corresponding to the structure of the larynx. Considering the differences in the soft tissue
+
+structure of the neck, the position and thickness of the thyroid cartilage with respect to height,
+
+some studies have divided this skin area into three possible attachment positions: lower (A),
+
+middle (B), and upper (C) (Figure 10a). They have explored the potential impact of these
+
+different attachment positions on signal quality [30, 50]. Research shows that in the heart rate
+
+(HR) monitoring task, due to the weak vibration in the z-axis direction caused by the heart's
+
+beating, the normal component displacement of the vibration did not change. Therefore, the
+
+HR that decouples with the position shift is not affected by the change in position. While in the
+
+RR monitoring task, the lung breathing pushes the chest ribs to move upward along the y-axis
+
+(Figure 10b). The vibration of the sensor decreases in amplitude as the position rises, and the
+
+accelerometer reflects a decrease in respiratory intensity, so the effect of decoupled RR is
+
+significantly reduced.
+
+
+                                              26
+
+===== SOURCE PAGE 28 =====
+Figure 10. Illustration of sensor placement and accelerometer axis definition. a, Three
+potential placement regions on the anterior neck corresponding to the laryngeal area (lower,
+middle, upper). b, Orientation of the triaxial accelerometer.
+    Based on the above signal propagation mechanism, it can be inferred that position A is
+
+theoretically more conducive to capturing the original acceleration signal that contains more
+
+physiological vibration signals. Especially in cases where respiratory signals or low-frequency
+
+physiological activities need to be monitored, its advantage becomes even more prominent.
+
+    However, in the context of wearable device design, the position of the device also needs
+
+to consider factors such as comfort, user acceptance,  stability during daily wear, and
+
+appearance. Position A is lower, which is more likely to be affected by the collar or skin folds,
+
+and the user may also experience a sense of foreign objects. In contrast, position B is located
+
+near the thyroid cartilage, which can maintain a better signal quality and is less likely to cause
+
+motion interference and wearing discomfort.
+
+     Therefore, considering both factors, this study ultimately chose position B as the standard
+
+wearing position, and further verified the overall balance between signal quality and wearable
+
+experience in the subsequent experiments.
+
+3.3 Smartphone APP design
+
+    During the system design phase of this study, the visual system, functional architecture
+
+and interaction design for the application were completed. Based on the feedback and
+
+suggestions from two doctors and six patients, three rounds of iterative optimization have been
+
+carried out.
+
+     In terms of visual design, the APP selects a dominant color palette of high-saturation
+
+purple and pinkish tones that are close to the color of the throat organs to convey a warm and
+
+positive mood. It avoids using the blue color schemes easily found in hospital environments to
+
+prevent users from feeling cold. To enhance the user-friendly interaction and immersive
+
+                                              27
+
+===== SOURCE PAGE 29 =====
+experience, the system has designed three anthropomorphic cartoon characters (Figure 11a),
+
+corresponding to the three core organs related to vocalization: Oropharynx, Vocal Cords, and
+
+Throat. These three characters appear in different interaction scenarios and guide users through
+
+vocalization tasks in a conversational-like manner, reducing the cognitive load of users and
+
+enhancing the fun of the rehabilitation process (Figure 11b). The LOGO design of the
+
+application also originates from the abstract form of the throat passage and combines with the
+
+letters, “T” and “C”, symbolizing Throat Care (Figure 11d).
+
+    The APP consists of three core functional modules (Figure 11c): (1) Voice Collection
+
+and Monitoring Module: Guides users to read standardized speech materials through cartoon
+
+characters, for structured voice data collection; (2) Analysis and Trend Feedback Module:
+
+Analyzes and visualizes real-time and historical speech parameter values, calculates daily
+
+speech condition scores, and provides diagnosis suggestions; (3) Rehabilitation Guidance
+
+Module: Based on historical trends estimated by the cloud model, provides specific tasks of
+
+voice practice and breathing exercises. These three modules form the main framework of the
+
+APP.
+
+     In addition, the system has designed an auxiliary expression module (Figure 11e) for a
+
+small number of users who temporarily cannot speak normally. These users may have just
+
+undergone surgery and are hospitalized in the hospital. This module provides quick-clickable
+
+common expression phrases for them to communicate conveniently with nurses and family
+
+members. This section also supports custom text input to enhance freedom of expression. At
+
+the same time, the application also includes support pages such as the user homepage, basic
+
+settings, and history records to ensure a complete usage process and traceability experience.
+
+
+
+
+
+                                              28
+
+===== SOURCE PAGE 30 =====
+Figure 11. Voice Rehabilitation APP Design Sketch. a, Prototype rendering images.
+b, Rendering images of APP usage  scenarios.  c, The main page and function
+introduction analysis diagram of the APP. d, Logo design and IP design. e, Introduction
+to the Quick Expression Feature.
+
+
+
+
+
+                                              29
+
+===== SOURCE PAGE 31 =====
+3.4 Signal acquisition method and experimental design
+
+3.4.1 Overall design of the experiment
+
+    This section provides an overview of the overall design framework of the entire data
+
+collection experiment. The goal of the experiment is to construct a clear-structured, reliable-
+
+labeled and  clinically  significant multimodal data system, providing a foundation  for
+
+subsequent algorithm development and wearable system validation. The entire experimental
+
+design (Figure 12) consists of three stages, namely preference survey (Stage 1), clinical patient
+
+data collection (Stage 2), and wearable multimodal data acquisition (Stage 3).
+
+
+
+
+
+Figure 12. Overall Study and Experiment Framework.
+     In the early stage of the project, we investigated the acceptability and functional
+
+preferences of target users for intelligent wearable devices for the throat to identify the direction
+
+for device design. Throughout the entire process, we continuously collected voice assessment
+
+data of clinical patients under the traditional clinical procedures in the hospital's voice
+
+laboratory. These data include the audio of each patient, the doctor's diagnosis report, and
+
+acoustic assessment parameter values, etc. They will serve as the standard control group and
+
+the source of annotations. Stage 3 was conducted in the hospital's voice laboratory environment.
+
+The participants wore smart wearable devices to complete the same voice assessment tasks as
+
+in the previous stage. During the experiment, the wearable devices simultaneously collected
+
+voice and neck acceleration signals, and the hospital analysis system simultaneously obtained
+
+standardized clinical voice data. Based on this process, a multimodal dataset for model training
+
+and validation was gradually constructed.
+
+3.4.2 Preference survey
+
+     In the early stage of system development, to understand the attitudes of potential target
+
+users for wearable devices, we conducted a preliminary user preference survey. We distributed
+
+questionnaires both online and in hospital wards and received a total of 76 questionnaires. The
+
+
+                                              30
+
+===== SOURCE PAGE 32 =====
+results of this questionnaire survey can analyze users' preferences and pain points, providing
+
+qualitative references for the optimization of the device structure and ergonomic design in the
+
+future.
+
+    The  questionnaire survey (Figure 13)  consists  of  three  sections:  basic  personal
+
+information, voice usage and health condition, and attitudes and acceptance towards intelligent
+
+rehabilitation devices.
+
+
+
+
+
+Figure 13. Preference survey and questionnaire.
+
+3.4.3 Clinically patient data collection
+
+    The objective of Stage 2 (Figure 14) is to collect clinical patients' voice assessment data
+
+based on the traditional diagnostic process of the hospital's voice laboratory and establish a
+
+voice training dataset. Firstly, a retrospective analysis of previous clinical data was conducted
+
+(N = 800, 2022 - 2025), and then new voice data collection was carried out in 2025 (N = 330).
+
+    During the experiment, each subject completed a recording task of approximately 5 min
+
+in the hospital's voice collection room. During the recording, the distance between the subject's
+
+mouth and the microphone was fixed  at about 15 cm. According to the experimental
+
+requirements, the subjects read the unified text, which included:
+
+  ⚫  Continuous speaking tasks (taking a patient's speech as an example): “My name is
+
+      XXX. I went to Heilongjiang. He went to Wuxi City. I love the Tiananmen Square in
+
+         Beijing.”
+
+
+
+
+
+                                              31
+
+===== SOURCE PAGE 33 =====
+  ⚫  Vocal range test tasks: Continuously produce the /a/ and /i/ sounds until the expiration;
+
+        produce the /a/ sound and then complete the pitch changes from low to high and from
+
+        high to low.
+
+     After the experiment, the audio, doctor's diagnosis report, and acoustic assessment
+
+parameter values of each patient can be collected through the instruments of the hospital's voice
+
+laboratory.
+
+
+
+
+
+Figure 14. Clinically patient data collection
+
+3.4.4 Multimodal Speech and Motion Data Collection (Intended)
+
+     In Stage 3 (Figure 15), both acceleration data and audio data  will be collected
+
+simultaneously using wearable devices (N=40). The participants will wear the wearable device
+
+designed by the research team on a fixed position at the neck, and it will be secured using a
+
+skin-friendly medical adhesive. Each experiment will last approximately 5 minutes, with the
+
+microphone kept at about 15 cm.
+
+    The participants will be required to complete the vocalization task according to the same
+
+reading materials as in Stage 2. Subsequently, a 60-second monitoring activity will be
+
+conducted (holding breath, breathing, speaking, swallowing, walking, and jumping for 10
+
+seconds each), to obtain a combined signal containing both speech and movement information.
+
+
+
+
+
+Figure 15. Multimodal Speech and Motion Data Collection.
+
+3.4.5 Ethics declaration
+
+     All experimental procedures involving human participants were conducted in accordance
+
+
+                                              32
+
+===== SOURCE PAGE 34 =====
+with the Declaration of Helsinki, Ethical Review Methods for Biomedical Research Involving
+
+Human Subjects, Regulations on Quality Management for Clinical Trials of Medical Devices
+
+and other ethical standards. The studies were reviewed and approved by the Medical Ethics
+
+Committee of the Second Affiliated Hospital of Xi'an Jiaotong University (protocol: 2025
+
+Ethical Review 188), and all the participants gave informed consent. All collected data were
+
+anonymized to ensure participant privacy and confidentiality.
+
+3.5 Signal Processing Workflow
+
+    The user's voice, movements and other signals will be collected by the wearable device.
+
+The amplifiers and filters built into the MEMS microphone and the triaxial accelerometer will
+
+first amplify and filter the analog signals received by the system and then convert them into
+
+digital  signals through the  analog-to-digital converter (ADC) module. The MCU  will
+
+wirelessly transmit these digital electrical signals to the mobile device, cloud platform and
+
+personal computer via the WiFi module. The flowchart of the corresponding functional circuit
+
+module is shown in the Figure 16.
+
+
+
+
+
+Figure 16. Block diagram of the system architecture.
+
+3.6 Automated speech analysis module
+
+    To achieve the automated speech processing function in the intelligent voice rehabilitation
+
+system, we developed an analysis module integrating speech recognition, speech activity
+
+detection, and keyword segmentation, as shown in the Figure 17.
+
+     In whole-sentence speech input, the Whisper model can accurately recognize the speech
+
+content. For patient samples with clear pronunciation, the recognition results are highly
+
+consistent with the actual text. However, for speech signals with pathological features such as
+
+
+                                              33
+
+===== SOURCE PAGE 35 =====
+breathy  voice,  hoarseness,  and  tremors,  the  recognition  accuracy  slightly  decreases.
+
+Nevertheless, the recognition errors usually concentrate on similar sounds and do not affect the
+
+overall semantic understanding, demonstrating good potential for clinical application.
+
+     In the long-sentence speech analysis task, the segmentation boundaries of this module are
+
+highly consistent with the actual speech annotation results. In phrases or single words, the
+
+segmentation boundaries may have slight deviations, but the deviation range is usually small
+
+(< 50 ms) and does not affect the acoustic feature extraction process.
+
+
+
+
+
+Figure  17. Speech  processing module:  recognition,  segmentation and keyword-based
+extraction workflow.
+
+3.7 Machine learning algorithms for classification and prediction
+
+3.7.1 Model Overview
+
+    To achieve the binary classification task of normal and pathological voices based on voice
+
+signals, this study adopts a pre-trained self-supervised speech model to construct a voice
+
+recognition framework. The core structure of the system is based on HuBERT as the backbone
+
+network for acoustic feature extraction, which is used to extract high-level time-frequency
+
+structure features from short-time speech segments. On this basis, the output layer of the
+
+original model  is replaced with a single-layer linear  classifier and adjusted to a two-
+
+dimensional output according to the task setting, corresponding to the labels of Normal voice
+
+and Pathological voice. Finally, the model generates classification probabilities through
+
+Softmax for sample-level prediction and subsequent patient-level decision analysis. The model
+
+structure is shown in Figure 18.
+                                              34
+
+===== SOURCE PAGE 36 =====
+Figure 18. The overview of the voice recognition model using HuBERT as the main feature
+extraction network.
+
+3.7.2 Model Architecture
+
+     Specifically, HuBERT-Base is adopted as the feature extractor, with all the Transformer-
+
+based encoder layers frozen and only the additional linear classification head being fine-tuned.
+
+The model consists of an input signal processing module, the HuBERT pre-trained acoustic
+
+feature backbone network, a pooling layer, and a linear classification head. The overall
+
+structure is shown in the Figure 19. The Adam optimizer is used, with an initial learning rate
+
+of 1×10⁻⁵ to ensure a stable training process and avoid overfitting. The training period is set at
+
+25 epochs, with a batch size of 16.
+
+
+
+
+
+Figure 19. End-to-end fine-tuning pipeline for self-supervised speech models (HuBERT).
+    The model input is the original speech waveform sampled at 16 kHz. To reduce the
+
+influence of differences in the recording environment and improve the model's adaptability, as
+
+well as to provide a consistent signal distribution for the feature extraction stage, the input
+
+signal needs to be preprocessed. The specific method is to standardize, truncate silent parts,
+
+and perform data augmentation on the input signal before it enters the backbone network.
+
+    The backbone network adopts HuBERT-base as the speech representation model. Its
+
+                                              35
+
+===== SOURCE PAGE 37 =====
+structure consists of two modules, including the convolutional feature encoder and the
+
+Transformer stacking layers. The Feature Encoder converts the input waveform into continuous
+
+audio features, capturing the short-term speech structure. The Transformer Layers further
+
+model the global dependencies across the time  series, generating a high-level speech
+
+embedding of dimension 𝑇× 𝐷, which can reflect deep features such as speaking behavior
+
+patterns. During the training process, HuBERT’s parameters are kept frozen to avoid overfitting
+
+on the limited-scale medical speech data.
+
+    The time-series signals output by HuBERT are compressed through the pooling module
+
+to generate fixed-length global speech representations. The pooling method employs the mean
+
+pooling structure, enabling the model to aggregate sentence-level statistical information rather
+
+than relying on local features. Subsequently, the pooled output is sent to a single-layer linear
+
+classification head, which is responsible for mapping the feature vectors to the task category
+
+space. Finally, the output is transformed into a probability distribution through the Softmax
+
+activation function, which is used for subsequent prediction and evaluation.
+
+3.7.3 Dataset and Preprocessing
+
+    The data used for model analysis mainly come from 50 normal voice samples collected in
+
+the hospital as described in 3.4.3, 10,59 pathological voice samples, and 686 normal voice
+
+samples from the publicly available standardized speech database[51].
+
+    This study divided the dataset into training set, validation set and test set in a speaker-
+
+independent split manner to prevent data leakage caused by the same subject's voice appearing
+
+in different datasets. The final division is as shown in the Table 3.
+Table 3. Speaker-independent dataset split.
+
+ Category                        Training set        Validation set        Test set              Total
+
+ Subjects with pathological voices   741              158                160                1059
+
+ Subjects with normal voices       515               110                 111                736
+
+    To maintain the balance of category distribution, enhance the generalization ability of the
+
+model, and ensure the reproducibility of the experimental results, this study merged the new
+
+dataset and cleaned the duplicate IDs, and finally obtained the Table 4.
+Table 4. Final dataset sample statistics.
+
+ Category                    Training set               Validation set              Test set
+
+ Sample size                 2512                   536                    542
+
+
+                                              36
+
+===== SOURCE PAGE 38 =====
+3.7.4 Training strategy and Hyperparameters
+
+    This study adopts the transfer learning strategy, using the pre-trained speech model
+
+HuBERT as the base model, and combines methods such as data augmentation, imbalance
+
+learning mechanism, accuracy optimization, and patient-level prediction fusion to enhance the
+
+robustness and generalization ability of the model in clinical speech data scenarios.
+
+    The implementation leverages Hugging Face’s AutoModelForAudioClassification to load
+
+the pre-trained HuBERT model weights. To prevent the model from overfitting under the
+
+condition of limited labeled samples, only the parameters of the classification head are updated
+
+during the training stage. The HuBERT encoder part remains in a frozen state.
+
+    To enhance the model's robustness to differences in recording environments and variations
+
+in vocalization, this study employed a dynamic data augmentation strategy during the training
+
+phase and applied it to the training set. The augmentation strategy consisted of two methods:
+
+adding white noise and time scaling. Specifically, a random noise with an amplitude of 0.005
+
+was injected into the speech signal with a 50% probability to simulate the underlying noise
+
+distribution in real recording environments. Additionally, the speech playback rate was
+
+randomly adjusted with a 30% probability, ranging from 0.9 times to 1.1 times. Linear
+
+interpolation was used for resampling to increase the model's tolerance for differences in
+
+speech speed and rhythm.
+
+    Due to the uneven distribution of categories in medical speech data, this study employs
+
+Weighted Random Sampling to alleviate the category bias during the training process. Firstly,
+
+the category balance weights are calculated based on the number of samples in each category.
+
+Then, these weights are passed to the WeightedRandomSampler to ensure that the model
+
+receives a relatively balanced distribution of category samples at the mini-batch level, thereby
+
+enhancing the recall ability of rare categories and the overall F1-score performance.
+
+    During the training process, the standard cross-entropy loss function was used for
+
+optimization. Since the data imbalance issue has been handled in the sampling stage, no
+
+additional weighting was applied to the loss function.
+
+    The optimization strategy employs the Adam optimizer and combines multiple scheduling
+
+mechanisms to enhance training efficiency and model convergence performance, namely
+
+learning rate scheduling, early stopping strategy, and mixed precision training. In terms of
+                                              37
+
+===== SOURCE PAGE 39 =====
+learning rate scheduling, the cosine decay strategy is adopted, and 10% of the training steps
+
+are set as Warmup to reduce initial gradient oscillations. During the model training process, the
+
+early stopping strategy is used, and the macro-average F1-score is used as the monitoring
+
+indicator. If this indicator does not improve for 6 consecutive epochs, the training is stopped to
+
+avoid overfitting. Half-precision calculation is utilized to accelerate the training process and
+
+reduce memory usage, making the model training more efficient.
+
+    Considering that a single audio segment may not fully represent the patient's overall voice
+
+condition, the reasoning stage adopts Patient-level Aggregation. The model first calculates the
+
+logits of all slices for the same patient, averages them, and then performs classification
+
+determination.
+
+3.7.5 Evaluation Metrics
+
+    To comprehensively evaluate the performance of the model in the voice rehabilitation
+
+classification  task,  this study employs multi-dimensional  evaluation  metrics, including
+
+Accuracy, Precision, Recall, and F1-score. Accuracy is used to measure the proportion of
+
+correctly  classified samples among  all predictions of the model, reflecting the overall
+
+classification performance. However, in scenarios where the distribution of data categories is
+
+imbalanced, Accuracy may mask the model's insufficient ability to identify minority classes.
+
+To more accurately measure the classification quality, this study further introduces other
+
+indicators. Among them, Precision measures the proportion of samples predicted to belong to
+
+a certain category among the actual samples belonging to that category, used to assess the
+
+model's  false alarm  situation.  Recall measures  the  proportion  of  true  target samples
+
+successfully detected by the model, used to assess the missed detection situation. F1-score is
+
+the harmonic average of Precision and Recall, more suitable for scenarios with imbalanced
+
+categories, and can comprehensively reflect the classification performance of the model.
+
+    To ensure that each category has the same weight in the evaluation process and is not
+
+affected by  the sample  quantity,  all  indicators  are  calculated using macro averaging.
+
+Additionally, in the testing phase, all evaluation indicators are calculated on the “patient-level
+
+aggregated inference” to be closer to the recognition performance in real clinical application
+
+scenarios.
+
+
+                                              38
+
+===== SOURCE PAGE 40 =====
+Chapter 4 Results
+
+4.1 User acceptance and preference analysis
+
+     After conducting a thematic analysis of the collected questionnaire responses (Figure 20),
+
+it was found  that there were  clear trends in four main dimensions:  attitudes towards
+
+rehabilitation participation, acceptance of wearability, functional expectations, and awareness
+
+of artificial intelligence-assisted rehabilitation.
+
+    The survey  results from the “User Attitudes towards Rehabilitation Participation”
+
+dimension (Figure 20a) indicated that traditional medical rehabilitation programs have the
+
+problem of low patient compliance. Approximately 78.9% of the respondents stated that it was
+
+difficult for them to consistently adhere to rehabilitation treatment in the hospital, while only
+
+21.05% expressed confidence in continuing to  participate. Thus, autonomous or semi-
+
+autonomous intelligent voice rehabilitation systems have significant potential value.
+
+    The feedback from the “Wearability and Daily Life Acceptability” category (Figure 20b)
+
+showed that comfort and convenience were the main concerns of users. Most participants stated
+
+that the physical comfort of the device was very important. These results indicate that the
+
+design of wearable devices must comply with ergonomics, be lightweight, be skin-friendly,
+
+have seamless, non-invasive wearability, and have a convenient charging mechanism.
+
+    From the results of the “Functional & Interaction Design Expectations” (Figure 20c),
+
+participants showed clear preferences. The three most popular feedback methods were
+
+vibration alerts, voice prompts, and smartphone-based application notifications. The function
+
+that received the most support from participants (81.58%) was the function that detects
+
+improper vocalization by the user. Additionally, 55% to 70% of the participants were interested
+
+in real-time monitoring, training guidance, respiratory monitoring, and automatic report
+
+generation functions.
+
+    Regarding the results of the dimensions of artificial intelligence-assisted rehabilitation and
+
+data sharing (Figure 20d), it was indicated that the degree of technological openness was very
+
+high. More than two-thirds of the respondents stated that they were willing to use artificial
+
+intelligence-assisted rehabilitation and believed that the model combining artificial intelligence
+
+with  clinical  expertise could improve treatment outcomes. Approximately 95% of the
+
+
+                                              39
+
+===== SOURCE PAGE 41 =====
+respondents stated that they were willing to share physiological and behavioral data with
+
+clinicians and artificial intelligence systems for analysis, indicating a strong trust in data-driven
+
+rehabilitation treatment.
+
+
+
+
+
+Figure 20. User acceptance, expectations, and perceived barriers toward AI-assisted voice
+rehabilitation systems.
+     Furthermore, this study conducted a word cloud and sentiment analysis on the responses
+
+of users to the open-ended question “What suggestions or concerns do you have regarding the
+
+intelligent voice rehabilitation device?”. The results (Figure 21a) showed that user feedback
+
+focused on key themes such as rehabilitation effectiveness, analysis accuracy, device portability,
+
+safety, and support for voice rehabilitation knowledge. Among them, “actual effect” and
+
+“analysis accuracy” appeared most frequently, indicating that users were most concerned about
+
+                                              40
+
+===== SOURCE PAGE 42 =====
+whether the device could provide clinically reliable and quantifiable rehabilitation assistance.
+
+    From the perspective of sentiment analysis (Figure 21b), the overall user opinions exhibit
+
+a moderately  fluctuating  neutral  structure,  including a  certain  proportion  of  positive
+
+expectations as well as clear demands for improvement and concerns. Positive feedback mainly
+
+reflects users’ recognition of the potential value of the intelligent rehabilitation equipment,
+
+while negative feedback mainly focuses on aspects such as the comfort of wearing the device,
+
+privacy security, and the practical functionality of the equipment. This indicates that users not
+
+only have expectations for this type of innovative technology, but also have doubts about its
+
+usability, reliability and clinical effectiveness.
+
+
+
+
+
+Figure 21. Analysis of perspectives based on the results of the questionnaire survey.
+
+4.2 Device performance
+
+4.2.1 Characterization, testing and analysis of the circuit performance
+
+    To evaluate the performance of the circuit under repeated mechanical deformation, we
+
+prepared three groups of flexible electronic samples (labeled 1, 2, and 3) and conducted cyclic
+
+fatigue tests under a 30% stretch strain condition (Figure 22c). The test results showed that
+
+samples 1, 2, and 3 failed in circuits after 368, 244, and 320 cycles (Figure 22d), respectively.
+
+The average number of failure cycles was approximately 311. The failure locations were
+
+mainly concentrated at the interface between copper interconnections and device islands,
+
+suggesting that this area  is a stress concentration point. Future versions will carry out
+
+optimization design for this structure. Considering that the device is ultimately attached to the
+
+skin of the throat, it is difficult to generate a mechanical strain close to 30% during daily use,
+
+and the stress environment is much lower than the experimental conditions. Therefore, the
+
+existing interconnection structure has high stability and reliability in the actual wearing context.
+
+                                              41
+
+===== SOURCE PAGE 43 =====
+In addition, the device is fully encapsulated with Ecoflex, which can effectively prevent sweat
+
+or body surface moisture from penetrating, reducing the risk of short circuits. At the same time,
+
+it avoids exposing the electronic components directly to the skin environment. Ecoflex also has
+
+good thermal insulation properties, which can block the local heat generated during the
+
+operation of the device, reducing thermal stimulation or burning sensation, thereby improving
+
+the comfort and safety of long-term wearing.
+
+
+
+
+
+Figure 22. Characterization, testing and analysis of circuit performance. a, Schematic
+diagram of designed circuit structure and electronic components. b, Key components and
+materials of the circuit photos. c, Photos of cyclic tensile fatigue test. d, Monitoring electrical
+discontinuity during 30% strain cyclic fatigue test.
+
+4.2.2 Mechanical characterization, testing and analysis
+
+    During vocalization, swallowing and other daily physiological activities, the human body
+
+causes mechanical deformations such as bending, stretching and twisting on the skin surface.
+
+Therefore, wearable flexible electronic devices must be able to adapt to these dynamic stress
+
+conditions while maintaining circuit integrity.
+
+    To evaluate the mechanical ductility of the device, a uniaxial tensile test was conducted
+                                              42
+
+===== SOURCE PAGE 44 =====
+(Figure 23a). Within the maximum 30% tensile strain range, no structural damage or cracking
+
+was observed in the device, indicating its excellent mechanical ductility. Additionally, by
+
+combining the stress-strain curve analysis (Figure 23b), the device could still return to its
+
+initial deformation state after a 30% strain, demonstrating a certain degree of reversible elastic
+
+deformation capability.
+
+
+
+
+
+Figure 23. Mechanical characterization, testing and analysis. a, Photos of flexible devices
+under different stretching conditions. b, Stress-strain curves of the equipment were obtained
+when it was subjected to single-axis stretching at 5%, 10%, 20% and 30% stress levels. c, The
+fitting curve of the equivalent Young's modulus of flexible electronic devices under uniaxial
+tensile test and the locally magnified stress-strain curve. d, The stress-strain curve of the
+flexible electronic device under a 20% stretch, with a total of 200 cycles, and the comparison
+between the 1st cycle and the 200th cycle.
+    To evaluate the mechanical compatibility between the device and the skin, the stress-strain
+
+data in the low-strain region (0.5%–6%) were linearly fitted using the scikit-learn regression
+
+method, and the equivalent Young's modulus of the device was calculated to be approximately
+
+
+                                              43
+
+===== SOURCE PAGE 45 =====
+337 kPa (Figure 23c). Some studies have indicated that when the stretching is mainly borne
+
+by the dermis layer, the equivalent elastic modulus is approximately 100–200 kPa [52]. In
+
+actual physiological activities, the strain on the skin surface is usually less than 30%, and the
+
+corresponding stress is approximately less than 400 kPa [53]. Therefore, this value indicates
+
+that the device has excellent skin-adhesion properties, which can reduce the foreign body
+
+sensation or skin irritation caused by local stress concentration.
+
+     Furthermore, to evaluate the mechanical stability under cyclic stretching, we conducted
+
+200 cycles of fatigue tests under a fixed stretching strain of 20% and plotted the corresponding
+
+stress-strain evolution curves (Figure 23d). The curves show that the stress level in the first
+
+cycle is higher than that in subsequent cycles. This is speculated to be related to the interface
+
+adjustment between the device and the fixture during the initial clamping process or the release
+
+of prestress. Starting from the second cycle, the stress-strain curves gradually stabilized, and
+
+the 200th cycle curve was basically consistent with the second cycle curve, indicating that the
+
+device exhibited good mechanical stability and structural reliability under cyclic deformation
+
+conditions.
+
+4.3 Representative signals analysis approaches
+
+4.3.1 Analysis of acceleration signals
+
+    The natural physiological processes of humans generate vibration information on the skin
+
+surface, and accelerometers can capture various acceleration signals related to vibration and
+
+muscle activity. The range varies from approximately 1 × 10−4𝑔/√𝐻𝑧 for subtle vibrations
+
+to approximately 2g for large-scale movements, covering the frequency range that the
+
+accelerometers used here can capture (0 to 800Hz).
+
+    The collected acceleration data was subjected to spectral analysis, as shown in Figure 24a.
+
+The power spectral density (PSD) of the signal was calculated and plotted to understand the
+
+frequency components of the signal and to identify the frequency bands related to various body
+
+activities. Signals related to swallowing are mostly in the range of 30–90 Hz, those related to
+
+breathing are mostly around 1 Hz, and those related to the heartbeat are mostly around 5 Hz.
+
+The specific frequency bands need to be further verified through analysis of the original signals.
+
+    The subjects were invited to wear the device and perform various actions such as holding
+                                              44
+
+===== SOURCE PAGE 46 =====
+their breath, breathing, speaking, swallowing, walking, and jumping. The acceleration sensor
+
+was able to conduct precise time-domain and frequency-domain measurements of these actions,
+
+clearly showing the amplitude differences and frequency variations during the execution of
+
+different actions (Figure 24b&c). As shown in Figure 24d, the corresponding activity signals
+
+were subjected to STFT, and it was found that speaking and swallowing both exhibited higher
+
+vibration frequencies (above 50 Hz), while walking and jumping had lower frequencies (below
+
+20 Hz). Speaking and swallowing were caused by the tremors of the laryngeal muscle groups,
+
+resulting in higher frequencies, while walking and jumping were low-frequency slow-paced
+
+movements.
+
+
+
+
+
+Figure 24. Representative data in the form of accelerations measured along triaxial from
+the device mounted on the laryngeal skin of a healthy subject. a, Amplitude spectral density
+(ASD) of Z-axis acceleration data collected from the device. b, Triaxial time series data
+simultaneously recorded over a 60 s interval as a subject engages in various activities that
+include holding breath, breathing, talking, swallowing, walking and jumping. c, Representative
+sample time-series data related to various activities. d, The corresponding spectrogram via the
+short-time  Fourier transform (STFT).  e, The corresponding  spectral  information. The
+frequency analysis uses a Hanning window with a width of 0.1 s moving in time steps of 0.02 s.
+                                              45
+
+===== SOURCE PAGE 47 =====
+    The acceleration signal often contains environmental vibrations, high-frequency noise and
+
+non-target motion components. Therefore, signal preprocessing is necessary to extract the
+
+feature-related signals. Firstly, a low-pass filter is applied to the original triaxial acceleration
+
+signal to suppress high-frequency noise, making the waveform smoother and facilitating
+
+subsequent feature recognition (Figure 25a). Subsequently, the Z-axis signal is processed,
+
+including detrending, band-pass filtering (0.2–5 Hz, Chebyshev I type), and corresponding
+
+frequency band optimization, to enhance the target vibration signal and reduce background
+
+interference  (Figure  25b).  After  envelope  extraction  and  peak  detection,  different
+
+physiological events can be distinguished, including RR, HR, and swallowing behavior (SW).
+
+The overall process is shown in Figure 25d.
+
+    Based on the processed signals, Figure 25f shows that the device can stably extract HR
+
+features and measures a HR of 55.3 bpm, which is within the physiological range of adults at
+
+rest. Similarly, after decoupling the y-axis signal, the low-frequency periodic vibration changes
+
+caused by lung expansion can be clearly identified, resulting in a RR of 18.4 rpm (Figure 25e),
+
+which  is consistent with the normal adult respiratory frequency range. For swallowing
+
+monitoring, since this action has the characteristics of low frequency, high amplitude, and
+
+sparse timing, by extracting the envelope through Hilbert transformation and supplemented by
+
+low-pass  filtering, SW can be stably detected (Figure 25g-h), and swallowing can be
+
+distinguished from background motion noise.
+
+
+
+
+
+                                              46
+
+===== SOURCE PAGE 48 =====
+Figure 25. Analyze HR, RR and swallowing (SW) event using acceleration data analysis.
+a, Comparison of raw triaxial acceleration with 2Hz low-pass filtering. b, The comparison
+chart of Z-axis acceleration analysis with original data, detrended data and 0.2–5 Hz band-
+pass filtering, using Chebyshev Type I filter. c, PSD of Z-axis acceleration. d, Schematic
+
+                                              47
+
+===== SOURCE PAGE 49 =====
+block diagram of the algorithm. e, Band-pass filtering is performed within the range of 0.1 to
+0.8 Hz to highlight the respiratory rhythm. f, Signal Detrending & Band-pass (0.1–5 Hz) &
+Peak detection. g, A band-pass filter is applied at 80-90 Hz to highlight the features related to
+SW. h, Smoothed Envelope & Detected Peaks for SW Events.
+
+4.3.2 Analysis of audio signals
+
+     In  this study, the acoustic features of  clinical speech data were analyzed. Using
+
+representative male samples, we compared healthy individuals with patients diagnosed with
+
+four common voice disorders: vocal cord cyst, laryngeal edema, vocal cord polyps, and vocal
+
+nodules. The analyzed features included Jitter, Shimmer, HNR, CPP, Vocal Range, F0 SD, and
+
+Singing Power Ratio (SPR). These parameters collectively represent the stability of the sound
+
+source, source quality and functional acoustic performance.
+
+    As shown  in Figure  26(a-d),  Jitter, Shimmer, HNR and CPP exhibit  consistent
+
+differentiation patterns in terms of source stability between healthy and pathological voices.
+
+Jitter reflects the periodic fluctuations of F0 and is the core indicator of frequency stability.
+
+Healthy individuals show the lowest Jitter, while structural lesions (such as polyps and cysts)
+
+increase due to their impact on vocal cord closure and the regularity of periodic vibration.
+
+Shimmer describes amplitude stability and reflects the consistency of vocal cord vibration
+
+energy output. Like  Jitter, pathological samples show a significant increase, suggesting
+
+insufficient airflow leakage and amplitude regulation during vocalization. HNR represents the
+
+ratio of harmonic to noise energy and is an important signal of sound source quality. Healthy
+
+voices have a higher HNR, while pathological voices significantly decrease due to disordered
+
+vibration and increased turbulence, which is associated with hoarseness. CPP is an objective
+
+indicator that has been widely used in clinical practice in recent years, which can quantify the
+
+significance of F0 components in the cephalogram domain. Figure 26d shows that healthy
+
+voice samples have a higher CPP, while damaged vocal cord structures lead to a significant
+
+decrease in CPP, which is related to hoarseness.
+
+    As shown in Figure 26(e-f), apart from the stability of the sound source, there are also
+
+differences in the functional acoustic performance. Vocal Range represents the effective pitch
+
+range that can be produced. Healthy individuals generally exhibit a wider vocal range, while
+
+vocal cord disorders limit the vibration boundaries, resulting in a narrowed vocal range. F0 SD
+
+reflects the dynamic ability of pitch changes during speech production. Healthy samples show
+                                              48
+
+===== SOURCE PAGE 50 =====
+a higher fluctuation amplitude, while pathological speech tends to be monotonous or restricted.
+
+     Finally, as can be seen from Figure 26g, the discriminatory power of SPR is relatively
+
+limited, suggesting that this parameter may have insufficient sensitivity for structural vocal
+
+cord lesions, or  it may be more valuable for diagnosis only in specific vocal production
+
+situations, such as singing.
+
+
+
+
+
+Figure 26. Comparative analysis of vocal parameters between healthy subjects and
+individuals with voice disorders (taking male individuals as an example). These charts only
+display male samples from cases of the four main causes of voice disorders in patients, with all
+patient information anonymized. Comparative analysis related to jitter(a), shimmer(b) , HNR
+                                              49
+
+===== SOURCE PAGE 51 =====
+(c), CPP(d), F0max & F0min(e), F0 SD(f) and SPR(g).
+
+4.4 Machine learning model performance
+
+    To verify the effectiveness of the proposed model in the task of voice state classification,
+
+this study evaluated the model's performance on the test set. The final performance of the model
+
+is shown in the Table 5.
+Table 5. Model evaluation metrics table.
+
+ Category             Precision         Recall                 F1-score               Support
+
+ Pathological voice     0.97              0.99                   0.98                  160
+
+ Normal case          0.98              0.95                   0.97                   111
+
+    The model's classification of Pathological voice is very stable, with a Precision of 0.97, a
+
+Recall of 0.99, and an F1-score of 0.98. This indicates that the model can effectively identify
+
+most pathological voice samples with a very low error rate. For the classification of Normal
+
+voice, the Precision is 0.98, the Recall is 0.95, and the F1-score is 0.97. Although the Recall is
+
+slightly lower than that of the Pathological voice, the overall reliability is high, indicating that
+
+the model has achieved a balance between reducing false positives and false negatives.
+
+However, the Recall for Pathological voice is 0.99, while that for Normal voice is 0.95. This
+
+shows that the model is more inclined to classify the voice as pathological. Nevertheless, this
+
+result is in line with the clinical usage logic. In a medical diagnosis system, it is better to
+
+misclassify normal voice as pathological voice rather than vice versa. At the same time, such
+
+misclassification may cause unnecessary tension for users of normal voice. As a medical-
+
+assisted intelligent device, the true clinical diagnosis still requires the combination of a doctor's
+
+diagnosis to provide the best rehabilitation plan.
+
+    The overall classification accuracy of the model is 97.7%, and the Macro-F1 score is 0.975.
+
+The model  not  only  performs  well  for  individual  classes  but  also  maintains  stable
+
+generalization ability even in the case of class imbalance. The category distribution of the
+
+model's prediction results is further visualized through the confusion matrix (Figure 27). This
+
+model successfully identified 158/160 pathological voice samples and 106/111 normal samples.
+
+It can be observed that classification errors are mainly concentrated in the few cases where
+
+normal speech is mistakenly identified as pathological speech, but there is no large-scale
+
+misclassification phenomenon, which is consistent with the Recall result.
+
+
+
+                                              50
+
+===== SOURCE PAGE 52 =====
+Figure 27. Confusion matrix.
+    This study also attempted to use WavLM as the backbone network for acoustic feature
+
+extraction. However, under the same training strategy, its performance was slightly lower than
+
+that of HuBERT. We speculate that this might be related to the differences in the pre-training
+
+objectives and acoustic feature expression mechanisms of the two models. HuBERT is more
+
+inclined towards modeling structural speech features, thus performing better in detecting
+
+pathological features of voices.
+
+4.5 Speech sample analysis
+
+    To demonstrate the performance of the constructed system in the analysis of actual speech
+
+samples, this study selected one healthy subject and several representative patients with voice
+
+disorders as examples. Figure 28a presents the speech analysis output of a healthy individual.
+
+The system can simultaneously display time-frequency domain acoustic features, including the
+
+curve of F0 over time, spectral structure, and time-domain waveform. At the same time, the
+
+system automatically calculates multiple objective acoustic parameters and compares them
+
+with the preset thresholds and the normal database to generate quantitative feature feedback
+
+and brief suggestions. This result indicates that the system can stably, continuously, and multi-
+
+dimensionally extract parameters from healthy speech signals. Figure 28b shows the speech
+
+analysis results of several other representative cases.
+
+
+
+
+
+                                              51
+
+===== SOURCE PAGE 53 =====
+Figure 28. Voice analysis results (partial). a, Taking healthy individuals as an example. b,
+The results of voice analysis for some representative cases.
+
+
+Chapter 5 Discussion
+
+5.1 Limitations
+
+    Although this thesis has made certain progress in the research of wearable devices,
+
+analysis models, and system integration, due to practical, design, and technical limitations
+
+caused by factors such as time constraints and difficulties in conducting clinical experiments,
+
+there are still some issues that require further research and improvement.
+
+    The hardware produced is merely a data collection device. Currently, it needs to interact
+
+with the designed mobile application software. Therefore, the device still needs to improve in
+
+terms of user interface friendliness and intelligence. Moreover, in terms of device size, the
+
+selected MCU chip has the drawback of slightly larger volume. In daily use, there are problems
+
+such as inconvenient battery external connection and small capacity. And although the mobile
+
+application has verified its usability, issues related to privacy protection, continuous interaction
+
+experience, and long-term compliance in actual clinical use scenarios  still need further
+
+verification and optimization.
+
+    The current hardware has integrated audio and accelerometer sensors, but there is still
+
+                                              52
+
+===== SOURCE PAGE 54 =====
+potential for further reduction in overall size. Future iterations may enhance the wearable
+
+nature and long-term comfort of the device by using smaller and more advanced MCUs and
+
+reducing the number of sensors. Existing research [54-57] indicates that there is a high
+
+correlation between the neck vibration patterns based on accelerometers and acoustic speech
+
+features, meaning that a single-modal system relying solely on accelerometers may also be
+
+feasible. However, if relying solely on acceleration signals, two issues need to be addressed:
+
+Firstly, there is currently a lack of a mature mapping system from acceleration signals to clinical
+
+acoustic  indicators, which cannot  directly correspond  to  the commonly used acoustic
+
+assessment standards in hospitals. Secondly, the feature dimensions and interpretability
+
+extractable from acceleration signals are not as good as those from speech signals. Therefore,
+
+although the dual-modal acquisition function of the hardware has been achieved, adopting a
+
+dual-modal  strategy remains a reasonable choice  for balancing  reliability and  clinical
+
+application feasibility. However, cross-modal feature fusion algorithms and real-time reasoning
+
+mechanisms are still in the early stages of development.
+
+    This study has revealed through analysis that the vibration signals received by the
+
+acceleration sensor can separate out the RR, HR, and SW. However, these physiological factors
+
+have not yet been incorporated into the classification and recognition model. At the same time,
+
+the scale of the training data for the existing model and the participant population are still
+
+relatively limited, and they are not sufficient to cover various clinical subtypes such as different
+
+age groups, language backgrounds, and voice disorders. Therefore, the generalization ability
+
+of the model still needs to be verified through larger-scale, multi-center clinical data.
+
+5.2 Future works
+
+5.2.1 Multimodal data acquisition
+
+     Currently, this research mainly conducts analysis and model training based on the voice
+
+signals collected by the microphone in the device. Although audio signals are the most crucial
+
+assessment basis in the clinical voice diagnosis system, a single acoustic dimension cannot
+
+fully reflect the physiological functional changes during the vocalization process. In contrast,
+
+the acceleration signals obtained simultaneously in the device can be used to extract features
+
+related to physiological activities, thereby providing additional information for voice behavior.
+
+
+                                              53
+
+===== SOURCE PAGE 55 =====
+This flexible wearable device can collect real-time voice and neck vibration signals, providing
+
+a technical foundation for constructing a multimodal voice rehabilitation monitoring system.
+
+Therefore, subsequent research will conduct multimodal data collection experiments based on
+
+voice signals and acceleration signals (refer to Section 3.4.4).
+
+5.2.2 Algorithm improvement
+
+     Future research will explore multimodal feature fusion strategies to enhance the accuracy
+
+of the model in understanding and recognizing voice states. The research will attempt to
+
+integrate time-frequency domain features with temporal dynamic features, and introduce
+
+adaptive  denoising,  signal enhancement, and sequence modeling techniques based on
+
+Transformer to increase the model's sensitivity to signal changes in real complex scenarios.
+
+    Based on this, the upcoming multimodal deep learning model will learn the corresponding
+
+relationships between different acoustic and vibration patterns and pathological states to
+
+achieve the assessment of voice damage severity, the differentiation of pathological types, and
+
+the prediction of rehabilitation trends. The results will be fed back to the system in real time
+
+for reasoning decisions, output of rehabilitation suggestions, and optimization of personalized
+
+training plans. The expected complete functional framework is shown in Figure 29.
+
+
+
+
+
+Figure 29. Block functional diagram showing the processing steps of the system' s algorithm.
+     In terms of data structure, the model will jointly process the voice signals collected by the
+
+flexible wearable device and the neck acceleration vibration signals, thereby forming a four-
+
+channel time series input vector consisting of the voice waveform (Audio-1D) and the triaxial
+                                              54
+
+===== SOURCE PAGE 56 =====
+signals (Acc-X, Acc-Y, Acc-Z) from the accelerometer. The formal expression is as follows.
+
+                𝐹𝑉  =  [𝑥𝑎𝑢𝑑𝑖𝑜(𝑡), 𝑥𝑎𝑐𝑐−𝑥(𝑡), 𝑥𝑎𝑐𝑐−𝑦(𝑡), 𝑥𝑎𝑐𝑐−𝑧(𝑡)],  𝐹𝑉∈𝑅𝟜×𝑇
+
+    Meanwhile, to meet the requirements of real-time feedback, low-power operation and
+
+deployment  of wearable systems, subsequent  research  will  also consider optimization
+
+strategies such as model lightweighting, enabling the constructed intelligent model to achieve
+
+stable operation on embedded platforms.
+
+5.2.3 Clinical verifications
+
+    To evaluate the effectiveness and application potential of the system in real clinical
+
+scenarios, a controlled clinical trial will be conducted in the future, involving patients with
+
+different types of voice disorders. The performance of the algorithm and the rehabilitation
+
+outcomes will be verified. The evaluation indicators will cover changes in acoustic parameters,
+
+patient compliance, user experience, rehabilitation effectiveness, and long-term follow-up data.
+
+5.2.4 Optimization of wearable systems
+
+    From the perspective of engineering implementation, the system will be further optimized
+
+in terms of its shape structure, hardware stability, and continuous monitoring capabilities in the
+
+future. The upcoming version will conduct iterative optimizations on the flexible silicone
+
+structure, circuit layout, and sensor packaging. At the same time, cross-platform software will
+
+be developed, including the user interface for mobile devices, the clinical visualization
+
+platform based on PC, and the cloud data management system, to support remote monitoring,
+
+personalized training suggestions, and clinical decision assistance.
+
+
+
+Chapter 6 Conclusion
+
+    This research focuses on the “Personalized Intelligent Voice Rehabilitation Wearable
+
+System”. It covers the entire process from comprehensive system design, flexible hardware
+
+development and manufacturing, signal acquisition and preprocessing, to the voice signal
+
+analysis based on deep learning, and has constructed an end-to-end solution that can be applied
+
+in both clinical and home rehabilitation.
+
+    The research conducted systematic optimizations on the selection and layout of sensors,
+
+flexible structure design, flexible material selection, wearing comfort, and signal stability.
+
+                                              55
+
+===== SOURCE PAGE 57 =====
+Additionally, considering the dynamic structure of the neck and the requirements for long-term
+
+wearing, a low-cost, scalable, and producible wearable hardware solution was designed and
+
+fabricated. Stable multi-modal signal acquisition was achieved, providing a reliable foundation
+
+for the subsequent construction and training of dual-modal algorithms.
+
+    At the software level, this research has designed an intelligent mobile application for
+
+people with voice disorders and medical personnel, which can achieve functions such as real-
+
+time monitoring, training guidance, and rehabilitation feedback. The software system adopts a
+
+guided flow design, breaking down complex vocal tasks into sequential and executable steps.
+
+It also combines card-style interface design, diverse feedback mechanisms, and a lightweight
+
+and lively design style, making the software not only easy to use and understandable, but also
+
+providing patients with an inspiring rehabilitation experience.
+
+    At the algorithmic level, based on the actual clinical speech data collected in the previous
+
+stage, this study employed self-supervised pre-training acoustic models such as HuBERT and
+
+WavLM as feature extractors, and through the transfer learning strategy, performed model fine-
+
+tuning under the condition of small samples, achieving effective classification of pathological
+
+voices and normal voices. The model achieved high recognition ability on the validation set,
+
+demonstrating the feasibility of the algorithmic scheme in the pathological speech scenario.
+
+    Although the research has achieved some interim results, there are still several limitations.
+
+There is room for improvement in aspects such as data scale, algorithm generalization ability,
+
+interactive experience, and clinical adaptability. Future work will further expand the scale of
+
+patient data, strengthen the research on dual-modal fusion algorithms, optimize the interface
+
+interaction experience, and conduct follow-up tests in real clinical scenarios to continuously
+
+improve the system functions.
+
+     Overall, this study has verified the technical feasibility of the wearable intelligent
+
+laryngeal rehabilitation system and has established a complete engineering and scientific
+
+framework from hardware design to signal processing, and from experiments to model training.
+
+The preliminary results have demonstrated that speech analysis based on deep learning has
+
+good potential for identifying pathological voices. However, to advance the system to clinical
+
+application and productization, more multi-modal measured data need to be supplemented,
+
+
+
+                                              56
+
+===== SOURCE PAGE 58 =====
+clinical verification at the system level needs to be completed, and the robustness of the
+
+equipment in daily usage scenarios needs to be improved. Based on the current work foundation,
+
+if the above improvement directions are followed, this project will have strong value.
+
+
+
+
+
+                                              57
+
+===== SOURCE PAGE 59 =====
+References
+
+[1] Roy, N., Merrill, R. M., Gray, S. D. and Smith, E. M. Voice Disorders in the General Population: Prevalence,
+
+Risk Factors, and Occupational Impact. TheLaryngoscope, 115, 11 (2005/11/01 2005), 1988-1995.
+
+[2] Phyland, D.  J., Thibeault, S.  L., Benninger, M. S., Vallance, N., Greenwood, K. M. and Smith,  J. A.
+
+Perspectives on the Impact on Vocal Function of Heavy Vocal Load Among Working Professional Music
+
+Theater Performers. JournalofVoice, 27, 3 (2013/05/01/ 2013), 390.e331-390.e339.
+
+[3] Deary, I. J., Scott, S., Wilson, I. M., White, A., MacKenzie, K. and Wilson, J. A. J. B. J. o. H. P. Personality
+
+and psychological distress in dysphonia, 2, 4 (1997), 333-341.
+
+[4] Naunheim, M. A.-O., Goldberg, L., Dai, J. B., Rubinstein, B. J. and Courey, M. A.-O. Measuring the impact
+
+of dysphonia on quality of life using health state preferences. TheLaryngoscope, Volume130, Issue4, 1531-
+
+4995 (Electronic) (2020).
+
+[5] Rosen, C. A., Lee, A. S., Osborne, J., Zullo, T. and Murry, T. Development and Validation of the Voice
+
+Handicap Index-10, 114, 9 (2004), 1549-1556.
+
+[6] Scott, S., Robinson, K., Wilson, J., Mackenzie, K. J. C. O. and Sciences, A. Patient‐reported problems
+
+associated with dysphonia, 22, 1 (1997), 37-40.
+
+[7] Che, Z., Wan, X., Xu, J., Duan, C., Zheng, T. and Chen, J. Speaking without vocal folds using a machine-
+
+learning-assisted wearable sensing-actuation system. NatureCommunications, 15, 1 (2024/03/12 2024),
+
+1873.
+
+[8] Jeong, H., Yoo, J. Y., Ouyang, W., Greane, A., Wiebe, A. J., Huang, I., Lee, Y. J., Lee, J. Y., Kim, J., Ni, X.,
+
+Kim, S., Huynh, H. L., Zhong, I., Chin, Y. X., Gu, J., Johnson, A. M., Brancaccio, T. and Rogers, J. A. Closed-
+
+loop network of skin-interfaced wireless devices for quantifying vocal fatigue and providing user feedback.
+
+ProcNatlAcadSciUSA, 120, 9 (Feb 28 2023), e2219394120.
+
+[9] Liu, T., Zhang, M., Li, Z., Dou, H., Zhang, W., Yang, J., Wu, P., Li, D. and Mu, X. Machine learning-assisted
+
+wearable sensing systems  for speech recognition and  interaction. Nature Communications, 16, 1
+
+(2025/03/10 2025), 2363.
+
+[10] Yang, Q., Jin, W., Zhang, Q., Wei, Y., Guo, Z., Li, X., Yang, Y., Luo, Q., Tian, H. and Ren, T.-L. Mixed-
+
+modality speech recognition and interaction using a wearable artificial throat. NatureMachineIntelligence,
+
+5, 2 (2023/02/01 2023), 169-180.
+
+[11] Lee, H. K., Park, S. U., Kong, S., Ryu, H., Kim, H. B., Lee, S. H., Kang, D., Shin, S. H., Yu, K. J., Cho, J., Kang,
+
+J., Chun, I. Y., Park, H. Y. and Won, S. M. Real-time deep learning-assisted mechano-acoustic system for
+
+respiratory diagnosis and multifunctional classification. npjFlexibleElectronics, 8, 1 (2024/10/21 2024), 69.
+
+[12] Xu, Y., De la Paz, E., Paul, A., Mahato, K., Sempionatto, J. R., Tostado, N., Lee, M., Hota, G., Lin, M.,
+
+Uppal, A., Chen, W., Dua, S., Yin, L., Wuerstle, B. L., Deiss, S., Mercier, P., Xu, S., Wang, J. and Cauwenberghs,
+
+G. In-ear integrated sensor array for the continuous monitoring of brain activity and of lactate in sweat.
+
+NatureBiomedicalEngineering, 7, 10 (2023/10/01 2023), 1307-1320.
+
+[13] Rehman, M. U., Shafique, A., Azhar, Q.-U.-A., Jamal, S. S., Gheraibia, Y. and Usman, A. B. Voice disorder
+
+detection using machine learning algorithms: An application in speech and language pathology, 133, PA %J
+
+Eng. Appl. Artif. Intell. (2024), 16.
+
+[14] Verde, L., Brancati, N., Pietro, G. D., Frucci, M. and Sannino, G. A Deep Learning Approach for Voice
+
+Disorder Detection for Smart Connected Living Environments, 22, 1 %J ACM Trans. Internet Technol. (2021),
+
+Article 8.
+
+[15] Peng, X., Xu, H., Liu, J., Wang, J. and He, C. Voice disorder classification using convolutional neural
+
+network based on deep transfer learning. ScientificReports, 13, 1 (2023/05/04 2023), 7264.
+
+
+                                              58
+
+===== SOURCE PAGE 60 =====
+[16] Sankaran, A. and Kumar,  L.  S.  J.  I. A. Advances in Automated Voice Pathology Detection: A
+
+Comprehensive Review of Speech Signal Analysis Techniques (2024).
+
+[17] Awan, S. N., Bahr, R., Watts, S., Boyer, M., Budinsky, R. and Bensoussan, Y. Validity of Acoustic Measures
+
+Obtained Using  Various Recording Methods  Including Smartphones With and Without Headset
+
+Microphones. JournalofSpeech,Language,andHearingResearch, 67, 6 (2024), 1712-1730.
+
+[18] Noffs, G., Cobler-Lichter, M., Perera, T., Kolbe, S. C., Butzkueven, H., Boonstra, F. M. C., van der Walt,
+
+A. and Vogel, A. P. Plug-and-Play Microphones for Recording Speech and Voice with Smart Devices. Folia
+
+PhoniatrLogop, Volume 76, Issue 4, 1421-9972 (Electronic) (2024).
+
+[19] Canali, S., Schiaffonati, V. and Aliverti, A. Challenges and recommendations for wearable devices in
+
+digital health: Data quality, interoperability, health equity, fairness. PLOS Digital Health, 1, 10 (2022),
+
+e0000104.
+
+[20] Ates, H. C., Nguyen, P. Q., Gonzalez-Macia, L., Morales-Narváez, E., Güder, F., Collins, J. J. and Dincer,
+
+C. End-to-end design of wearable sensors. NatureReviewsMaterials, 7, 11 (2022/11/01 2022), 887-907.
+
+[21] Zhang, Y., Pratap, A., Folarin, A. A., Sun, S., Cummins, N., Matcham, F., Vairavan, S., Dineley, J., Ranjan,
+
+Y., Rashid, Z., Conde, P., Stewart, C., White, K. M., Oetzmann, C., Ivan, A., Lamers, F., Siddi, S., Rambla, C. H.,
+
+Simblett, S., Nica, R., Mohr, D. C., Myin-Germeys, I., Wykes, T., Haro, J. M., Penninx, B. W. J. H., Annas, P.,
+
+Narayan, V. A., Hotopf, M., Dobson, R. J. B. and consortium, R.-C. Long-term participant retention and
+
+engagement patterns in an app and wearable-based multinational remote digital depression study. npj
+
+DigitalMedicine, 6, 1 (2023/02/17 2023), 25.
+
+[22] Ozolcer, M. and Bae, S. W. J. a. p. a. Sepa: A search-enhanced predictive agent for personalized health
+
+coaching (2025).
+
+[23] Iyer, A., Kemp, A., Rahmatallah, Y., Pillai, L., Glover, A., Prior, F., Larson-Prior, L. and Virmani, T. A
+
+machine learning method to process voice samples for identification of Parkinson’s disease. Scientific
+
+Reports, 13, 1 (2023/11/23 2023), 20615.
+
+[24] Verma, V., Benjwal, A., Chhabra, A., Singh, S. K., Kumar, S., Gupta, B. B., Arya, V. and Chui, K. T. A novel
+
+hybrid model integrating MFCC and acoustic parameters for voice disorder detection. ScientificReports,
+
+13, 1 (2023/12/20 2023), 22719.
+
+[25] Rädsch, T., Reinke, A., Weru, V., Tizabi, M. D., Schreck, N., Kavur, A. E., Pekdemir, B., Roß, T., Kopp-
+
+Schneider, A. and Maier-Hein, L. Labelling instructions matter in biomedical image analysis. Nature
+
+MachineIntelligence, 5, 3 (2023/03/01 2023), 273-283.
+
+[26] Sylolypavan, A., Sleeman, D., Wu, H. and Sim, M. The impact of inconsistent human annotations on AI
+
+driven clinical decision making. npjDigitalMedicine, 6, 1 (2023/02/21 2023), 26.
+
+[27] Yang, F., Zamzmi, G., Angara, S., Rajaraman, S., Aquilina, A., Xue, Z., Jaeger, S., Papagiannakis, E. and
+
+Antani, S. K. Assessing Inter-Annotator Agreement for Medical Image Segmentation. IEEEAccess, 11 (2023),
+
+21300-21312.
+
+[28] Sokol, K., Fackler, J. and Vogt, J. E. Artificial intelligence should genuinely support clinical reasoning
+
+and decision making to bridge the translational gap. npjDigitalMedicine, 8, 1 (2025/06/10 2025), 345.
+
+[29] Feng, J., Phillips, R. V., Malenica,  I., Bishara, A., Hubbard, A. E., Celi, L. A. and Pirracchio, R. Clinical
+
+artificial intelligence quality improvement: towards continual monitoring and updating of AI algorithms in
+
+healthcare. npjDigitalMedicine, 5, 1 (2022/05/31 2022), 66.
+
+[30] Xu, H., Zheng, W., Zhang, Y., Zhao, D., Wang, L., Zhao, Y., Wang, W., Yuan, Y., Zhang, J., Huo, Z., Wang,
+
+Y., Zhao, N., Qin, Y., Liu, K., Xi, R., Chen, G., Zhang, H., Tang, C., Yan, J., Ge, Q., Cheng, H., Lu, Y. and Gao, L.
+
+A fully integrated, standalone stretchable device platform with in-sensor adaptive machine learning for
+
+rehabilitation. NatCommun, 14, 1 (Nov 27 2023), 7769.
+
+                                              59
+
+===== SOURCE PAGE 61 =====
+[31] Speyer, R. Effects of voice therapy: a systematic review, 1873-4588 (Electronic) (2008).
+
+[32] Al-Hussain, O. H. Assessing the Effectiveness of Voice Therapy Techniques in Treating Dysphonia: An
+
+Otolaryngological Review, 2168-8184 (Print) (2024).
+
+[33] Castillo-Allendes, A., Cantor-Cutiva, L. C. and Hunter, E. J. Acoustic Effects of Vocal Warm-Up: A 7-
+
+Week Longitudinal Case Study, 1873-4588 (Electronic) (2025).
+
+[34] Rodríguez, D., Guzman, M., Brito, P. and Llorens, R. Ecological Validity of Self-Perceived Voice Quality
+
+and Acoustic Measures During Voice Assessments: An Observational Study on Faculty Teachers. Journalof
+
+Speech,Language,andHearingResearch, 68, 2 (2025/02/04 2025), 478-490.
+
+[35] Lam, D., Xu, K. and Mirza, N. Is Postoperative Voice Rest Unnecessary? A Systematic Review and Meta-
+
+analysis  of  Voice  Rest Recommendation  Outcomes.  LID  -  S0892-1997(24)00304-7  [pii]  LID  -
+
+10.1016/j.jvoice.2024.09.013 [doi], 1873-4588 (Electronic) (2024).
+
+[36] Jenkins, P., Harrison, R., Bedrick, S., Karstens, L. and Hersh, W. Voice as a biomarker: exploratory analysis
+
+for benign and malignant vocal fold lesions, 2673-253X (Electronic) (2025).
+
+[37] Ksibi, A., Hakami, N. A., Alturki, N., Asiri, M. M., Zakariah, M. and Ayadi, M. VoicePathologyDetection
+
+UsingaTwo-LevelClassifierBasedonCombinedCNN–RNNArchitecture. City, 2023.
+
+[38] Lee, J. B. and Lee, H. G. Quantitative analysis of automatic voice disorder detection studies for hybrid
+
+feature and classifier selection. BiomedicalSignalProcessingandControl, 91 (2024/05/01/ 2024), 106014.
+
+[39] Kim, Y., Kim, T., Kang, W., Park, E., Yoon, J., Lee, D., Liu, X., McDuff, D., Lee, H. and Breazeal, C. J. a. p.
+
+a. VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation (2025).
+
+[40] Liu, S., Wright, A. P., McCoy, A. B., Huang, S. S., Genkins, J. Z., Peterson, J. F., Kumah-Crystal, Y. A.,
+
+Martinez, W., Carew, B., Mize, D., Steitz, B. and Wright, A. Using large language model to guide patients to
+
+create efficient and comprehensive clinical care message. Journal of the American Medical Informatics
+
+Association, 31, 8 (2024), 1665-1670.
+
+[41] Kim, D.-H., Ahn, J.-H., Choi, W. M., Kim, H.-S., Kim, T.-H., Song, J., Huang, Y. Y., Liu, Z., Lu, C. and
+
+Rogers, J. A. Stretchable and Foldable Silicon Integrated Circuits, 320, 5875 (2008), 507-511.
+
+[42] Liu, Y., Norton, J. J. S., Qazi, R., Zou, Z., Ammann, K. R., Liu, H., Yan, L., Tran, P. L., Jang, K.-I., Lee, J. W.,
+
+Zhang, D., Kilian, K. A., Jung, S. H., Bretl, T., Xiao, J., Slepian, M. J., Huang, Y., Jeong, J.-W. and Rogers, J. A.
+
+Epidermal mechano-acoustic sensing electronics for cardiovascular diagnostics and human-machine
+
+interfaces, 2, 11 (2016), e1601185.
+
+[43] Ai, L., Lin, W., Cao, C., Li, P., Wang, X., Lv, D., Li, X., Yang, Z. and Yao, X. Tough soldering for stretchable
+
+electronics  by  small-molecule  modulated  interfacial  assemblies. Nature Communications,  14,  1
+
+(2023/11/24 2023), 7723.
+
+[44] Kim, D.-H., Song, J., Choi, W. M., Kim, H.-S., Kim, R.-H., Liu, Z., Huang, Y. Y., Hwang, K.-C., Zhang, Y.-
+
+w. and Rogers, J. A. Materials and noncoplanar mesh designs for integrated circuits with linear elastic
+
+responses to extreme mechanical deformations, 105, 48 (2008), 18675-18680.
+
+[45] Lee, K., Ni, X., Lee, J. Y., Arafa, H., Pe, D. J., Xu, S., Avila, R., Irie, M., Lee, J. H., Easterlin, R. L., Kim, D. H.,
+
+Chung, H. U., Olabisi, O. O., Getaneh, S., Chung, E., Hill, M., Bell, J., Jang, H., Liu, C., Park, J. B., Kim, J., Kim,
+
+S. B., Mehta, S., Pharr, M., Tzavelis, A., Reeder, J. T., Huang, I., Deng, Y., Xie, Z., Davies, C. R., Huang, Y. and
+
+Rogers, J. A. Mechano-acoustic sensing of physiological processes and body motions via a soft wireless
+
+device placed at the suprasternal notch. NatureBiomedicalEngineering, 4, 2 (2020/02/01 2020), 148-158.
+
+[46] Kim, S. H., Na, S. W., Lee, N. E., Nam, Y. W. and Kim, Y.-H. Effect of surface roughness on the adhesion
+
+properties of Cu/Cr films on polyimide substrate treated by inductively coupled oxygen plasma. Surface
+
+andCoatingsTechnology, 200, 7 (2005/12/21/ 2005), 2072-2079.
+
+[47] Yang, Q., Hu, Z., Seo, M.-H., Xu, Y., Yan, Y., Hsu, Y.-H., Berkovich, J., Lee, K., Liu, T.-L., McDonald, S.,
+
+                                              60
+
+===== SOURCE PAGE 62 =====
+Nie, H., Oh, H., Wu, M., Kim, J.-T., Miller, S. A., Jia, Y., Butun, S., Bai, W., Guo, H., Choi, J., Banks, A., Ray, W.
+
+Z., Kozorovitskiy, Y., Becker, M. L., Pet, M. A., MacEwan, M. R., Chang, J.-K., Wang, H., Huang, Y. and Rogers,
+
+J. A. High-speed, scanned laser structuring of multi-layered eco/bioresorbable materials for advanced
+
+electronic systems. NatureCommunications, 13, 1 (2022/10/31 2022), 6518.
+
+[48] Heo, S., Ha, J., Son, S. J., Choi, I. S., Lee, H., Oh, S., Jekal, J., Kang, M. H., Lee, G. J., Jung, H. H., Yea, J.,
+
+Lee, T., Lee, Y., Choi, J.-W., Xu, S., Choi, J. H., Jeong, J.-W., Song, Y. M., Rah, J.-C., Keum, H. and Jang, K.-I.
+
+Instant, multiscale dry transfer printing by atomic diffusion control at heterogeneous interfaces, 7, 28 (2021),
+
+eabh0040.
+
+[49] Sang, M., Kim, K., Shin, J. and Yu, K. J. Ultra-Thin Flexible Encapsulating Materials for Soft Bio-Integrated
+
+Electronics, 9, 30 (2022), 2202980.
+
+[50] Kang, Y. J., Arafa, H. M., Yoo, J.-Y., Kantarcigil, C., Kim, J.-T., Jeong, H., Yoo, S., Oh, S., Kim, J., Wu, C.,
+
+Tzavelis, A., Wu, Y., Kwon, K., Winograd, J., Xu, S., Martin-Harris, B. and Rogers, J. A. Soft skin-interfaced
+
+mechano-acoustic sensors for real-time monitoring and patient feedback on respiratory and swallowing
+
+biomechanics. npjDigitalMedicine, 5, 1 (2022/09/20 2022), 147.
+
+[51] Pützer, M., & Barry, W. J. SaarbrueckenVoiceDatabase. Zenodo, City, 2008.
+
+[52] Wahlsten, A., Stracuzzi, A., Lüchtefeld, I., Restivo, G., Lindenblatt, N., Giampietro, C., Ehret, A. E. and
+
+Mazza,  E.  Multiscale mechanical  analysis of the  elastic modulus of  skin. Acta Biomaterialia, 170
+
+(2023/10/15/ 2023), 155-168.
+
+[53] Maiti, R., Gerhardt, L.-C., Lee, Z. S., Byers, R. A., Woods, D., Sanz-Herrera, J. A., Franklin, S. E., Lewis, R.,
+
+Matcher, S. J. and Carré, M. J. In vivo measurement of skin surface strain and sub-surface layer deformation
+
+induced by natural tissue stretching. Journal of the Mechanical Behavior of Biomedical Materials, 62
+
+(2016/09/01/ 2016), 556-569.
+
+[54] Mehta, D. D., Van Stan,  J. H., Ghasemzadeh, H. and Hillman, R. E. Comparing ambulatory voice
+
+measures during  daily  life with  brief laboratory assessments  in speakers with and without vocal
+
+hyperfunction, 2308-457X (Print) (2024).
+
+[55] Mehta, D. D., Zañartu M Fau - Feng, S. W., Feng Sw Fau - Cheyne, H. A., 2nd, Cheyne Ha 2nd Fau -
+
+Hillman, R. E. and Hillman, R. E. Mobile voice health monitoring using a wearable accelerometer sensor
+
+and a smartphone platform, 1558-2531 (Electronic) (2012).
+
+[56] Lee, S., Kim, J., Yun, I., Bae, G. Y., Kim, D., Park, S., Yi, I.-M., Moon, W., Chung, Y. and Cho, K. An ultrathin
+
+conformable  vibration-responsive   electronic   skin   for   quantitative  vocal  recognition.  Nature
+
+Communications, 10, 1 (2019/06/18 2019), 2468.
+
+[57] Švec, J. G., Titze, I. R. and Popolo, P. S. Estimation of sound pressure levels of voiced speech from skin
+
+vibration of the neck. TheJournaloftheAcousticalSocietyofAmerica, 117, 3 (2005), 1386-1394.
+
+
+
+
+
+                                              61

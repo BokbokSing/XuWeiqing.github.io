@@ -1,0 +1,266 @@
+{
+  "assets": [
+    {
+      "name": "paperverse_ui.png",
+      "url": "/XuWeiqing.github.io/assets/paperverse_ui.png",
+      "category": "project",
+      "caption": "Paperverse interface designed and implemented as a team project.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/paperverse_ui.png",
+      "sha256": "94a11974baf3d02f6db833a4cbc32e79740125837b28c5ea1f8d361ae74d4770"
+    },
+    {
+      "name": "paperverse_blueprint.png",
+      "url": "/XuWeiqing.github.io/assets/paperverse_blueprint.png",
+      "category": "project",
+      "caption": "Apple papercraft blueprint shown in the team demonstration.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/paperverse_blueprint.png",
+      "sha256": "0b49630bcff3fef49d685d65652f77cac3e8cf7c00eb0d9adab92739dcafeb48"
+    },
+    {
+      "name": "paperverse_physical.png",
+      "url": "/XuWeiqing.github.io/assets/paperverse_physical.png",
+      "category": "project",
+      "caption": "Physical papercraft example from team demonstration materials.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/paperverse_physical.png",
+      "sha256": "ae888688165c105684549817e28baf16f472561df688e075e95e52c475bd027c"
+    },
+    {
+      "name": "chi_prototype.png",
+      "url": "/XuWeiqing.github.io/assets/chi_prototype.png",
+      "category": "project",
+      "caption": "Neck-worn sensing prototype from the voice-practice research.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/chi_prototype.png",
+      "sha256": "65998c555966252b08fbc27dc120d75f2a4d022190975c6c79114c8c6be9b6ce"
+    },
+    {
+      "name": "chi_system.png",
+      "url": "/XuWeiqing.github.io/assets/chi_system.png",
+      "category": "project",
+      "caption": "Adaptive voice-practice study system and decision flow.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/chi_system.png",
+      "sha256": "af63a36b53c1bd30f6b96b81c359e5afbfbba5ae2b837ebad7d37f84b7dd3928"
+    },
+    {
+      "name": "chi_effort.png",
+      "url": "/XuWeiqing.github.io/assets/chi_effort.png",
+      "category": "project",
+      "caption": "Aggregated effort and progression study results.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/chi_effort.png",
+      "sha256": "d06a924420aa7c4e32a557dcb1d3941ac7419b6d0f159ab315dd45753be8baf7"
+    },
+    {
+      "name": "jmir_workflow.png",
+      "url": "/XuWeiqing.github.io/assets/jmir_workflow.png",
+      "category": "project",
+      "caption": "Aggregated cohort assembly and patient-group evaluation workflow; contains no individual patient records.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/jmir_workflow.png",
+      "sha256": "648835ea7ce670b6b1d167ef79cf351c69ddfb1916daed906071d7e94c5e0d14"
+    },
+    {
+      "name": "master_app_overview.png",
+      "url": "/XuWeiqing.github.io/assets/master_app_overview.png",
+      "category": "project",
+      "caption": "Voice rehabilitation application overview.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/master_app_overview.png",
+      "sha256": "794ef40c0ff0edf2d80ce428de489c6d9b7a811c9bf697afc313a394c8c63dd6"
+    },
+    {
+      "name": "master_signals.png",
+      "url": "/XuWeiqing.github.io/assets/master_signals.png",
+      "category": "project",
+      "caption": "Wearable sensing signal illustration.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/master_signals.png",
+      "sha256": "9f4efb51491c1031ed8c1e721c9dfc355a1f68dc5fb56ee3accb47311eba482d"
+    },
+    {
+      "name": "iot_p2_1.png",
+      "url": "/XuWeiqing.github.io/assets/iot_p2_1.png",
+      "category": "project",
+      "caption": "IoT intravenous monitoring prototype, original report image.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/iot_p2_1.png",
+      "sha256": "4eb0c591b1f6f4d017fcb8a1ef03cc6104d3d5b0a403c1bf4ae5f074eff9b4ba"
+    },
+    {
+      "name": "iot_p2_2.jpeg",
+      "url": "/XuWeiqing.github.io/assets/iot_p2_2.jpeg",
+      "category": "project",
+      "caption": "IoT intravenous monitoring prototype, original report image.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/iot_p2_2.jpeg",
+      "sha256": "5cccd697e862ccd43bf8c00e99f16087e6fbf7e3819ed0f0f2a16e39a61c8b17"
+    },
+    {
+      "name": "iot_p2_3.jpeg",
+      "url": "/XuWeiqing.github.io/assets/iot_p2_3.jpeg",
+      "category": "project",
+      "caption": "IoT intravenous monitoring prototype, original report image.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/iot_p2_3.jpeg",
+      "sha256": "005b2c06d6a3e2265814365a63612d18494bf2782996e5768a3924968604e920"
+    },
+    {
+      "name": "iot_p3_1.png",
+      "url": "/XuWeiqing.github.io/assets/iot_p3_1.png",
+      "category": "project",
+      "caption": "IoT intravenous monitoring prototype, original report image.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/iot_p3_1.png",
+      "sha256": "39880de486b8528601a72c2749f34f3f090f74392b54b70fefffad58d5258443"
+    },
+    {
+      "name": "jersey_home.png",
+      "url": "/XuWeiqing.github.io/assets/jersey_home.png",
+      "category": "project",
+      "caption": "Custom jersey storefront interface.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/jersey_home.png",
+      "sha256": "6a167ae2dc2c65a5f3cdce5cc3b43a590ef828b40e85ae89c413893485b459d7"
+    },
+    {
+      "name": "jersey_shop.png",
+      "url": "/XuWeiqing.github.io/assets/jersey_shop.png",
+      "category": "project",
+      "caption": "Custom jersey shop interface.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/jersey_shop.png",
+      "sha256": "3c0aa27b547287dc848cb861b1ce6b0c9accf9a05bd8e32017cc372d2512e6cf"
+    },
+    {
+      "name": "jersey_product.png",
+      "url": "/XuWeiqing.github.io/assets/jersey_product.png",
+      "category": "project",
+      "caption": "Custom jersey product interface.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/jersey_product.png",
+      "sha256": "ee2523f348f99541550473422424b961404e1154d99a9a378af96f5ef75af5a4"
+    },
+    {
+      "name": "shoe_home.png",
+      "url": "/XuWeiqing.github.io/assets/shoe_home.png",
+      "category": "project",
+      "caption": "Sneaker storefront interface.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/shoe_home.png",
+      "sha256": "b0ba57b72412f5ca7f8d1ddf149a2bc53a14e7dd25b2705edc8ba42051663b1d"
+    },
+    {
+      "name": "shoe_product.png",
+      "url": "/XuWeiqing.github.io/assets/shoe_product.png",
+      "category": "project",
+      "caption": "Sneaker product interface.",
+      "source": "/home/xu/Personal Info/Project Evidence Library/assets/shoe_product.png",
+      "sha256": "a90b490ab60a26686001a872bddaf831e75dc1e4b439523b4ca315abe52b6a8e"
+    },
+    {
+      "name": "fox-model.glb",
+      "url": "/XuWeiqing.github.io/assets/fox-model.glb",
+      "category": "model",
+      "caption": "Existing Paperverse fox demo model; does not contain unfolding animation.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/fox-model.glb",
+      "sha256": "543f2e3ba16c1a6736010485aa19cce40cc627ea178404e5a0ec66c3c43a7227"
+    },
+    {
+      "name": "fox-blueprint.png",
+      "url": "/XuWeiqing.github.io/assets/fox-blueprint.png",
+      "category": "blueprint",
+      "caption": "Matching fox printable template from the existing demo assets.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/fox-printable-page-1.png",
+      "sha256": "3b57dbe8d05b3a392eccaf9ecb4e1291c416c8213d074df9934c0426dae8d1fd"
+    },
+    {
+      "name": "fox-blueprint-2.png",
+      "url": "/XuWeiqing.github.io/assets/fox-blueprint-2.png",
+      "category": "blueprint",
+      "caption": "Matching fox printable template from the existing demo assets.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/fox-printable-page-2.png",
+      "sha256": "ba271d9e65ca845bcc2efa86b2449e44cf019e6f7a054c202e7b10d3f8af317e"
+    },
+    {
+      "name": "fox-blueprint-3.png",
+      "url": "/XuWeiqing.github.io/assets/fox-blueprint-3.png",
+      "category": "blueprint",
+      "caption": "Matching fox printable template from the existing demo assets.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/fox-printable-page-3.png",
+      "sha256": "b45b38295feb3855d1f9f156f6d24bc5404777cd7e5a96ca5a6890c51c3ceb24"
+    },
+    {
+      "name": "fox-blueprint-4.png",
+      "url": "/XuWeiqing.github.io/assets/fox-blueprint-4.png",
+      "category": "blueprint",
+      "caption": "Matching fox printable template from the existing demo assets.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/fox-printable-page-4.png",
+      "sha256": "0458699d5c4bd9e3b30ffa27d481bee895386c1a5401ff19b2571667f251f8ec"
+    },
+    {
+      "name": "fox-blueprint-5.png",
+      "url": "/XuWeiqing.github.io/assets/fox-blueprint-5.png",
+      "category": "blueprint",
+      "caption": "Matching fox printable template from the existing demo assets.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/fox-printable-page-5.png",
+      "sha256": "c431ef3005214b2b3c74a8a8bbe9bdebda80e89a61a2233e3f274333ca0847ae"
+    },
+    {
+      "name": "fox-reference.png",
+      "url": "/XuWeiqing.github.io/assets/fox-reference.png",
+      "category": "project",
+      "caption": "Reference from existing Paperverse fox demo materials.",
+      "source": "/home/xu/datasets/papercraft_case_library/agent-frontend/public/assets/demo-cases/fox/reference.png",
+      "sha256": "91448989b5b4bb860317189d8d10323762f9b22b2973274366360d2f49a371f5"
+    },
+    {
+      "name": "pixel-duck.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-duck.png",
+      "category": "pixel-art",
+      "caption": "Original pixel artwork by 像素纤维球; copied without recoloring or redrawing.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/polished/duck-m.png",
+      "sha256": "686ed2f440f223e2d334489c99e5e0fa1e4fb513bacc9944e8092ae7f895199f"
+    },
+    {
+      "name": "pixel-butterfly.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-butterfly.png",
+      "category": "pixel-art",
+      "caption": "Original pixel artwork by 像素纤维球; copied without recoloring or redrawing.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/butterfly-m.png",
+      "sha256": "45c3b5a50fffd7c8a1deb9a2e64f4fa0f773a05611ceed2bfd662e0a4187f2b1"
+    },
+    {
+      "name": "pixel-jellyfish.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-jellyfish.png",
+      "category": "pixel-art",
+      "caption": "Original pixel artwork by 像素纤维球; copied without recoloring or redrawing.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/jellyfish-m.png",
+      "sha256": "7423664bf8402a0cea510d146e321b34a9c3cb32c67d52e73fe02acf0ef440f1"
+    },
+    {
+      "name": "pixel-crown.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-crown.png",
+      "category": "pixel-art",
+      "caption": "Original pixel artwork by 像素纤维球; copied without recoloring or redrawing.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/presets/crown-m.png",
+      "sha256": "0cdd4f6c6f1c0e38bc47a1d9d603a6fb753aba0d1b5776bf47d3a7c4f18e8ed2"
+    },
+    {
+      "name": "pixel-ship.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-ship.png",
+      "category": "pixel-art",
+      "caption": "Original pixel artwork by 像素纤维球; copied without recoloring or redrawing.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/presets/ship-m.png",
+      "sha256": "f9f1b3fdf501de159be462e22678b44e8d78e2756ee430df54fff89127c8ce5f"
+    },
+    {
+      "name": "pixel-elephant.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-elephant.png",
+      "category": "pixel-art",
+      "caption": "Original pixel artwork by 像素纤维球; copied without recoloring or redrawing.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/presets/elephant-m.png",
+      "sha256": "6b05a6c721964b9111cd6062dd192a126d6e67e0959f0269ea3093dfe6919ff1"
+    },
+    {
+      "name": "pixel-signature.png",
+      "url": "/XuWeiqing.github.io/assets/pixel-signature.png",
+      "category": "signature",
+      "caption": "Original creator signature asset.",
+      "source": "/home/xu/code/pixel_art/bubble-play/public/assets/signature/pixel-fiber-ball.png",
+      "sha256": "f0cb5d5c899f30a70f651f0968954de350bc6a796ac57ae4540a4df0fa3c966f"
+    }
+  ],
+  "notes": [
+    "Existing images copied without creative edits. Original source files remain unchanged.",
+    "Pixel works are original source assets credited to 像素纤维球.",
+    "No original architecture model photographs or drawings were found in the inspected evidence library.",
+    "PDFs include local drafts and submitted manuscripts; collection is not publication clearance."
+  ]
+}

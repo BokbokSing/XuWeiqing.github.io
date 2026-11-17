@@ -1,0 +1,22 @@
+{
+  "sourcePolicy": "Original photograph and certificate untouched. Portrait retains the complete framing, no retouching or background replacement. Certificate rasterized directly from the original PDF.",
+  "portrait": {
+    "source": "/home/xu/Personal Info/personal content/avatar/photo.jpg",
+    "sha256": "47aad8b62900958981daa52cb9d7e1e40725405cc4779154d25db0a30c79a221",
+    "url": "/XuWeiqing.github.io/assets/portrait-screen-notes-20261117/portrait.webp",
+    "width": 1200,
+    "height": 1600
+  },
+  "certificate": {
+    "source": "/home/xu/Personal Info/personal content/1. Paperverse/visual src/locker 1st/Orbis证书.pdf",
+    "sha256": "ea399a945cb5fefb56a0ebc80dc0b80e303dc44fd79ab30fcc4835591af7aa08",
+    "url": "/XuWeiqing.github.io/assets/portrait-screen-notes-20261117/certificate.webp",
+    "width": 3840,
+    "height": 2717,
+    "previewUrl": "/XuWeiqing.github.io/assets/portrait-screen-notes-20261117/certificate-preview.webp",
+    "previewSize": [
+      1920,
+      1359
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "policy": "Original 3D files were unavailable. These are visually reconstructed simple box assemblies, not recovered original models. All printed face textures are extracted from the author-provided unfolded PDFs. No AI image generation or substitute animal photographs.",
+  "geometryLimitations": [
+    "Box assembly proportions are estimated from the provided render/finished-object pictures.",
+    "Corgi attachment holes in the net are covered by connected box components; hidden internal tabs are omitted.",
+    "The hamster reproduces the simple rectangular printed-paper abstraction, not the smooth source illustration."
+  ],
+  "coordinateSystem": {
+    "up": "+Y",
+    "front": "+Z",
+    "baseY": 0,
+    "height": 1
+  },
+  "material": {
+    "surface": "printed matte card",
+    "roughness": 0.93,
+    "metalness": 0,
+    "exposedEdgeWidth": 0.0009
+  },
+  "models": [
+    {
+      "id": "hamster",
+      "url": "/XuWeiqing.github.io/assets/paperverse-20261116/hamster.glb",
+      "bounds": {
+        "min": [
+          -0.360125880854465,
+          0.0,
+          -0.29018883240390253
+        ],
+        "max": [
+          0.360125880854465,
+          1.0,
+          0.29018883240390253
+        ]
+      },
+      "sourcePdf": "real example/1.pdf",
+      "sourcePreview": "real example/1.png",
+      "parts": [
+        "body shell",
+        "head shell",
+        "closing flap"
+      ],
+      "bytes": 163024
+    },
+    {
+      "id": "corgi",
+      "url": "/XuWeiqing.github.io/assets/paperverse-20261116/corgi.glb",
+      "bounds": {
+        "min": [
+          -0.25523054197032646,
+          0.0,
+          -0.3934048799350012
+        ],
+        "max": [
+          0.25523054197032646,
+          1.0,
+          0.3934048799350012
+        ]
+      },
+      "sourcePdf": "real example/2.pdf",
+      "sourcePreview": "real example/2.png",
+      "parts": [
+        "head",
+        "body",
+        "four paws",
+        "upright tail"
+      ],
+      "bytes": 215444
+    }
+  ]
+}

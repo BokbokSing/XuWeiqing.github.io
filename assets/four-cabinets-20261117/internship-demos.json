@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-11-16T19:28:49.386267+00:00",
+  "demos": [
+    {
+      "id": "shoes",
+      "source": "/home/xu/code/shoe-store-web",
+      "basePath": "/XuWeiqing.github.io/demos/shoes",
+      "url": "/XuWeiqing.github.io/demos/shoes/",
+      "htmlPages": [
+        "index.html",
+        "404.html",
+        "_not-found/index.html",
+        "shop/index.html",
+        "cart/index.html",
+        "404/index.html",
+        "products/pivot-high-black/index.html",
+        "products/linea-court-white/index.html",
+        "products/tempo-court-blue/index.html",
+        "products/arc-runner-bone/index.html",
+        "products/clayline-suede/index.html",
+        "products/ridge-trail-sage/index.html"
+      ],
+      "files": 107,
+      "bytes": 18932902,
+      "sourcePreserved": true,
+      "originalSourceHashes": {
+        "package.json": "9d523e4f7b3f5c06254be57fc570baa4580457b81b057d5d2f8121e7fc3d85ef",
+        "next.config.ts": "cb1292b255083ef3cf1283bc6408fda00db178a09d07a822a67ab646a7cea882",
+        "angular-app/package.json": "2abc4e4cc8fd4b3def864770d7ed82dbb67f729cb9d35fa98b558a359d2fff21",
+        "angular-app/src/styles.scss": "701b846751e661b7ad9b923f620d96592ec1a7c0683eaf6a32d8bc198e246cd3",
+        "angular-app/src/index.html": "fe230da737e54b393a2064db0091058c5c717112d7db4a1893a0ecf79ba9a905",
+        "angular-app/src/main.ts": "2341253f1a947c37dfa27838951cf7e224f7abb32dff45a8d425f042b5eeed13",
+        "angular-app/.angular/cache/21.2.22/angular-app/vite/deps/package.json": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a",
+        "angular-app/src/styles/site-shell.css": "d388876bca9904be217b7d89d2feae1bdad2a7ee87fb7007798bc1a568fc28f8",
+        "angular-app/src/styles/product-card.css": "80ab2a089d3614815acbf6312ebd31bbe31c2c6561a76e4a9ac99d7c432c59c6",
+        "angular-app/src/styles/globals.css": "73bc5b6c7630bddcc2c37e6cb1e10197535a6453bbea4fd3b91d642f4fccabf5",
+        "angular-app/src/styles/home-page.css": "7bef6e2e23bffcf7c67a34ef3877c2046ee0ef79ca4d48f1e3eddbac781cf506",
+        "angular-app/src/styles/commerce-pages.css": "406ce60d2a5c28117e0625e32126563f428beaa65f18754eb04289c47afa1207",
+        "angular-app/src/app/app.html": "07b1456f9977466dee452367c87515c5ed298268f9230ae1aacfa8d21785529b",
+        "angular-app/src/app/app.config.ts": "f1727325bbfb01da83f478a0464575b85a77f8267dc31aad28eaa3a7a19c6cdc",
+        "angular-app/src/app/app.routes.ts": "0a5134290a27b9576dc234a14f8fd5a64b22b32215bbec4f490f9e0a52d69d88",
+        "angular-app/src/app/app.spec.ts": "bdd2397931d75d2bb4848b248cb5dca278c22b34d600566b5ea6011d70e7eeb8",
+        "angular-app/src/app/app.ts": "40a3c92b1865e9a3ca2121d9c11e43bde9e18f6f8e8aa9c89bcd6690babef2c9",
+        "angular-app/src/app/app.scss": "70674394241531ed42f8e6d71c8b671784954d57e010f7ab22a17f69d953fc81",
+        "angular-app/src/app/pages/cart.component.ts": "90e84b2242ac347c6772cf52fdf9731217a82b092a81c5515f6bc654af45b75b",
+        "angular-app/src/app/pages/account.component.ts": "bb4d182b9dd988a2daebc204f740de2ff70889f4d1524632252fc34cc16e2cee",
+        "angular-app/src/app/pages/new-arrivals.component.ts": "52a1b1153dae782df2f622d8a75a23fdae9804d90795f548c4e894aa281c9825",
+        "angular-app/src/app/pages/product.component.ts": "1d5a3982a654acb94ea0f49dc0f0e25be3f573395c32479d8d129b4f76607afb",
+        "angular-app/src/app/pages/shop.component.ts": "b63a5bfda362836205e61106489b3fd1190e6f9326006a5f2e307aaaa9050cf1",
+        "angular-app/src/app/pages/home.component.ts": "18faaa44050fde302851d3bd424f0a734c07510b13ef3583676b6b3879c9c12b",
+        "angular-app/src/app/data/products.ts": "40acd99a473c22f4b2f773737d2b72cee20354f8981985a528fc7e615a06e26b",
+        "angular-app/src/app/components/product-card.component.ts": "6c42a762194b02a6872c3f5ae28728c9886c23de853e376ec3df61a350c08b8e",
+        "angular-app/src/app/components/icons.component.ts": "ff105821e3242233fea478f7d0a5fcac0696c2df8868d02a02b81c7ee4a7c2c9",
+        "src/data/products.ts": "40acd99a473c22f4b2f773737d2b72cee20354f8981985a528fc7e615a06e26b",
+        "src/app/page.tsx": "11a5a110fe2d56ac109ea73b846e3b41ac19b0c3d29185dd97d9d9bcdb64a7fa",
+        "src/app/layout.tsx": "4058da260a7f8c6a2e27222cb646d9f0ef7122d0fb9dbd32ea56f011baaa46d8",
+        "src/app/icon.svg": "d037121512dae2982adf9fa2c59eb86008c5180864ed4db0bcc8e696feacfca3",
+        "src/app/globals.css": "a0dd44446da66f571d51103e450a5ef93a0baf7a240124f94859096a368e804c",
+        "src/components/product-card.module.css": "80ab2a089d3614815acbf6312ebd31bbe31c2c6561a76e4a9ac99d7c432c59c6",
+        "src/components/site-shell.module.css": "d388876bca9904be217b7d89d2feae1bdad2a7ee87fb7007798bc1a568fc28f8",
+        "src/components/icons.tsx": "d5d397ae9c5aa46cc1dbf6463cef8d61d49be7bbb2798faca02f01074a9d302c",
+        "src/components/home-page.tsx": "a961387eca16febefb54a9bb86977e21b8500dc3a3e67a8ee78aa696871da044",
+        "src/components/commerce-pages.module.css": "406ce60d2a5c28117e0625e32126563f428beaa65f18754eb04289c47afa1207",
+        "src/components/account-panel.tsx": "7a0f3748220282839c514034864c88c733d0e84dd4cb19eae38e20a19e06b8f2",
+        "src/components/product-image-zoom.tsx": "334d9081d693d3ca06aa6db97533ef3127ad475dbd2ce8934b5f49458b6f43b3",
+        "src/components/site-shell.tsx": "cdb6305c18adaada28f755991a00196421679ae747158b3ecb98df99e56bf3b2",
+        "src/components/home-page.module.css": "7bef6e2e23bffcf7c67a34ef3877c2046ee0ef79ca4d48f1e3eddbac781cf506",
+        "src/components/product-card.tsx": "5e3749c0847e4041e58cb5d33faf4984027e0cb52653f7ab09fe28d1c24388c1",
+        "src/components/commerce-pages.tsx": "9b8690ba87bbc7abc6087cd6564d3bc8cec619daca240fb121211966f1909e62",
+        "src/app/shop/page.tsx": "d25c5ac9ea5f740f6f4944f82142d649f66afd1f88e157a1836b65a545ac4852",
+        "src/app/cart/page.tsx": "60238e6c6d8a7c2cfaa7d7723130fe0ae7e980cddc90e2c6e44da2085a566df2",
+        "src/app/products/[slug]/page.tsx": "a6ea16a5b1e5349d6e35401f03f3b42380cad18cb2ab51560bba593d8f62992d"
+      },
+      "staticAdaptation": "Disposable build copy only: Next static export, subdirectory asset URLs and client-side query filtering/cart; same source interface and catalog. Checkout remains disabled.",
+      "buildLog": "/tmp/locker-internship-demo-exports-20261117/shoes-build.log"
+    },
+    {
+      "id": "jerseys",
+      "source": "/home/xu/code/jersey-store-web",
+      "basePath": "/XuWeiqing.github.io/demos/jerseys",
+      "url": "/XuWeiqing.github.io/demos/jerseys/",
+      "htmlPages": [
+        "index.html",
+        "404.html",
+        "_not-found/index.html",
+        "shop/index.html",
+        "app/index.html",
+        "cart/index.html",
+        "404/index.html",
+        "business/index.html",
+        "journal/index.html",
+        "products/brazil-icon-home-jersey/index.html",
+        "products/rossoneri-stripe-home-shirt/index.html",
+        "products/argentina-heritage-jersey/index.html",
+        "products/continental-blue-away-shirt/index.html",
+        "products/lisbon-heritage-third-shirt/index.html",
+        "products/madrid-white-match-jersey/index.html",
+        "products/nigeria-pattern-match-jersey/index.html",
+        "products/north-london-2026-home-jersey/index.html",
+        "products/paris-midnight-away-shirt/index.html",
+        "products/japan-sakura-away-shirt/index.html",
+        "products/sky-blue-stadium-jersey/index.html"
+      ],
+      "files": 160,
+      "bytes": 3891362,
+      "sourcePreserved": true,
+      "originalSourceHashes": {
+        "package.json": "8ab4146445c339df226badb728d43393eb9ed301f6bdee63be652250bde21e46",
+        "next.config.ts": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+        "src/data/home.ts": "ef60f344dce0b3f8c2ae709565aade1a620b6453ecc9eb8ed5ed1089d275e796",
+        "src/styles/styles.scss": "c99c17112a794c51a98833f03eeec8c13b3667f153cfe025735081f2ddb0591c",
+        "src/styles/tokens.css": "0e38cde37792cf1425b6fa7636647aff01d719ffb3838b28d383b37d7bc6aac7",
+        "src/app/page.tsx": "6171a98bdd44f10d5c1a80ed7923ff562c1b48fb77f9aa2a43f2f22e5ad23f0d",
+        "src/app/layout.tsx": "e9fce2e837945c47fbeec8439f8406e4761c7faedfa6e3671ea5a9d6c61b51e7",
+        "src/app/globals.css": "2dce3ab857b5affd2f8fe30bec5f40d5648858303647052dcc6fe441cea86dc8",
+        "src/app/favicon.ico": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+        "src/components/jersey-art.tsx": "b1471f9ac3d9e011973b1db20f9979f4f31c3e98bac0dc0e57f2a0bb9cd865f6",
+        "src/components/store-icons.tsx": "4275885b8f3574f030e3d13d783942e9cddea8f6a7248043b299b59519cd9b5b",
+        "src/app/shop/page.tsx": "9eaa407db9ad9412d5107088371d2140867a9e03eae290c19a17c97fa84a73c1",
+        "src/app/app/page.tsx": "e044fb7baec96903353b2c0ecda235bad41dbfc797df85a1bf7627ed7fdff4c6",
+        "src/app/cart/page.tsx": "47bf5da119e40aa5504c4a2a5a4a0cc12d6d4b96065f7308ffa77d83cfa303b5",
+        "src/app/business/page.tsx": "6706d4c9c830b42af9f907e4a916cfa7e6c7f1e42cecafe60e4378d8b9225fe1",
+        "src/app/journal/page.tsx": "d5de70c496ea8c6ba227be2ac9ac0ff163c98ec634ec0f3293505a06c09f9039",
+        "src/app/products/[slug]/page.tsx": "272dc5bad8a55a9e704cf800e72d331b955e27833dd30732b7b318e4eea8f19a",
+        "src/components/site/scroll-to-top.module.css": "11941118b8f1f905be1f57db4b8c65138209fb4ae69fa78c3e4d9f6a7a6b9042",
+        "src/components/site/site-shell.module.css": "f3b27b210e4010bfe0a32f3f994bf890522929f85a1d27d89643e66c9e56ab5d",
+        "src/components/site/site-shell.tsx": "ff645998c0af238d07972837125c9db7d916b96fbbad393b5dcaf0eb17099109",
+        "src/components/site/scroll-to-top.tsx": "959e09de039490fbf57df08ae3064a7a6ceba83b7ae3665ec37ee749eaa1b662",
+        "src/components/pages/platform-pages.tsx": "e82c36bca6c5eee7daff1290be877a20a88ae31aa4a8a08d3e523971bca970f0",
+        "src/components/pages/commerce-pages.module.css": "9e2b39c3fa703bf52d3a17f8e5dbc487bf94b031c9cf02c41fda47bbe4db1cc5",
+        "src/components/pages/platform-pages.module.css": "3242b0ad4cebd6801abcbb0f886666cdbda4b3138c7b313957e6facda0845966",
+        "src/components/pages/commerce-pages.tsx": "7acb1b521a7ef22fdb12f400e4684f51fba0b293b388141f13b90ea078eea684",
+        "src/components/home/home-page.tsx": "f73b9a19b2133a2d513a68f136764ef68f9103c12b84b1612669a3793343cde6",
+        "src/components/home/home-page.module.css": "d2269e08498a0972308fd19dfa083e5c3b3c45a163610f1e4f0abbd75b1f327c"
+      },
+      "staticAdaptation": "Disposable build copy only: Next static export, subdirectory asset URLs and client-side query filtering/cart; same source interface and catalog. Checkout remains disabled.",
+      "buildLog": "/tmp/locker-internship-demo-exports-20261117/jerseys-build.log"
+    }
+  ],
+  "designImages": [
+    {
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/tob-template-studio.png",
+      "source": "/home/xu/code/jersey-store-web/public/images/figma/tob-template-studio.png",
+      "sha256": "445bfc8e6946b73f0ac6ecefea303c23a1a011dc59ec1e1973b04674cd2010db",
+      "width": 1440,
+      "height": 964
+    },
+    {
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/tob-template-management.png",
+      "source": "/home/xu/code/jersey-store-web/public/images/figma/tob-template-management.png",
+      "sha256": "26a7347d7e1087971ce33d092f954109a897da2b177af897508ef911e8c429e2",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/toc-product-detail.png",
+      "source": "/home/xu/code/jersey-store-web/public/images/figma/toc-product-detail.png",
+      "sha256": "72df876996b44b914ee94b046cfb72689274bc446d7dfd3e8fee79fa308feb6a",
+      "width": 402,
+      "height": 875
+    },
+    {
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/toc-home.png",
+      "source": "/home/xu/code/jersey-store-web/public/images/figma/toc-home.png",
+      "sha256": "09b49b21d05e2762e453187c120f01edfd59740291dbfe7822ce7f28bf64fc66",
+      "width": 402,
+      "height": 874
+    },
+    {
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/toc-quick-customize.png",
+      "source": "/home/xu/code/jersey-store-web/public/images/figma/toc-quick-customize.png",
+      "sha256": "80935937951f71d90e88a720207ccd03219e0fc74b3ad6ec34542d6002e07b17",
+      "width": 804,
+      "height": 1748
+    }
+  ],
+  "limitations": [
+    "Self-contained storefront demos, not connected to payment, inventory or live merchant services.",
+    "Magic Wardrobe remains a separately hosted application; this export does not include its backend or credentials."
+  ],
+  "screenshots": [
+    {
+      "id": "shoes",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/shoes-home.jpg",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "jerseys",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/jerseys-home.jpg",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "jersey-business",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/jersey-business.jpg",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "browserQA": {
+    "passed": true,
+    "checks": [
+      "shoes: homepage, filter empty state, product, size selection and cart; checkout disabled",
+      "jerseys: homepage, filter empty state, product, size selection and cart; checkout disabled",
+      "Merchant design page with original studio and management screenshots"
+    ],
+    "errors": [],
+    "viewport": [
+      1440,
+      900
+    ],
+    "implementation": "Chromium without WebGL, served directly from static Python directory server"
+  }
+}

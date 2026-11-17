@@ -1,0 +1,20 @@
+{
+  "source": "https://polyhaven.com/a/wood_floor",
+  "license": "https://polyhaven.com/license",
+  "licenseName": "CC0",
+  "files": {
+    "diff": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_floor/wood_floor_diff_1k.jpg",
+      "file": "diff.webp"
+    },
+    "rough": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_floor/wood_floor_rough_1k.jpg",
+      "file": "rough.webp"
+    },
+    "nor_gl": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_floor/wood_floor_nor_gl_1k.jpg",
+      "file": "nor_gl.webp"
+    }
+  },
+  "treatment": "Neutral smoke tint and reduced saturation applied by the room material shader; source maps are compressed to WebP, with no lighting baked into the color."
+}

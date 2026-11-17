@@ -1,0 +1,8 @@
+ChillRoundF / 寒蝉全圆体 Version 3.000, by ChillType.
+Official project: https://github.com/Warren2060/ChillRound
+Source font: https://github.com/Warren2060/ChillRound/blob/main/ChillRoundF%20v3.0.ttf
+License: SIL Open Font License 1.1 (see OFL.txt).
+Modification: Hanzi-only WOFF2 web subset, renamed Bubble Soft CN / BubbleSoftCN.
+Original font outlines are unchanged. Light, shadow and rounded stroke are drawn at runtime.
+Font SHA256: 7dae804b344f7bc1a1c8426b9515e9b54d7baac3e123263d0bae94d0a305a732
+WOFF2 SHA256: 15cdadea920cf278bdf55bbb22d88851dea62b2d23e9a9a7c09fba4985fdeb07

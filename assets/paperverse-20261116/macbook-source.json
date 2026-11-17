@@ -1,0 +1,165 @@
+{
+  "title": "MacBook Pro 13 inch 2020",
+  "author": "timblewee",
+  "authorUrl": "https://sketchfab.com/timblewee",
+  "sourceUrl": "https://sketchfab.com/3d-models/macbook-pro-13-inch-2020-efab224280fd4c3993c808107f7c0b38",
+  "downloadUrl": "https://sceneview.github.io/models/platforms/macbook_pro_13.glb",
+  "distributionCredits": "https://sceneview.github.io/credits.html",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "originalSha256": "a7a8e9aa65bf7844f399c02772f72c4bd44e8dd02da846042c73c6d227ee2fb5",
+  "assetUrl": "/XuWeiqing.github.io/assets/paperverse-20261116/macbook.glb",
+  "bytes": 3373980,
+  "trianglesBefore": 77065,
+  "trianglesAfter": 52092,
+  "meshStatistics": [
+    {
+      "mesh": 0,
+      "before": 884,
+      "after": 352,
+      "error": 0.000059980502555845305
+    },
+    {
+      "mesh": 1,
+      "before": 948,
+      "after": 379,
+      "error": 0.00006337142258416861
+    },
+    {
+      "mesh": 2,
+      "before": 30,
+      "after": 30
+    },
+    {
+      "mesh": 3,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "mesh": 4,
+      "before": 2820,
+      "after": 1128,
+      "error": 0.00040367309702560306
+    },
+    {
+      "mesh": 5,
+      "before": 106,
+      "after": 106
+    },
+    {
+      "mesh": 6,
+      "before": 30,
+      "after": 30
+    },
+    {
+      "mesh": 7,
+      "before": 14,
+      "after": 14
+    },
+    {
+      "mesh": 8,
+      "before": 1237,
+      "after": 494,
+      "error": 1.3851726521352248e-7
+    },
+    {
+      "mesh": 9,
+      "before": 7582,
+      "after": 3032,
+      "error": 0.0005927336751483381
+    },
+    {
+      "mesh": 10,
+      "before": 37639,
+      "after": 34197,
+      "error": 0.005951952654868364
+    },
+    {
+      "mesh": 11,
+      "before": 5397,
+      "after": 2158,
+      "error": 0.0007436672458425164
+    },
+    {
+      "mesh": 12,
+      "before": 1176,
+      "after": 470,
+      "error": 0.00035862758522853255
+    },
+    {
+      "mesh": 13,
+      "before": 190,
+      "after": 190
+    },
+    {
+      "mesh": 14,
+      "before": 158,
+      "after": 158
+    },
+    {
+      "mesh": 15,
+      "before": 344,
+      "after": 344
+    },
+    {
+      "mesh": 16,
+      "before": 2,
+      "after": 2
+    },
+    {
+      "mesh": 17,
+      "before": 11278,
+      "after": 6487,
+      "error": 0.003025864716619253
+    },
+    {
+      "mesh": 18,
+      "before": 7024,
+      "after": 2809,
+      "error": 0.0001428904215572402
+    },
+    {
+      "mesh": 19,
+      "before": 204,
+      "after": 204
+    }
+  ],
+  "pose": {
+    "openingDegrees": 110,
+    "animationFrozen": true
+  },
+  "dimensions": {
+    "width": 1.18,
+    "height": 0.7985334905545723,
+    "depth": 1.120846678351066,
+    "bottomY": 0,
+    "front": "+Z",
+    "centerX": 0,
+    "centerZ": 0
+  },
+  "screen": {
+    "node": "MacBookScreen",
+    "mesh": 3,
+    "material": "Material.002",
+    "uv": "Original glTF UV; when replacing with a Three Texture use flipY=false.",
+    "normalizedCenter": [
+      3.881564133046551e-8,
+      0.41062549376683516,
+      -0.4070711127090435
+    ],
+    "width": 1.113647392410339,
+    "height": 0.6984544940288969,
+    "planeRotationX": -0.3490658503988659,
+    "normal": [
+      0,
+      0.3420201433256687,
+      0.9396926207859084
+    ]
+  },
+  "keyboard": {
+    "group": "MacBookKeyboard",
+    "frame": "MacBookKeyboardFrame",
+    "keys": "MacBookKeyboardKeys"
+  },
+  "modifications": "Prepared for Paperverse: simplified indices with meshoptimizer, fixed open 110-degree pose, removed floating wordmark/helper, centred width=1.18 bottomY=0 front=+Z. Original texture images retained (1024px maximum)."
+}

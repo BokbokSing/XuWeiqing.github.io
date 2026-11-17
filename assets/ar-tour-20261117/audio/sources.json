@@ -1,0 +1,59 @@
+{
+  "title": "A walk in colour",
+  "tempo": 100,
+  "key": "C major",
+  "sampleSource": "https://github.com/gleitz/midi-js-soundfonts/tree/gh-pages/FluidR3_GM",
+  "sampleLicense": "CC BY 3.0 US",
+  "adaptation": "Instrument note samples: FluidR3 GM by Frank Wen and contributors, rendered by gleitz/MIDI.js Soundfonts.\nSource: https://github.com/gleitz/midi-js-soundfonts/tree/gh-pages/FluidR3_GM\nLicense: CC BY 3.0 US \u2014 https://creativecommons.org/licenses/by/3.0/us/\nAdaptations: seven-part C-major miniature A walk in colour, 100 BPM, synchronized 8-bar loop, note envelopes, levels and short room reflections. Seven saxophone toy notes C4\u2013B4. Hand drum is an original synthesized membrane/percussion tone; not a recording.\nThe flute uses a sampled flute patch. These are sampled arrangements, not field recordings.\n",
+  "tracks": [
+    {
+      "id": "sax",
+      "duration": 19.2,
+      "samplePatchSha256": "18ec57c02f27c7e8dc4620f57fa9b94e32babf4ebae7d1f2205e053d3287abce",
+      "synthesis": null,
+      "sizeBytes": 270188
+    },
+    {
+      "id": "flute",
+      "duration": 19.2,
+      "samplePatchSha256": "e2e35283876eec60b919beeb8bfa49f46f12dddf5b8c6025e7a45c5d2a24bda5",
+      "synthesis": null,
+      "sizeBytes": 270188
+    },
+    {
+      "id": "accordion",
+      "duration": 19.2,
+      "samplePatchSha256": "a7fe9c0532f7d8a3fec066d3059fed27c82d942bf70c3079c58d25ad91ae69de",
+      "synthesis": null,
+      "sizeBytes": 270188
+    },
+    {
+      "id": "trumpet",
+      "duration": 19.2,
+      "samplePatchSha256": "7f37e0b8fbbfbf67a1183c746d83c85c11790283e2ea9994bdcdb9055bb0e67c",
+      "synthesis": null,
+      "sizeBytes": 270188
+    },
+    {
+      "id": "violin",
+      "duration": 19.2,
+      "samplePatchSha256": "3c169ac4c7781fe145e545e909993371188aa6bad617bc3a5f0692b7678995f8",
+      "synthesis": null,
+      "sizeBytes": 270188
+    },
+    {
+      "id": "guitar",
+      "duration": 19.2,
+      "samplePatchSha256": "5375fa9e0408d960e12b6e4ec120c42bce824d80b18e982b27ddaece146a4f64",
+      "synthesis": null,
+      "sizeBytes": 270188
+    },
+    {
+      "id": "drum",
+      "duration": 19.2,
+      "samplePatchSha256": null,
+      "synthesis": "Damped membrane tones and short filtered-noise transients",
+      "sizeBytes": 270188
+    }
+  ]
+}

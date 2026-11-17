@@ -1,0 +1,1587 @@
+{
+  "generatedAt": "2026-11-16T19:28:37.196019+00:00",
+  "sources": [
+    {
+      "path": "/home/xu/Personal Info/personal content/Slides_XU (4).pptx",
+      "sha256": "cc4fae6fb758120af3c3f00764e82315f75e7b9401f63d883fdbf84a7a003964",
+      "preserved": true
+    },
+    {
+      "path": "/home/xu/Personal Info/PhD_Application_Research_Portfolio/02_JMIR_GRBAS论文/Automated Acoustic Parameter and GRBAS-Assisted Assessment Based on Historical Hospital Voice Recordings A Single-Center Retrospective Internal Validation Study(2).docx",
+      "sha256": "10e359d9c34f8bb25af8a7c8fd1f89b0c0a9dfa61bf308e4d4d1607ca2cb8099",
+      "preserved": true
+    },
+    {
+      "path": "/home/xu/Personal Info/personal content/Portfolio/Portfolio (Xu Weiqing).pdf",
+      "sha256": "748692c5912e7322b2b84ab866cd9972819f358f100e6e98fbde07e109ed0561",
+      "preserved": true
+    }
+  ],
+  "officeLogs": {
+    "slides": "PowerPoint 16.0; Slides: 39",
+    "jmir": "Word 16.0; Pages: 29"
+  },
+  "documents": [
+    {
+      "id": "jmir",
+      "pdf": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/document.pdf",
+      "pages": [
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-001.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-002.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-003.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-004.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-005.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-006.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-007.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-008.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-009.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-010.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-011.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-012.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-013.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-014.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-015.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-016.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-017.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-018.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-019.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-020.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-021.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-022.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-023.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-024.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-025.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-026.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-027.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-028.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-029.jpg"
+      ],
+      "pageDetails": [
+        {
+          "page": 1,
+          "sourcePage": 1,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-001.jpg"
+        },
+        {
+          "page": 2,
+          "sourcePage": 2,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-002.jpg"
+        },
+        {
+          "page": 3,
+          "sourcePage": 3,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-003.jpg"
+        },
+        {
+          "page": 4,
+          "sourcePage": 4,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-004.jpg"
+        },
+        {
+          "page": 5,
+          "sourcePage": 5,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-005.jpg"
+        },
+        {
+          "page": 6,
+          "sourcePage": 6,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-006.jpg"
+        },
+        {
+          "page": 7,
+          "sourcePage": 7,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-007.jpg"
+        },
+        {
+          "page": 8,
+          "sourcePage": 8,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-008.jpg"
+        },
+        {
+          "page": 9,
+          "sourcePage": 9,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-009.jpg"
+        },
+        {
+          "page": 10,
+          "sourcePage": 10,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-010.jpg"
+        },
+        {
+          "page": 11,
+          "sourcePage": 11,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-011.jpg"
+        },
+        {
+          "page": 12,
+          "sourcePage": 12,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-012.jpg"
+        },
+        {
+          "page": 13,
+          "sourcePage": 13,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-013.jpg"
+        },
+        {
+          "page": 14,
+          "sourcePage": 14,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-014.jpg"
+        },
+        {
+          "page": 15,
+          "sourcePage": 15,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-015.jpg"
+        },
+        {
+          "page": 16,
+          "sourcePage": 16,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-016.jpg"
+        },
+        {
+          "page": 17,
+          "sourcePage": 17,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-017.jpg"
+        },
+        {
+          "page": 18,
+          "sourcePage": 18,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-018.jpg"
+        },
+        {
+          "page": 19,
+          "sourcePage": 19,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-019.jpg"
+        },
+        {
+          "page": 20,
+          "sourcePage": 20,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-020.jpg"
+        },
+        {
+          "page": 21,
+          "sourcePage": 21,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-021.jpg"
+        },
+        {
+          "page": 22,
+          "sourcePage": 22,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-022.jpg"
+        },
+        {
+          "page": 23,
+          "sourcePage": 23,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-023.jpg"
+        },
+        {
+          "page": 24,
+          "sourcePage": 24,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-024.jpg"
+        },
+        {
+          "page": 25,
+          "sourcePage": 25,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-025.jpg"
+        },
+        {
+          "page": 26,
+          "sourcePage": 26,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-026.jpg"
+        },
+        {
+          "page": 27,
+          "sourcePage": 27,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-027.jpg"
+        },
+        {
+          "page": 28,
+          "sourcePage": 28,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-028.jpg"
+        },
+        {
+          "page": 29,
+          "sourcePage": 29,
+          "width": 1415,
+          "height": 2000,
+          "aspect": 0.70709808462611,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/page-029.jpg"
+        }
+      ],
+      "pageCount": 29,
+      "pageRatio": 0.70709808462611,
+      "cover": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/cover.jpg",
+      "pdfSha256": "a85a81318c161b5ae130c0667339e04795a5ab1d56619ccd58dfb2d499912314",
+      "contactSheet": "/XuWeiqing.github.io/documents/four-cabinets-20261117/jmir/contact.jpg"
+    },
+    {
+      "id": "ar-music",
+      "pdf": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/document.pdf",
+      "pages": [
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-001.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-002.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-003.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-004.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-005.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-006.jpg"
+      ],
+      "pageDetails": [
+        {
+          "page": 1,
+          "sourcePage": 2,
+          "width": 2600,
+          "height": 976,
+          "aspect": 2.6663755458515284,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-001.jpg"
+        },
+        {
+          "page": 2,
+          "sourcePage": 3,
+          "width": 2600,
+          "height": 976,
+          "aspect": 2.6663755458515284,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-002.jpg"
+        },
+        {
+          "page": 3,
+          "sourcePage": 4,
+          "width": 2600,
+          "height": 976,
+          "aspect": 2.6663755458515284,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-003.jpg"
+        },
+        {
+          "page": 4,
+          "sourcePage": 5,
+          "width": 2600,
+          "height": 976,
+          "aspect": 2.6663755458515284,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-004.jpg"
+        },
+        {
+          "page": 5,
+          "sourcePage": 6,
+          "width": 2600,
+          "height": 976,
+          "aspect": 2.6663755458515284,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-005.jpg"
+        },
+        {
+          "page": 6,
+          "sourcePage": 7,
+          "width": 2600,
+          "height": 976,
+          "aspect": 2.6663755458515284,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/page-006.jpg"
+        }
+      ],
+      "pageCount": 6,
+      "pageRatio": 2.6663755458515284,
+      "cover": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/cover.jpg",
+      "pdfSha256": "04d2dde02a09cbf9d219b29122fdda90c4eb3899cf643101e1f3f580283a5860",
+      "contactSheet": "/XuWeiqing.github.io/documents/four-cabinets-20261117/ar-music/contact.jpg"
+    },
+    {
+      "id": "objects-slides",
+      "pdf": "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/document.pdf",
+      "pages": [
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/page-001.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/page-002.jpg"
+      ],
+      "pageDetails": [
+        {
+          "page": 1,
+          "sourcePage": 26,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/page-001.jpg"
+        },
+        {
+          "page": 2,
+          "sourcePage": 27,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/page-002.jpg"
+        }
+      ],
+      "pageCount": 2,
+      "pageRatio": 1.7777777777777777,
+      "cover": "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/cover.jpg",
+      "pdfSha256": "db8609a74b272ef13538326dac3489795b8d6103bac55c804c199e64b02d9205",
+      "contactSheet": "/XuWeiqing.github.io/documents/four-cabinets-20261117/objects-slides/contact.jpg"
+    },
+    {
+      "id": "voice-design",
+      "pdf": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/document.pdf",
+      "pages": [
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-001.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-002.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-003.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-004.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-005.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-006.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-007.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-008.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-009.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-010.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-011.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-012.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-013.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-014.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-015.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-016.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-017.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-018.jpg"
+      ],
+      "pageDetails": [
+        {
+          "page": 1,
+          "sourcePage": 7,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-001.jpg"
+        },
+        {
+          "page": 2,
+          "sourcePage": 8,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-002.jpg"
+        },
+        {
+          "page": 3,
+          "sourcePage": 9,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-003.jpg"
+        },
+        {
+          "page": 4,
+          "sourcePage": 10,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-004.jpg"
+        },
+        {
+          "page": 5,
+          "sourcePage": 11,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-005.jpg"
+        },
+        {
+          "page": 6,
+          "sourcePage": 12,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-006.jpg"
+        },
+        {
+          "page": 7,
+          "sourcePage": 13,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-007.jpg"
+        },
+        {
+          "page": 8,
+          "sourcePage": 14,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-008.jpg"
+        },
+        {
+          "page": 9,
+          "sourcePage": 15,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-009.jpg"
+        },
+        {
+          "page": 10,
+          "sourcePage": 16,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-010.jpg"
+        },
+        {
+          "page": 11,
+          "sourcePage": 17,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-011.jpg"
+        },
+        {
+          "page": 12,
+          "sourcePage": 18,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-012.jpg"
+        },
+        {
+          "page": 13,
+          "sourcePage": 19,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-013.jpg"
+        },
+        {
+          "page": 14,
+          "sourcePage": 20,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-014.jpg"
+        },
+        {
+          "page": 15,
+          "sourcePage": 21,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-015.jpg"
+        },
+        {
+          "page": 16,
+          "sourcePage": 22,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-016.jpg"
+        },
+        {
+          "page": 17,
+          "sourcePage": 23,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-017.jpg"
+        },
+        {
+          "page": 18,
+          "sourcePage": 24,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/page-018.jpg"
+        }
+      ],
+      "pageCount": 18,
+      "pageRatio": 1.7777777777777777,
+      "cover": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/cover.jpg",
+      "pdfSha256": "a1a62b35620d7988cf6e7e9c388d9d48fc7b42fe9d376e6c7b32a67d46102510",
+      "contactSheet": "/XuWeiqing.github.io/documents/four-cabinets-20261117/voice-design/contact.jpg"
+    },
+    {
+      "id": "internship-slides",
+      "pdf": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/document.pdf",
+      "pages": [
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-001.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-002.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-003.jpg",
+        "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-004.jpg"
+      ],
+      "pageDetails": [
+        {
+          "page": 1,
+          "sourcePage": 32,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-001.jpg"
+        },
+        {
+          "page": 2,
+          "sourcePage": 33,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-002.jpg"
+        },
+        {
+          "page": 3,
+          "sourcePage": 34,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-003.jpg"
+        },
+        {
+          "page": 4,
+          "sourcePage": 35,
+          "width": 2400,
+          "height": 1350,
+          "aspect": 1.7777777777777777,
+          "url": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/page-004.jpg"
+        }
+      ],
+      "pageCount": 4,
+      "pageRatio": 1.7777777777777777,
+      "cover": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/cover.jpg",
+      "pdfSha256": "57c65cf546facfc4eefd168191bce5e5e5c9cb0da3a2a7534f7fbf07d5010a57",
+      "contactSheet": "/XuWeiqing.github.io/documents/four-cabinets-20261117/internship-slides/contact.jpg"
+    }
+  ],
+  "embeddedMedia": [
+    {
+      "slide": 13,
+      "member": "ppt/media/image52.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image52.png",
+      "sourceSha256": "21f5c1cf69be163567075dc59616e2515d0625ad8a210d576acb36b4de9d917e",
+      "bytes": 166531,
+      "originalEmbeddedBytes": true,
+      "width": 330,
+      "height": 715,
+      "aspect": 0.46153846153846156,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image52-preview.jpg"
+    },
+    {
+      "slide": 13,
+      "member": "ppt/media/image9.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image9.png",
+      "sourceSha256": "da545db84433b1909c1c3c2fa46f015fd56ed384905d3cffd069525829b31e23",
+      "bytes": 681217,
+      "originalEmbeddedBytes": true,
+      "width": 974,
+      "height": 894,
+      "aspect": 1.0894854586129754,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image9-preview.webp"
+    },
+    {
+      "slide": 13,
+      "member": "ppt/media/image54.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image54.png",
+      "sourceSha256": "d6bb18c789c2472423964aa583dc28f45cd6e34441f532890a8d2400f4932970",
+      "bytes": 145985,
+      "originalEmbeddedBytes": true,
+      "width": 300,
+      "height": 640,
+      "aspect": 0.46875,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image54-preview.jpg"
+    },
+    {
+      "slide": 13,
+      "member": "ppt/media/image53.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image53.png",
+      "sourceSha256": "67698407dfb7c8e835b5a45103c067a97443cb66c1cfbe5815e58cf8a6638f95",
+      "bytes": 165493,
+      "originalEmbeddedBytes": true,
+      "width": 335,
+      "height": 715,
+      "aspect": 0.46853146853146854,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-13-image53-preview.jpg"
+    },
+    {
+      "slide": 14,
+      "member": "ppt/media/image55.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-14-image55.png",
+      "sourceSha256": "89569f3b6bc468eafef5a5370e8123854f5197a18d4ef49de637cc5d2bc9fcac",
+      "bytes": 1187366,
+      "originalEmbeddedBytes": true,
+      "width": 2166,
+      "height": 1077,
+      "aspect": 2.011142061281337,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-14-image55-preview.webp"
+    },
+    {
+      "slide": 14,
+      "member": "ppt/media/image57.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-14-image57.png",
+      "sourceSha256": "fccf6131175c872a92deadfdbb0a1d2a92599992a7d9e1b21aa8701f4140065b",
+      "bytes": 152834,
+      "originalEmbeddedBytes": true,
+      "width": 875,
+      "height": 492,
+      "aspect": 1.7784552845528456,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-14-image57-preview.webp"
+    },
+    {
+      "slide": 14,
+      "member": "ppt/media/image56.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-14-image56.png",
+      "sourceSha256": "2de1904a711f4759bb0b3b6b4be8db316323c99d3301c05506dd2ef9ce9a85f2",
+      "bytes": 698045,
+      "originalEmbeddedBytes": true,
+      "width": 1110,
+      "height": 627,
+      "aspect": 1.770334928229665,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-14-image56-preview.webp"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image77.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image77.png",
+      "sourceSha256": "790e6a3aa3e7b92e839a0c921e3734f23ce1d8f1727bce4f84915601f5067acb",
+      "bytes": 96052,
+      "originalEmbeddedBytes": true,
+      "width": 299,
+      "height": 300,
+      "aspect": 0.9966666666666667,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image77-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image82.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image82.png",
+      "sourceSha256": "68fa1cfe75fd482034e8e403b68ebdff885dd5febcbf34fe870c725fbf403b9e",
+      "bytes": 27049,
+      "originalEmbeddedBytes": true,
+      "width": 475,
+      "height": 513,
+      "aspect": 0.9259259259259259,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image82-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image72.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image72.png",
+      "sourceSha256": "d53300656fb62399774c69778ae407a270e0af3c78307911f24df55bcf0fcf1c",
+      "bytes": 263393,
+      "originalEmbeddedBytes": true,
+      "width": 642,
+      "height": 503,
+      "aspect": 1.2763419483101393,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image72-preview.webp"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image76.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image76.png",
+      "sourceSha256": "7403872830fb17c9258fd7fc941c5f686d8925f50fc776aae497b9cf943c2f3c",
+      "bytes": 85422,
+      "originalEmbeddedBytes": true,
+      "width": 299,
+      "height": 296,
+      "aspect": 1.010135135135135,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image76-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image81.jpeg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image81.jpeg",
+      "sourceSha256": "21b3f19eb2c8c20bf588a12595feb884afcfbcce96ad4de6b455b60a14edb59b",
+      "bytes": 137166,
+      "originalEmbeddedBytes": true,
+      "width": 512,
+      "height": 683,
+      "aspect": 0.7496339677891655,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image81-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image75.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image75.svg",
+      "sourceSha256": "18c7a0b84207c08489e134bc14a19952200f1822846b3796938ac53a968a5c04",
+      "bytes": 11557,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image80.jpeg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image80.jpeg",
+      "sourceSha256": "11cf32a7681bc9468812365e4403762f5e727026ab9feba04cbe75cadd347c28",
+      "bytes": 229898,
+      "originalEmbeddedBytes": true,
+      "width": 643,
+      "height": 857,
+      "aspect": 0.750291715285881,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image80-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image74.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image74.svg",
+      "sourceSha256": "789e44980079f35c3ceaea62be23f641b14844ff337b29f22fc9fb31acabd77b",
+      "bytes": 7444,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image84.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image84.svg",
+      "sourceSha256": "5829bc36292b41b1e9e5f56c3fe1e9cf0eb0c1cf0393f8f5fb5ca3a8138a2c8f",
+      "bytes": 3711,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image79.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image79.png",
+      "sourceSha256": "12d05ce4ee6b55e3a6f5ff65c7b947ee83f9909fc18d3a9119f00e1242045b87",
+      "bytes": 125152,
+      "originalEmbeddedBytes": true,
+      "width": 549,
+      "height": 456,
+      "aspect": 1.2039473684210527,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image79-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image73.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image73.png",
+      "sourceSha256": "a392662c3c87d9300f1f02ad35c0c7544eef49dfe7d85e9863967886865f2a9f",
+      "bytes": 127250,
+      "originalEmbeddedBytes": true,
+      "width": 298,
+      "height": 634,
+      "aspect": 0.47003154574132494,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image73-preview.webp"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image78.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image78.png",
+      "sourceSha256": "724fe824881a075539c29951d0cb605f1e04015325887a1d15f386d47e3fdd48",
+      "bytes": 21809,
+      "originalEmbeddedBytes": true,
+      "width": 851,
+      "height": 132,
+      "aspect": 6.446969696969697,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image78-preview.jpg"
+    },
+    {
+      "slide": 26,
+      "member": "ppt/media/image83.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image83.png",
+      "sourceSha256": "9969ab33e76e036f54e5ef99cfed3743db9c16f1e0f6930929d22c3c57c7541c",
+      "bytes": 207915,
+      "originalEmbeddedBytes": true,
+      "width": 353,
+      "height": 634,
+      "aspect": 0.556782334384858,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-26-image83-preview.webp"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image89.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image89.png",
+      "sourceSha256": "a8d3c067128dd1748ca89ac440dfff8d6d97a46f3158870a856e6dca8a683817",
+      "bytes": 275287,
+      "originalEmbeddedBytes": true,
+      "width": 485,
+      "height": 613,
+      "aspect": 0.7911908646003263,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image89-preview.webp"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image93.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image93.png",
+      "sourceSha256": "33f3adaf4f5749ed4158f6f76968c3dc8b3979e9ebe5600a35ee9c595998d6a9",
+      "bytes": 388788,
+      "originalEmbeddedBytes": true,
+      "width": 721,
+      "height": 704,
+      "aspect": 1.0241477272727273,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image93-preview.webp"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image98.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image98.png",
+      "sourceSha256": "a36438b20b0be5631883fae79da2869d0f617c8f50b71d9bddffa90cdc902200",
+      "bytes": 49220,
+      "originalEmbeddedBytes": true,
+      "width": 353,
+      "height": 412,
+      "aspect": 0.8567961165048543,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image98-preview.jpg"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image88.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image88.svg",
+      "sourceSha256": "0808d47aa5921dd7bb91f442aa90c884c97059dbebe9b52dd5f37bc6e92b84b9",
+      "bytes": 14630,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image92.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image92.svg",
+      "sourceSha256": "78bd2291f266fbc0af6c6cf3e4d70e309cc7f73d95cfbebafb44ebe439806d4b",
+      "bytes": 41382,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image97.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image97.svg",
+      "sourceSha256": "b4af4ed872aeb3937c4c35a80f93ae59e9f7fb9a0a455a19440af44cdc07fa86",
+      "bytes": 1408,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image96.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image96.svg",
+      "sourceSha256": "4913061c62fcc8bcaca68a108ab884bfc3a44bdac6130858153af6925431d1da",
+      "bytes": 1823,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image81.jpeg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image81.jpeg",
+      "sourceSha256": "21b3f19eb2c8c20bf588a12595feb884afcfbcce96ad4de6b455b60a14edb59b",
+      "bytes": 137166,
+      "originalEmbeddedBytes": true,
+      "width": 512,
+      "height": 683,
+      "aspect": 0.7496339677891655,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image81-preview.jpg"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image87.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image87.png",
+      "sourceSha256": "84bf87b6ab6e078e72dc06cfe43d8409fa9967af97791d936eeabb6b5bfb1252",
+      "bytes": 41110,
+      "originalEmbeddedBytes": true,
+      "width": 381,
+      "height": 152,
+      "aspect": 2.5065789473684212,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image87-preview.jpg"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image73.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image73.png",
+      "sourceSha256": "a392662c3c87d9300f1f02ad35c0c7544eef49dfe7d85e9863967886865f2a9f",
+      "bytes": 127250,
+      "originalEmbeddedBytes": true,
+      "width": 298,
+      "height": 634,
+      "aspect": 0.47003154574132494,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image73-preview.webp"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image86.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image86.svg",
+      "sourceSha256": "1774c1ff9bde5d2dcbd9631c6d31a70173bf1a220c1a99bf01ad0955caae2695",
+      "bytes": 4516,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image95.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image95.svg",
+      "sourceSha256": "fddb1d4634c19b02afbb62bf1743ff92f843f7e84c7f1f69a9e114131b8e5919",
+      "bytes": 1588,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image91.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image91.png",
+      "sourceSha256": "9244fcefe585635a0fb7ed16fe0b81bc59fd255a3b8d4144f35bfb9b90ee2a15",
+      "bytes": 4149,
+      "originalEmbeddedBytes": true,
+      "width": 79,
+      "height": 152,
+      "aspect": 0.5197368421052632,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image91-preview.jpg"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image99.jpeg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image99.jpeg",
+      "sourceSha256": "a9042e6d64f5d04529d94eabd22f28c1b54829bab2651b19378b3affd6d03076",
+      "bytes": 53756,
+      "originalEmbeddedBytes": true,
+      "width": 1280,
+      "height": 720,
+      "aspect": 1.7777777777777777,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image99-preview.jpg"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image85.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image85.svg",
+      "sourceSha256": "be349c7ea1bde4167006c27e8da134ad8db9b5929a5c9f8ff0b514756ccb3e95",
+      "bytes": 1381,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image90.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image90.png",
+      "sourceSha256": "04639aedba003b659bfce2c193cfb8ccfcab89783d7701fc2fe6f7ba137cfc50",
+      "bytes": 4283,
+      "originalEmbeddedBytes": true,
+      "width": 64,
+      "height": 93,
+      "aspect": 0.6881720430107527,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image90-preview.jpg"
+    },
+    {
+      "slide": 27,
+      "member": "ppt/media/image94.svg",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-27-image94.svg",
+      "sourceSha256": "c7cd2db4bcc368027840b9f1ff66f8a16a4adbb655ae5c8ea9b09ed9e7dfb1d4",
+      "bytes": 1253,
+      "originalEmbeddedBytes": true
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image138.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image138.png",
+      "sourceSha256": "9ef1fd44456a5fd986b837653265050dfb562fb397414de868663cebbc2cc713",
+      "bytes": 87557,
+      "originalEmbeddedBytes": true,
+      "width": 296,
+      "height": 518,
+      "aspect": 0.5714285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image138-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image143.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image143.png",
+      "sourceSha256": "8b3736cb7dd2d5f4637a5cfb10e6bff60021a8f8f8bc259aad2f8ce0f79a624d",
+      "bytes": 101461,
+      "originalEmbeddedBytes": true,
+      "width": 282,
+      "height": 398,
+      "aspect": 0.7085427135678392,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image143-preview.jpg"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image148.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image148.png",
+      "sourceSha256": "7d63cc5cdb65e5f9d048474e656c149f7f42d8f5791bc3ca471fde24f4c51c34",
+      "bytes": 218286,
+      "originalEmbeddedBytes": true,
+      "width": 708,
+      "height": 358,
+      "aspect": 1.9776536312849162,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image148-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image133.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image133.png",
+      "sourceSha256": "d1ff23f7e82c266d75d776ee3c5ca6670a0871d10e24504e294181b08e025bfa",
+      "bytes": 2179900,
+      "originalEmbeddedBytes": true,
+      "width": 1904,
+      "height": 1397,
+      "aspect": 1.3629205440229062,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image133-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image151.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image151.png",
+      "sourceSha256": "8c140277aa2add61b2cebf2357c9da9ee81253f192f748191a5c15b478b5e984",
+      "bytes": 15801,
+      "originalEmbeddedBytes": true,
+      "width": 208,
+      "height": 238,
+      "aspect": 0.8739495798319328,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image151-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image137.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image137.png",
+      "sourceSha256": "5d2acaf1a54085026391371b9d6b6df653462c442361d0650b8a61b66814818d",
+      "bytes": 97588,
+      "originalEmbeddedBytes": true,
+      "width": 296,
+      "height": 518,
+      "aspect": 0.5714285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image137-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image142.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image142.png",
+      "sourceSha256": "00ac6f9469b435ba56ef7157d2da5826fed0753791b790e068ad2aeb5930000f",
+      "bytes": 185241,
+      "originalEmbeddedBytes": true,
+      "width": 482,
+      "height": 516,
+      "aspect": 0.9341085271317829,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image142-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image147.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image147.png",
+      "sourceSha256": "4c25b1733361a4c2e0f17ea20bacdb3ed6e3dad69d17bd6012a0545ddec7e9da",
+      "bytes": 185643,
+      "originalEmbeddedBytes": true,
+      "width": 620,
+      "height": 358,
+      "aspect": 1.7318435754189945,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image147-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image146.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image146.png",
+      "sourceSha256": "776c0da4dba350fdd5bab3cf3af8539711994d3e44d0d34d549da9dcbf2f79ad",
+      "bytes": 194582,
+      "originalEmbeddedBytes": true,
+      "width": 481,
+      "height": 530,
+      "aspect": 0.9075471698113208,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image146-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image150.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image150.png",
+      "sourceSha256": "52f1639fe297a1f114c90b5481225a6094afbee73bd8f6e54c4e79075a5f2147",
+      "bytes": 12878,
+      "originalEmbeddedBytes": true,
+      "width": 208,
+      "height": 238,
+      "aspect": 0.8739495798319328,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image150-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image136.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image136.png",
+      "sourceSha256": "5fb7f7781918450edb040ba1c979df1ec68829c837833746713452f363fa97ba",
+      "bytes": 59710,
+      "originalEmbeddedBytes": true,
+      "width": 296,
+      "height": 518,
+      "aspect": 0.5714285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image136-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image141.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image141.png",
+      "sourceSha256": "09b1bb408093afc29b40f8fff5443e046b1ebca583ddd67932954490496bb4b6",
+      "bytes": 60132,
+      "originalEmbeddedBytes": true,
+      "width": 263,
+      "height": 350,
+      "aspect": 0.7514285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image141-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image135.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image135.png",
+      "sourceSha256": "2bb4e29777b809f464a515908970bdd1354f9604ddada8a92b88388458263fa3",
+      "bytes": 90090,
+      "originalEmbeddedBytes": true,
+      "width": 296,
+      "height": 518,
+      "aspect": 0.5714285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image135-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image145.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image145.png",
+      "sourceSha256": "ef12e93725b11c39d8a307ca4158dd545fd2ee31724ad18c021d9c8c8742e7f1",
+      "bytes": 61188,
+      "originalEmbeddedBytes": true,
+      "width": 256,
+      "height": 317,
+      "aspect": 0.807570977917981,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image145-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image140.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image140.png",
+      "sourceSha256": "317964877ac111e707b133c28ed10d2f1768875bdfdf4b6c3af9e19818a78fa7",
+      "bytes": 57599,
+      "originalEmbeddedBytes": true,
+      "width": 358,
+      "height": 472,
+      "aspect": 0.7584745762711864,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image140-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image149.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image149.png",
+      "sourceSha256": "56d270f2b5a9c3f266e2d28bb0db721f2eda9085ce903d028529ab4970a03a80",
+      "bytes": 250647,
+      "originalEmbeddedBytes": true,
+      "width": 987,
+      "height": 253,
+      "aspect": 3.9011857707509883,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image149-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image134.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image134.png",
+      "sourceSha256": "0585f05582283204e5a13ed3e403086baaa9ad60267fb6fff19457dab41ab93b",
+      "bytes": 74760,
+      "originalEmbeddedBytes": true,
+      "width": 296,
+      "height": 518,
+      "aspect": 0.5714285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image134-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image139.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image139.png",
+      "sourceSha256": "6bda6ea935ab554dece7122edfcc54a8ab73cee83d9d9845dd6e9772fd4e6972",
+      "bytes": 82790,
+      "originalEmbeddedBytes": true,
+      "width": 296,
+      "height": 518,
+      "aspect": 0.5714285714285714,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image139-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image144.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image144.png",
+      "sourceSha256": "217b92b50f58d43b568587b5be2d391bf279004a537dbe10eb56d90970ed7bd3",
+      "bytes": 68772,
+      "originalEmbeddedBytes": true,
+      "width": 358,
+      "height": 472,
+      "aspect": 0.7584745762711864,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image144-preview.webp"
+    },
+    {
+      "slide": 32,
+      "member": "ppt/media/image152.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image152.png",
+      "sourceSha256": "ce36b261a240b15dbbba3f32686799ce78954b5544f04ca842942e73fc830f51",
+      "bytes": 2664,
+      "originalEmbeddedBytes": true,
+      "width": 96,
+      "height": 96,
+      "aspect": 1.0,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-32-image152-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image158.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image158.png",
+      "sourceSha256": "6bd827b720aadeb6e079a8cfccbaf53cc9c2682f1a57e2c582c9c3daf696962a",
+      "bytes": 83939,
+      "originalEmbeddedBytes": true,
+      "width": 315,
+      "height": 552,
+      "aspect": 0.5706521739130435,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image158-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image153.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image153.png",
+      "sourceSha256": "e6ef4d4a669d888452c03372fb92679417f8706f037a37b7e096e68e75716785",
+      "bytes": 244281,
+      "originalEmbeddedBytes": true,
+      "width": 848,
+      "height": 832,
+      "aspect": 1.0192307692307692,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image153-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image157.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image157.png",
+      "sourceSha256": "94c8cff0f44f6dcc7fc6b8f77dc51f7e3653b39071bd5dcf197a35d364c8c054",
+      "bytes": 98376,
+      "originalEmbeddedBytes": true,
+      "width": 315,
+      "height": 552,
+      "aspect": 0.5706521739130435,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image157-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image156.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image156.png",
+      "sourceSha256": "636db557ec0e4365de3d8806ffd11e5320aa40fea04174812d317b067222eb0d",
+      "bytes": 24513,
+      "originalEmbeddedBytes": true,
+      "width": 381,
+      "height": 426,
+      "aspect": 0.8943661971830986,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image156-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image155.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image155.png",
+      "sourceSha256": "9aa5b77ac10a242c497f95f275bf54987019f26fd5ff691cab74be3526678b86",
+      "bytes": 55511,
+      "originalEmbeddedBytes": true,
+      "width": 315,
+      "height": 552,
+      "aspect": 0.5706521739130435,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image155-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image160.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image160.png",
+      "sourceSha256": "10585a9c16d22e741d112eec451c3ed856cabf72010fe69009a9edf5bc52aef4",
+      "bytes": 253477,
+      "originalEmbeddedBytes": true,
+      "width": 1443,
+      "height": 618,
+      "aspect": 2.3349514563106797,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image160-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image154.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image154.png",
+      "sourceSha256": "cd1a62a69675296a2fe6f5131c44420e72d020558b9d4a03323a813419001659",
+      "bytes": 45489,
+      "originalEmbeddedBytes": true,
+      "width": 420,
+      "height": 459,
+      "aspect": 0.9150326797385621,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image154-preview.webp"
+    },
+    {
+      "slide": 33,
+      "member": "ppt/media/image159.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image159.png",
+      "sourceSha256": "7b6b7bb538dbc1a236372391550d82904413971e99328859200e1019c4db1f97",
+      "bytes": 157574,
+      "originalEmbeddedBytes": true,
+      "width": 916,
+      "height": 460,
+      "aspect": 1.991304347826087,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-33-image159-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image166.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image166.png",
+      "sourceSha256": "94e9b7bd5ecd0a24eeca82278613461366b3c91882197d997948630da8e38564",
+      "bytes": 117289,
+      "originalEmbeddedBytes": true,
+      "width": 479,
+      "height": 341,
+      "aspect": 1.404692082111437,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image166-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image161.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image161.png",
+      "sourceSha256": "ee63bfd3697083ceb938f5a2f0ee522deb242492a52d85e798ce8da66f5a685f",
+      "bytes": 725601,
+      "originalEmbeddedBytes": true,
+      "width": 1152,
+      "height": 2634,
+      "aspect": 0.43735763097949887,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image161-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image165.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image165.png",
+      "sourceSha256": "f9a6026d4163a59127aca75c3fc3d981ced4bde7252b84d96b1dcdd42572a0f1",
+      "bytes": 106692,
+      "originalEmbeddedBytes": true,
+      "width": 618,
+      "height": 438,
+      "aspect": 1.4109589041095891,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image165-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image164.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image164.png",
+      "sourceSha256": "ff3ea7fced549396e26ec39cc3d56d122380d140bb22b178d12a18f195b08aa0",
+      "bytes": 135846,
+      "originalEmbeddedBytes": true,
+      "width": 618,
+      "height": 437,
+      "aspect": 1.414187643020595,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image164-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image154.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image154.png",
+      "sourceSha256": "cd1a62a69675296a2fe6f5131c44420e72d020558b9d4a03323a813419001659",
+      "bytes": 45489,
+      "originalEmbeddedBytes": true,
+      "width": 420,
+      "height": 459,
+      "aspect": 0.9150326797385621,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image154-preview.webp"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image163.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image163.png",
+      "sourceSha256": "fb0c97d504ce27b33ecf10e906362e67a45a40bb150d1cdf5b5ffd1ade4d10a1",
+      "bytes": 89043,
+      "originalEmbeddedBytes": true,
+      "width": 577,
+      "height": 410,
+      "aspect": 1.4073170731707316,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image163-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image168.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image168.png",
+      "sourceSha256": "e1cfa56aca51a650fd06c4a502c1bc37c4bba292f549341e4174b1bad0be11cb",
+      "bytes": 16058,
+      "originalEmbeddedBytes": true,
+      "width": 261,
+      "height": 299,
+      "aspect": 0.8729096989966555,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image168-preview.webp"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image162.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image162.png",
+      "sourceSha256": "70bbd61ac1d5350e39ecd1f8e8cb62b6523347b51ac56c91f16538811aac9913",
+      "bytes": 41076,
+      "originalEmbeddedBytes": true,
+      "width": 578,
+      "height": 386,
+      "aspect": 1.4974093264248705,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image162-preview.jpg"
+    },
+    {
+      "slide": 34,
+      "member": "ppt/media/image167.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image167.png",
+      "sourceSha256": "012605a0c247e1fd08a0b9aa46da1f8f5070c93ded8e9ddb685955987e64be02",
+      "bytes": 109981,
+      "originalEmbeddedBytes": true,
+      "width": 659,
+      "height": 411,
+      "aspect": 1.6034063260340632,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-34-image167-preview.jpg"
+    },
+    {
+      "slide": 35,
+      "member": "ppt/media/image169.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-35-image169.png",
+      "sourceSha256": "92bef4de1ffb4cfcec7d39ceb9063ac5b0581d9afd773e58da00ab2874b1293d",
+      "bytes": 706747,
+      "originalEmbeddedBytes": true,
+      "width": 612,
+      "height": 2554,
+      "aspect": 0.23962411902897415,
+      "mode": "RGBA",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-35-image169-preview.webp"
+    },
+    {
+      "slide": 35,
+      "member": "ppt/media/image171.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-35-image171.png",
+      "sourceSha256": "087bf06db5a254ba1482c98d7b5d6702dc00f357c6ccd9d8fefcd71efd574a06",
+      "bytes": 670742,
+      "originalEmbeddedBytes": true,
+      "width": 410,
+      "height": 2352,
+      "aspect": 0.17431972789115646,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-35-image171-preview.jpg"
+    },
+    {
+      "slide": 35,
+      "member": "ppt/media/image170.png",
+      "url": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-35-image170.png",
+      "sourceSha256": "b35bdd51c868efd0a80311d922a5e663dc412694011273f66e91ef32efca8caf",
+      "bytes": 1049993,
+      "originalEmbeddedBytes": true,
+      "width": 546,
+      "height": 3135,
+      "aspect": 0.17416267942583732,
+      "mode": "RGB",
+      "previewUrl": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slide-35-image170-preview.jpg"
+    }
+  ],
+  "selectedSlides": {
+    "13": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-13.png",
+    "14": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-14.png",
+    "26": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-26.png",
+    "27": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-27.png",
+    "32": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-32.png",
+    "33": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-33.png",
+    "34": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-34.png",
+    "35": "/XuWeiqing.github.io/assets/four-cabinets-20261117/slides/slide-35.png"
+  },
+  "policy": "Complete original pages, no cropping of PDF page content. Source image blobs are extracted byte-identically; preview compression does not invent or redraw art. Originals remain unchanged.",
+  "limitations": [
+    "Native Office rendering preserves the source document content; slide13 footer text is crowded and partially overlaps, so prefer isolated original images for cabinet displays.",
+    "Source app illustrations include mockup frames; these are original design images, not a newly implemented clinical app.",
+    "JMIR is a manuscript file, not evidence of acceptance or publication."
+  ],
+  "sourceReview": "qa-output/four-cabinets-20261117/source-review (full PPT PDF and extracted text retained locally, outside public assets)"
+}

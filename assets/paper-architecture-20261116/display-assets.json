@@ -1,0 +1,19 @@
+{
+  "sketch3Frame": {
+    "source": "/XuWeiqing.github.io/assets/wall-aquarium-20261116/sketch3.webp",
+    "cropLTRB": [
+      0,
+      36,
+      1420,
+      1002
+    ],
+    "url": "/XuWeiqing.github.io/assets/paper-architecture-20261116/sketch3-frame-thumb.webp",
+    "note": "Only trims the top blank paper for equal wall-frame proportions. Full inspection image remains unchanged."
+  },
+  "seaMotion": {
+    "source": "/XuWeiqing.github.io/apps/sea/assets/index-acyHX68L.js",
+    "functions": "Qg/d0: velocity relaxation, sinusoidal offset, reflected bounds",
+    "adaptation": "world units, third axis, capped art pool, original sprites reused",
+    "source_sha256": "4ad101f99e5ebe4725123cb77274b5beddfaf2edfda9f7d94b3335a3fc31b892"
+  }
+}

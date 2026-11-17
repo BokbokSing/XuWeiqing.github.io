@@ -1,0 +1,5 @@
+Instrument note samples: FluidR3 GM by Frank Wen and contributors, rendered by gleitz/MIDI.js Soundfonts.
+Source: https://github.com/gleitz/midi-js-soundfonts/tree/gh-pages/FluidR3_GM
+License: CC BY 3.0 US — https://creativecommons.org/licenses/by/3.0/us/
+Adaptations: original four-part C-major miniature A walk in colour, 100 BPM, synchronized 8-bar loop, note envelopes, levels and short room reflections. Seven saxophone toy notes C4–B4.
+The flute uses a sampled flute patch. These are sampled arrangements, not field recordings.

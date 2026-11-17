@@ -1,0 +1,42 @@
+{
+  "asset": "PublicationShelfModel / Wall Shelf 112B study",
+  "created": "2026-11-16",
+  "designer": "Alvar Aalto",
+  "designYear": 1936,
+  "manufacturer": "Artek",
+  "finish": "Black lacquered birch",
+  "configuration": "Lamella brackets above the panel, serving as bookends",
+  "sources": [
+    {
+      "url": "https://www.artek.fi/en/products/wall-shelf-112",
+      "kind": "Official manufacturer product information",
+      "usedFor": ["Designer and year", "Above-panel bookend configuration", "Form-bent birch lamella loops with a single seam", "Birch-veneer shelf construction", "Black lacquer finish"]
+    },
+    {
+      "url": "https://shop.artek.fi/products/wall-shelf-112b",
+      "kind": "Official manufacturer shop",
+      "usedFor": ["Product identification", "Published nominal dimensions and finish options", "Configuration and proportions"]
+    },
+    {
+      "url": "https://res.cloudinary.com/artek/image/upload/s--bsRa5mxH--/f_auto/w_1200/v1729604741/products/wall-shelf-112/Wall-Shelf-112B-black-lacquer-1844748.jpg",
+      "kind": "Official black-lacquer product photograph linked from Artek",
+      "usedFor": ["Rounded triangular loop shape", "Bracket and panel proportions", "Small fixing heads", "Black lacquer appearance"],
+      "includedInRuntime": false
+    }
+  ],
+  "construction": {
+    "type": "Original procedural display mesh reconstructed from photographs and published nominal dimensions",
+    "supplierCADUsed": false,
+    "runtimeReferenceImagesUsed": false,
+    "brandingOrTitleLabels": false,
+    "nominalDimensionsMetres": {"width": 0.9, "depth": 0.27, "height": 0.245, "panelDepth": 0.25},
+    "studioUnitsPerMetre": 1.95,
+    "overallDimensionsStudioUnits": {"width": 1.755, "depth": 0.5265, "height": 0.47775},
+    "origin": "X width centre, Y top of shelf panel, Z rear-most bracket/wall plane; positive Z faces the room",
+    "overallBoundsStudioUnits": {"min": [-0.8775, -0.02925, 0], "max": [0.8775, 0.4485, 0.5265]},
+    "panelBoundsStudioUnits": {"min": [-0.8775, -0.02925, 0.039], "max": [0.8775, 0, 0.5265]},
+    "drawCalls": 2,
+    "material": "Nonmetal satin black lacquer, subtly bevelled panel and loop edges, restrained dark seam and fixing details",
+    "simplifications": ["Loop cross-section, bevel radius, bracket inset, panel thickness, seam and fixing locations are visual estimates", "No hidden mounting hardware or internal honeycomb geometry", "No manufacturer-authored mesh or CAD files"]
+  }
+}

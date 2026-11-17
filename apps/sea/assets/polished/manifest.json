@@ -1,0 +1,259 @@
+{
+  "anchors": {
+    "bottle": {
+      "canvas": [
+        24,
+        42
+      ],
+      "frontStartsAtY": 8,
+      "mouth": [
+        12,
+        6.5
+      ],
+      "openingWidth": 6,
+      "sourceCrop": [
+        8,
+        0,
+        24,
+        42
+      ]
+    },
+    "funnel": {
+      "canvas": [
+        40,
+        25
+      ],
+      "outlet": [
+        20.5,
+        24
+      ]
+    },
+    "jar": {
+      "bubbleBox": [
+        7,
+        21,
+        27,
+        25
+      ],
+      "canvas": [
+        40,
+        52
+      ]
+    },
+    "tag": {
+      "bottleLayout": {
+        "left": 0,
+        "top": 0,
+        "widthRatio": 1.0833333333333333
+      },
+      "canvas": [
+        26,
+        42
+      ],
+      "cord": "Authored 06 Label layer in bubble-bottle.aseprite",
+      "imageBox": [
+        17,
+        25,
+        5,
+        7
+      ]
+    }
+  },
+  "files": [
+    {
+      "file": "bubble-bottle.png",
+      "nativeHeight": 42,
+      "nativeWidth": 40,
+      "notes": "Full authored 40x42 canvas, including the image placeholder",
+      "pngHeight": 420,
+      "pngWidth": 400,
+      "source": "bubble-bottle.aseprite"
+    },
+    {
+      "file": "bottle-body.png",
+      "nativeHeight": 42,
+      "nativeWidth": 24,
+      "notes": "Body cropped at source x=8; logical 24x42 canvas",
+      "pngHeight": 420,
+      "pngWidth": 240,
+      "source": "bubble-bottle.aseprite"
+    },
+    {
+      "file": "bottle-cap.png",
+      "nativeHeight": 42,
+      "nativeWidth": 24,
+      "notes": "Original independent lid, aligned with the body",
+      "pngHeight": 420,
+      "pngWidth": 240,
+      "source": "bubble-bottle.aseprite"
+    },
+    {
+      "file": "bottle-front.png",
+      "nativeHeight": 42,
+      "nativeWidth": 24,
+      "notes": "Original body pixels at y >= 8; occlusion only, no new drawing",
+      "pngHeight": 420,
+      "pngWidth": 240,
+      "source": "bubble-bottle.aseprite"
+    },
+    {
+      "file": "jar-back.png",
+      "nativeHeight": 52,
+      "nativeWidth": 40,
+      "notes": "Base + original glass back / blue interior",
+      "pngHeight": 520,
+      "pngWidth": 400,
+      "source": "collection-jar.aseprite"
+    },
+    {
+      "file": "jar-front.png",
+      "nativeHeight": 52,
+      "nativeWidth": 40,
+      "notes": "Original front glass opacity is baked in once; hidden highlight remains hidden",
+      "pngHeight": 520,
+      "pngWidth": 400,
+      "source": "collection-jar.aseprite"
+    },
+    {
+      "file": "jar-lid.png",
+      "nativeHeight": 52,
+      "nativeWidth": 40,
+      "notes": "Original independent lid",
+      "pngHeight": 520,
+      "pngWidth": 400,
+      "source": "collection-jar.aseprite"
+    },
+    {
+      "file": "collection-jar.png",
+      "nativeHeight": 52,
+      "nativeWidth": 40,
+      "notes": "Empty closed jar; only the sample duck is omitted",
+      "pngHeight": 520,
+      "pngWidth": 400,
+      "source": "collection-jar.aseprite"
+    },
+    {
+      "file": "jar-open.png",
+      "nativeHeight": 52,
+      "nativeWidth": 40,
+      "notes": "Empty open jar",
+      "pngHeight": 520,
+      "pngWidth": 400,
+      "source": "collection-jar.aseprite"
+    },
+    {
+      "file": "duck-s.png",
+      "nativeHeight": 16,
+      "nativeWidth": 17,
+      "notes": "First frame, source visibility and opacity retained",
+      "pngHeight": 160,
+      "pngWidth": 170,
+      "source": "duck-s.aseprite"
+    },
+    {
+      "file": "duck-m.png",
+      "nativeHeight": 25,
+      "nativeWidth": 27,
+      "notes": "First frame, source visibility and opacity retained",
+      "pngHeight": 250,
+      "pngWidth": 270,
+      "source": "duck-m.aseprite"
+    },
+    {
+      "file": "duck-l.png",
+      "nativeHeight": 45,
+      "nativeWidth": 45,
+      "notes": "First frame, source visibility and opacity retained",
+      "pngHeight": 450,
+      "pngWidth": 450,
+      "source": "duck-l.aseprite"
+    },
+    {
+      "file": "funnel.png",
+      "nativeHeight": 25,
+      "nativeWidth": 40,
+      "notes": "First frame, source visibility and opacity retained",
+      "pngHeight": 250,
+      "pngWidth": 400,
+      "source": "funnel.aseprite"
+    },
+    {
+      "file": "hanging-tag.png",
+      "nativeHeight": 150,
+      "nativeWidth": 72,
+      "notes": "First frame, source visibility and opacity retained",
+      "pngHeight": 1500,
+      "pngWidth": 720,
+      "source": "hanging-tag.aseprite"
+    },
+    {
+      "file": "hanging-tag-card.png",
+      "nativeHeight": 150,
+      "nativeWidth": 72,
+      "notes": "Original card and image frame; rope is drawn in separate front/back layers around the bottle neck",
+      "pngHeight": 1500,
+      "pngWidth": 720,
+      "source": "hanging-tag.aseprite"
+    },
+    {
+      "file": "wood-shelf.png",
+      "nativeHeight": 16,
+      "nativeWidth": 96,
+      "notes": "First frame, source visibility and opacity retained",
+      "pngHeight": 160,
+      "pngWidth": 960,
+      "source": "wood-shelf.aseprite"
+    },
+    {
+      "file": "shelf-left.png",
+      "nativeHeight": 16,
+      "nativeWidth": 12,
+      "notes": "Left end, native x=0..11",
+      "pngHeight": 160,
+      "pngWidth": 120,
+      "source": "wood-shelf.aseprite"
+    },
+    {
+      "file": "shelf-middle.png",
+      "nativeHeight": 16,
+      "nativeWidth": 72,
+      "notes": "Repeat this original centre section, native x=12..83",
+      "pngHeight": 160,
+      "pngWidth": 720,
+      "source": "wood-shelf.aseprite"
+    },
+    {
+      "file": "shelf-right.png",
+      "nativeHeight": 16,
+      "nativeWidth": 12,
+      "notes": "Right end, native x=84..95",
+      "pngHeight": 160,
+      "pngWidth": 120,
+      "source": "wood-shelf.aseprite"
+    },
+    {
+      "file": "bottle-tag.png",
+      "nativeHeight": 42,
+      "nativeWidth": 26,
+      "notes": "Authored rope and tag; layer 7 only marks the live image window",
+      "pngHeight": 420,
+      "pngWidth": 260,
+      "source": "bubble-bottle.aseprite"
+    }
+  ],
+  "filter": "nearest-neighbour",
+  "frame": 1,
+  "scale": 10,
+  "sourceSha256": {
+    "bubble-bottle.aseprite": "a810e6e8f5e8677e13295723f301b3407ef41c8c1dc3ed6a434bf96684057145",
+    "funnel.aseprite": "3cc4fa02ac2cfcb6f2588fc27292f08d8bcf43f1578b19906d3c65a44043f8fd",
+    "hanging-tag.aseprite": "750e8b912e5e383bf95f52c3b53d14a762daebc5165ef1c19b26101b141561e3",
+    "duck-m.aseprite": "d72e4f66d925b5d47ee0502eaa22d0430bc0d496a194875589be4c856f3ed91f",
+    "collection-jar.aseprite": "2c5e8d3b03aa9cf7040124184086ab8a601f9321849849a0ac160bc3f9be98d1",
+    "duck-l.aseprite": "a27b295843db5cda8ef34c44bf9162c8b092a512d3f5cd612fee5a1ac94665f2",
+    "workshop-bottle.aseprite": "278649cbab8eef993e8245aa45e31de47617ddffaf9efbaf0ef8d1666c22fdf3",
+    "duck-s.aseprite": "d1e80c097642edc1e7348d44424b279376e2e74e8fdbc788813f46a2504d4259",
+    "wood-shelf.aseprite": "4a89af1eadf7f950929c82740da872ed891fee8bef4f8f0954ed73b5517e3630"
+  },
+  "unusedSource": "workshop-bottle.aseprite (both scenes use the green bottle)"
+}

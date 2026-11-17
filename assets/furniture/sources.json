@@ -1,0 +1,20 @@
+{
+  "spunChair": {
+    "name": "Spun",
+    "designer": "Thomas Heatherwick",
+    "manufacturer": "Magis",
+    "designYear": 2010,
+    "model": "Original procedural approximation; no manufacturer model or product photographs are bundled.",
+    "references": [
+      "https://www.magisdesign.com/product/spun/",
+      "https://www.magisdesign.com/wp-content/uploads/2015/02/spun_en.pdf",
+      "https://magisjapan.com/products/detail/8"
+    ],
+    "referenceDimensionsMetres": {
+      "diameter": 0.91,
+      "uprightHeight": 0.65,
+      "inclinedHeight": 0.78,
+      "seatHeightWhenInclined": 0.44
+    }
+  }
+}
